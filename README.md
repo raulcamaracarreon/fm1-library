@@ -138,7 +138,7 @@ FM-1 Library distingue entre **Descargar .fwsc** (el catálogo dispone de un ide
 
 El resolvedor de fuentes originales se encuentra en `scripts/pages_sources.py`, con pruebas en `tests/test_pages_sources.py`. Las fuentes conocidas se agregan explícitamente a `SOURCES`: no se inventan rutas, no se consulta cada repositorio de forma indiscriminada y no se redistribuyen los binarios. Si un enlace no se puede verificar, se conservan alternativas oficiales. Si ya se había verificado la misma versión y SHA, se conserva esa URL con la fecha de la última verificación.
 
-Una ejecución de **`python scripts/update_catalog.py --pages-only`** consulta únicamente los manifiestos y paquetes originales admitidos, **sin leer el catálogo de The Firmware Hub**. La tarea separada de GitHub Actions se ejecuta al instalar este cambio y puede volver a lanzarse desde GitHub. La actualización cotidiana también resuelve los enlaces en su ejecución diaria.
+Una ejecución de **`python scripts/update_catalog.py --pages-only`** consulta únicamente los manifiestos y paquetes originales admitidos, **sin leer el catálogo de The Firmware Hub**. La tarea separada de GitHub Actions está configurada para ejecutarse al publicar este cambio y puede volver a lanzarse desde GitHub; si Actions está deshabilitado o la verificación falla, la descarga directa no aparecerá. El enlace solo se habilita cuando el proceso comprueba el archivo original con el SHA-256 del catálogo. La actualización cotidiana también resuelve los enlaces en su ejecución diaria.
 
 Cuando se indica **Ver opciones**, la biblioteca muestra el nombre de archivo que figura en el catálogo y el repositorio y/o publicación original para facilitar su localización, pero **no afirma que el archivo exista en esas páginas**.
 

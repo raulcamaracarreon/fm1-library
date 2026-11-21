@@ -69,7 +69,8 @@ def preserved(previous, current):
     return (previous.get("version") == current.get("version")
         and previous.get("sha256") == current.get("sha256")
         and previous.get("downloadKind") == "github_pages"
-        and previous.get("downloadUrl", "").startswith(SOURCES[current["id"]]["directory"])
+        and isinstance(previous.get("downloadUrl"), str)
+        and previous["downloadUrl"].startswith(SOURCES[current["id"]]["directory"])
         and previous.get("downloadUrl", "").endswith(".fwsc"))
 
 
