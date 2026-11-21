@@ -2901,7 +2901,10 @@
       "play": "https://play.thefirmwarehub.com/?fw=jiant",
       "editor": "https://juanjiant-bit.github.io/JIANT/webapp/editor/",
       "installs": 9108,
-      "stars": 262
+      "stars": 262,
+      "downloadKind": "github_pages",
+      "downloadUrl": "https://juanjiant-bit.github.io/JIANT/firmware/felucca-V10.7.58.fwsc",
+      "downloadVerifiedAt": "2026-11-21"
     },
     {
       "id": "juicy",
