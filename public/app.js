@@ -14,6 +14,41 @@ function catLabels(value){return String(value).split(',').map(s=>cats[s.trim()]|
 function chipLabel(f){return f.chip==='old'?'Flash antiguo':f.chip==='new'?'Flash nuevo':f.chip==='any'?'Flash universal':'';}
 function shortDate(s){return /^\d{4}-\d{2}-\d{2}$/.test(s)?new Date(s+'T12:00:00Z').toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}):'';}
 function validUrl(x){try{return new URL(x).protocol==='https:'}catch{return false;}}
+const DAY_MS=86400000;
+function dateNumber(value){
+  if(typeof value!=='string' || !/^\d{4}-\d{2}-\d{2}$/.test(value))return null;
+  const [year,month,day]=value.split('-').map(Number);
+  const ms=Date.UTC(year,month-1,day);
+  const check=new Date(ms);
+  return check.getUTCFullYear()===year && check.getUTCMonth()===month-1 && check.getUTCDate()===day?ms:null;
+}
+function dateMatches(f,preset,from='',to='',now=new Date()){
+  if(preset==='all')return true;
+  const published=dateNumber(f.date);
+  if(preset==='undated')return published===null;
+  if(preset==='custom'){
+    if(!from && !to)return true;
+    if(published===null)return false;
+    const min=from?dateNumber(from):null,max=to?dateNumber(to):null;
+    return (!from || (min!==null && published>=min)) && (!to || (max!==null && published<=max));
+  }
+  const days=Number(preset);
+  if(![7,30,90,365].includes(days) || published===null)return false;
+  const today=Date.UTC(now.getFullYear(),now.getMonth(),now.getDate());
+  const elapsed=(today-published)/DAY_MS;
+  return elapsed>=0 && elapsed<days;
+}
+function dateOrder(a,b,oldest=false){
+  const av=dateNumber(a.date),bv=dateNumber(b.date);
+  if(av===null && bv===null)return a.name.localeCompare(b.name,'es');
+  if(av===null)return 1;
+  if(bv===null)return -1;
+  return (oldest?av-bv:bv-av)||a.name.localeCompare(b.name,'es');
+}
+function isReversedRange(from,to){
+  const min=dateNumber(from),max=dateNumber(to);
+  return min!==null && max!==null && min>max;
+}
 function metric(f, key){return Number.isInteger(f[key]) && f[key]>=0 ? f[key] : null;}
 function metricDesc(a,b,key){
   const av=metric(a,key), bv=metric(b,key);
@@ -141,7 +176,7 @@ function newCard(f){
   else if(state.changes.updated.includes(f.id))meta.append(el('span','flag new','Actualizado'));
   main.append(meta);
   const vers=el('div');vers.append(el('div','ver','v'+f.version));
-  vers.append(el('div','small',shortDate(f.date)||'Fecha no indicada'));
+  vers.append(el('div','small',shortDate(f.date)?'Publicada: '+shortDate(f.date):'Sin fecha de publicación'));
   const cat=el('div','category');cat.append(el('div','small',f.pkgFile));
   if(chipLabel(f))cat.append(el('div','small',chipLabel(f)));
   const metrics=el('div','ranking-metrics');
@@ -173,18 +208,24 @@ function matches(f,q,kind,hideBeta,onlyPlayable,onlyRecent){
 function filtered(){
   const q=$('search').value.trim().toLocaleLowerCase(),kind=$('category').value;
   const ranking=$('ranking').value, onlyRanked=$('onlyRanked').checked;
+  const period=$('datePreset').value,from=$('dateFrom').value,to=$('dateTo').value;
+  const now=new Date();
   const all=state.all.filter(f=>matches(f,q,kind,$('hideBetas').checked,$('onlyPlayable').checked,$('onlyRecent').checked)
+    && dateMatches(f,period,from,to,now)
     && allowedByRanking(f,ranking)
     && (!onlyRanked || metric(f,'installs')!==null || metric(f,'stars')!==null));
   const order=$('order').value;
   all.sort((a,b)=>order==='installs'||order==='stars'?metricDesc(a,b,order):
-    order==='date'?(b.date||'').localeCompare(a.date||'')||a.name.localeCompare(b.name,'es'):
+    order==='date'||order==='dateOldest'?dateOrder(a,b,order==='dateOldest'):
     order==='author'?a.author.localeCompare(b.author,'es')||a.name.localeCompare(b.name,'es'):
     a.name.localeCompare(b.name,'es'));
   return all;
 }
 function render(){
-  const rows=filtered();$('results').textContent=`${rows.length} resultados de ${state.all.length}`;
+  const reversed=$('datePreset').value==='custom' && isReversedRange($('dateFrom').value,$('dateTo').value);
+  $('dateHint').textContent=reversed?'La fecha «Desde» debe ser anterior o igual a «Hasta».':'Fecha de publicación de la versión registrada, no fecha de creación del proyecto.';
+  $('dateHint').classList.toggle('date-error',reversed);
+  const rows=reversed?[]:filtered();$('results').textContent=`${rows.length} resultados de ${state.all.length}`;
   const frag=document.createDocumentFragment();for(const f of rows)frag.append(newCard(f));
   $('firmwareList').replaceChildren(frag);$('empty').classList.toggle('hidden',rows.length!==0);
 }
@@ -223,8 +264,9 @@ async function load(){
 function csvCell(v){return '"'+String(v??'').replaceAll('"','""')+'"';}
 function exportCsv(){
   if(!state.loaded)return;
-  const cols=['Nombre','Versión','Autor','Categoría','Beta','Fecha','Instalaciones Hub','Estrellas GitHub','Publicación original','Repositorio','Archivo de referencia','SHA-256'];
-  const lines=[cols,...filtered().map(f=>[f.name,f.version,f.author,catLabels(f.category),f.beta?'Sí':'No',f.date,metric(f,'installs')??'',metric(f,'stars')??'',f.release,f.repo,f.pkgFile,f.sha256])];
+  const cols=['Nombre','Versión','Autor','Categoría','Beta','Fecha de publicación de versión','Instalaciones Hub','Estrellas GitHub','Publicación original','Repositorio','Archivo de referencia','SHA-256'];
+  const invalidRange=$('datePreset').value==='custom' && isReversedRange($('dateFrom').value,$('dateTo').value);
+  const lines=[cols,...(invalidRange?[]:filtered()).map(f=>[f.name,f.version,f.author,catLabels(f.category),f.beta?'Sí':'No',f.date,metric(f,'installs')??'',metric(f,'stars')??'',f.release,f.repo,f.pkgFile,f.sha256])];
   const csv='\uFEFF'+lines.map(row=>row.map(csvCell).join(',')).join('\r\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=url;a.download='FM1_catalogo_actualizado.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
@@ -232,6 +274,11 @@ function exportCsv(){
 for(const id of ['search','category','order','ranking','hideBetas','onlyPlayable','onlyRecent','onlyRanked']){
   $(id).addEventListener(id==='search'?'input':'change',render);
 }
+$('datePreset').addEventListener('change',()=>{
+  $('dateRange').hidden=$('datePreset').value!=='custom';
+  render();
+});
+for(const id of ['dateFrom','dateTo'])$(id).addEventListener('change',render);
 $('ranking').addEventListener('change',()=>{ const ranking=$('ranking').value; if(ranking.startsWith('installs_'))$('order').value='installs'; if(ranking.startsWith('stars_'))$('order').value='stars'; render(); });
 $('reload').addEventListener('click',load);
 $('export').addEventListener('click',exportCsv);

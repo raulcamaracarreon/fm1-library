@@ -9,8 +9,8 @@
 ## Qué puedes hacer
 
 - **Buscar** por firmware, creador, versión o nombre de paquete.
-- **Filtrar** por categoría, proyectos con versión web, novedades y versiones beta.
-- **Ordenar** por nombre, fecha o autor.
+- **Filtrar** por categoría, fecha de publicación de versión, proyectos con versión web, novedades y versiones beta.
+- **Ordenar** por nombre, fecha (más recientes o más antiguas), autor o popularidad.
 - **Consultar** versión publicada, fecha, autor, tipo de memoria flash y repositorio de origen.
 - **Abrir** simuladores o editores web cuando el desarrollador los proporciona.
 - **Obtener un `.fwsc`** desde GitHub Releases del autor, cuando el archivo está disponible; si no se puede resolver directamente, abrir la publicación o página de origen.
@@ -27,6 +27,14 @@ El catálogo arrancó con una instantánea de **282 registros (21 de noviembre d
 5. Si deseas experimentar con **FM-1 Emulator (VST)** en Reason o Reaper, abre el plugin y selecciona **Load firmware / save...** para cargar el `.fwsc` compatible.
 
 **Advertencia:** usar un paquete en un emulador no demuestra que sea seguro instalarlo en el hardware físico. Comprueba las indicaciones del autor, la compatibilidad con tu revisión de memoria flash y realiza una copia de seguridad antes de actualizar el FM-1.
+
+## Filtrar por fecha de publicación
+
+En **Publicación de versión**, puedes seleccionar **Cualquier fecha**, **Últimos 7, 30, 90 o 365 días**, **Intervalo personalizado** (campos *Desde* y *Hasta*, inclusive) o **Sin fecha registrada**. Los intervalos recientes se calculan sobre la fecha local del visitante y se actualizan al consultar el catálogo; el día de hoy cuenta como el primer día. No se incluyen fechas futuras en «Últimos N días».
+
+**Importante:** el campo `date` procede de la fecha de publicación de la **versión del firmware actualmente registrada en The Firmware Hub**; **no** es necesariamente la fecha de creación del repositorio, el primer lanzamiento del proyecto ni el día en que se agregó al Hub. Si falta o es inválida, el registro sigue visible en *Cualquier fecha* y en *Sin fecha registrada*, pero no en períodos recientes ni rangos específicos.
+
+La búsqueda, categorías, rankings y exclusión de betas funcionan conjuntamente con el período seleccionado. El CSV exportado respeta el filtro temporal. Si *Desde* es posterior a *Hasta*, se muestra una advertencia y no se presentan resultados hasta corregir el intervalo.
 
 ## Rankings de popularidad (instalaciones y estrellas)
 

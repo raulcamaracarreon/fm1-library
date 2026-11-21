@@ -37,8 +37,26 @@
       <div class="filters">
         <label class="search-wrap" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="Buscar JIANT, LOOM, SLOOP, autor, versión..." /></label>
         <label class="select-wrap"><span>Tipo</span><select id="category"><option value="all">Todos</option></select></label>
-        <label class="select-wrap"><span>Ordenar</span><select id="order"><option value="name">Nombre A–Z</option><option value="date">Más recientes</option><option value="author">Autor</option><option value="installs">Más instalaciones (Hub)</option><option value="stars">Más estrellas (GitHub)</option></select></label>
+        <label class="select-wrap"><span>Ordenar</span><select id="order"><option value="name">Nombre A–Z</option><option value="date">Más recientes</option><option value="dateOldest">Más antiguas</option><option value="author">Autor</option><option value="installs">Más instalaciones (Hub)</option><option value="stars">Más estrellas (GitHub)</option></select></label>
         <label class="select-wrap"><span>Ranking</span><select id="ranking"><option value="all">Todos los rankings</option><option value="installs_top10">Top 10 instalaciones</option><option value="installs_top25">Top 25 instalaciones</option><option value="installs_top50">Top 50 instalaciones</option><option value="installs_min1000">Desde 1,000 instalaciones</option><option value="stars_top10">Top 10 estrellas</option><option value="stars_top25">Top 25 estrellas</option><option value="stars_top50">Top 50 estrellas</option><option value="stars_min50">Desde 50 estrellas</option></select></label>
+      </div>
+      <div class="date-filters" aria-label="Filtrar por fecha de publicación de versión">
+        <label class="date-preset" for="datePreset"><span>Publicación de versión</span>
+          <select id="datePreset">
+            <option value="all">Cualquier fecha</option>
+            <option value="7">Últimos 7 días</option>
+            <option value="30">Últimos 30 días</option>
+            <option value="90">Últimos 90 días</option>
+            <option value="365">Últimos 365 días</option>
+            <option value="custom">Intervalo personalizado</option>
+            <option value="undated">Sin fecha registrada</option>
+          </select>
+        </label>
+        <div class="date-range" id="dateRange" hidden>
+          <label for="dateFrom">Desde <input id="dateFrom" type="date" /></label>
+          <label for="dateTo">Hasta <input id="dateTo" type="date" /></label>
+        </div>
+        <span class="date-tip" id="dateHint">Fecha de publicación de la versión registrada, no fecha de creación del proyecto.</span>
       </div>
       <div class="toggles">
         <label><input id="hideBetas" type="checkbox" /> Excluir beta</label>
