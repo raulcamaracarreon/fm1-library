@@ -1,91 +1,134 @@
-# FM-1 Library — catálogo autoactualizable para Netlify
+# FM-1 Library 🎛️
 
-Catálogo web estático del **M-VAVE FM-1**, listo para alojarse en **Netlify** y actualizarse automáticamente con **GitHub Actions**. Incluye una instantánea de **282 paquetes** tomada del catálogo proporcionado el 21 de noviembre de 2026. **El sitio NO contiene archivos `.fwsc` binarios**: facilita el acceso a las publicaciones de los desarrolladores.
+**Catálogo comunitario de firmwares para el sintetizador M-VAVE FM-1.** Explora proyectos, compara sus versiones y encuentra los paquetes `.fwsc` en las publicaciones de sus creadores. El directorio se actualiza automáticamente a partir de los metadatos de The Firmware Hub.
 
-## Arquitectura
+**🌐 [Abrir FM-1 Library (Netlify)](https://fm1-library.netlify.app/)** · **💻 [Ver código fuente (GitHub)](https://github.com/raulcamaracarreon/fm1-library)** · **📚 [Catálogo de origen: The Firmware Hub](https://thefirmwarehub.com/)**
 
-```text
+> **Proyecto independiente, no oficial.** No está afiliado a M-VAVE, The Firmware Hub ni a los autores de los firmwares. La biblioteca **no aloja paquetes `.fwsc`** ni instala firmware en dispositivos: proporciona metadatos y accesos a los proyectos originales.
+
+## Qué puedes hacer
+
+- **Buscar** por firmware, creador, versión o nombre de paquete.
+- **Filtrar** por categoría, proyectos con versión web, novedades y versiones beta.
+- **Ordenar** por nombre, fecha o autor.
+- **Consultar** versión publicada, fecha, autor, tipo de memoria flash y repositorio de origen.
+- **Abrir** simuladores o editores web cuando el desarrollador los proporciona.
+- **Obtener un `.fwsc`** desde GitHub Releases del autor, cuando el archivo está disponible; si no se puede resolver directamente, abrir la publicación o página de origen.
+- **Exportar CSV** con los resultados de la búsqueda y los filtros seleccionados.
+
+El catálogo arrancó con una instantánea de **282 registros (21 de noviembre de 2026)**. La cantidad en la web puede variar cuando se incorporan proyectos, cambian las versiones o se retiran entradas.
+
+## Uso
+
+1. Entra en **[fm1-library.netlify.app](https://fm1-library.netlify.app/)**.
+2. Busca, por ejemplo, **LOOM-8, JIANT, SLOOP, Felucca, Skiff, OberVave o Ravel**.
+3. Usa **Probar** o **Editor** si el proyecto dispone de una versión para navegador.
+4. Selecciona **Obtener .fwsc** para ir al archivo original de GitHub o a la página de lanzamiento del desarrollador.
+5. Si deseas experimentar con **FM-1 Emulator (VST)** en Reason o Reaper, abre el plugin y selecciona **Load firmware / save...** para cargar el `.fwsc` compatible.
+
+**Advertencia:** usar un paquete en un emulador no demuestra que sea seguro instalarlo en el hardware físico. Comprueba las indicaciones del autor, la compatibilidad con tu revisión de memoria flash y realiza una copia de seguridad antes de actualizar el FM-1.
+
+## Cómo se mantiene actualizado
+
+El navegador de cada visitante **solo lee archivos alojados en este mismo sitio**. No realiza consultas al catálogo de origen.
+
+~~~text
 The Firmware Hub /catalog.json
-         │ (máximo una consulta diaria desde nuestro GitHub Actions)
+         │
+         │ 1 consulta programada al día
          ▼
- .github/workflows/actualizar.yml
+GitHub Actions (.github/workflows/actualizar.yml)
          │
          ▼
- scripts/update_catalog.py  ──validar/comparar──▶ public/catalog.json
-                                                 public/changes.json
-         │ (commit si hay cambios)
+scripts/update_catalog.py
+         │ normaliza, valida y compara
          ▼
-    GitHub (repositorio)
-         │ (conexión oficial de Git)
+public/catalog.json  +  public/changes.json
+         │ commit únicamente si hay cambios
          ▼
-    Netlify (sitio estático)
-         │
+GitHub (rama main)
+         │ despliegue conectado por Git
          ▼
-     public/index.html + app.js + styles.css
-```
+Netlify → https://fm1-library.netlify.app/
+~~~
 
-**Importante:** los visitantes nunca consultan el dominio del Hub para obtener el listado. El workflow solicita `catalog.json` **una sola vez por día**, con `User-Agent` identificable y valida los campos antes de actualizar; si el servidor falla, conserva el último catálogo. Si no hay cambios de firmware, no crea un commit nuevo.
+- **Frecuencia:** una ejecución programada a las **15:17 UTC** (09:17 en Ciudad de México, UTC−6). GitHub Actions puede retrasar la ejecución.
+- **Actualización manual:** en GitHub, **Actions → Actualizar catálogo FM-1 → Run workflow**. Respeta el límite de **una lectura diaria** establecido por la fuente; no ejecutes actualizaciones adicionales si ya se realizó la consulta ese día.
+- **Detección de cambios:** se comparan identificadores, versiones y huellas SHA-256. El sitio identifica los proyectos nuevos o actualizados.
+- **Disponibilidad:** si la consulta falla, se conserva el último catálogo publicado; la tarea informa del error sin borrar registros.
+- **Despliegue:** Netlify publica automáticamente los cambios si el proyecto está conectado a la rama `main`.
+- El botón **Recargar** de la web vuelve a leer la **copia de Netlify**, no consulta The Firmware Hub.
 
-## Publicar el sitio (paso a paso)
+**Nota operativa:** GitHub puede deshabilitar tareas programadas tras periodos prolongados de inactividad en algunos repositorios públicos. Revisa ocasionalmente la pestaña [Actions](https://github.com/raulcamaracarreon/fm1-library/actions).
 
-1. Descomprime este ZIP en una carpeta de tu PC, conservando la carpeta oculta `.github`.
-2. En GitHub, crea un **repositorio nuevo** (por ejemplo `fm1-library`). Puedes hacerlo público.
-3. Sube **todo el contenido de esta carpeta** a la raíz del repositorio, incluyendo `.github/workflows/actualizar.yml`, `public`, `scripts`, `tests` y `netlify.toml`.
-4. En GitHub, entra en **Settings → Actions → General → Workflow permissions** y marca **Read and write permissions** si está disponible. El workflow declara `contents: write`, pero algunas organizaciones restringen permisos.
-5. En Netlify, elige **Add new project → Import an existing project**, conecta GitHub y selecciona ese repositorio.
-6. El archivo `netlify.toml` ya configura `publish = "public"`. No se necesita `npm`, dependencias ni backend. Publica el proyecto.
-7. En GitHub, entra en **Actions → Actualizar catálogo FM-1 → Run workflow** para comprobar la tarea. En la siguiente ejecución programada se revisarán novedades.
-8. Al detectar nuevos proyectos o versiones, el workflow modifica `public/catalog.json` y GitHub dispara el **despliegue automático** de Netlify, siempre que esté conectado mediante Git.
+## Estructura del repositorio
 
-> **No usar Netlify Drop como método permanente de actualización.** Es útil para una vista previa, pero un ZIP subido manualmente no recibe los futuros cambios del repositorio hasta conectar GitHub.
+~~~text
+fm1-library/
+├── .github/workflows/actualizar.yml  # Consulta diaria y ejecución manual
+├── public/
+│   ├── index.html                     # Interfaz en español
+│   ├── styles.css                     # Estilos adaptables
+│   ├── app.js                         # Búsqueda, filtros y enlaces
+│   ├── catalog.json                   # Última copia normalizada
+│   └── changes.json                   # Novedades del último cambio
+├── scripts/update_catalog.py          # Descarga, validación y comparación
+├── tests/test_catalog.py              # Pruebas del procesador
+├── netlify.toml                        # Publicación de /public
+└── README.md
+~~~
 
-## Frecuencia y mantenimiento
+El frontend utiliza **HTML, CSS y JavaScript sin framework**. La actualización se realiza con **Python 3 (biblioteca estándar)**. El sitio no requiere una base de datos ni un backend en ejecución permanente.
 
-- Programación: **15:17 UTC diario**, alrededor de **09:17 de Ciudad de México** (UTC−6).
-- GitHub puede retrasar las ejecuciones programadas según la carga. En repositorios públicos sin actividad puede desactivar automáticamente tareas `schedule` después de 60 días; revisa periódicamente la pestaña Actions.
-- Para ejecutar manualmente: GitHub → Actions → Actualizar catálogo FM-1 → Run workflow.
-- El botón *Recargar* del HTML obtiene **solo la copia alojada en Netlify**, no vuelve a consultar al Hub.
-- Si GitHub Actions falla, la web sigue disponible con los datos ya publicados. No se borra información automáticamente por un error de red.
+## Desarrollo local
 
-## Descargas originales de firmware
+Se necesita Python 3 para servir la web. Desde la raíz del repositorio:
 
-La política de reutilización de The Firmware Hub indica que los consumidores de `catalog.json` deben **descargar paquetes desde las publicaciones de los desarrolladores**, no desde el espejo del Hub. Por ello:
+~~~powershell
+git clone https://github.com/raulcamaracarreon/fm1-library.git
+cd fm1-library
+python -m http.server 8000 --directory public
+~~~
 
-- El botón **Obtener .fwsc** busca en la API pública de GitHub el recurso original, usando su `assetId` incluido en el catálogo. Si GitHub permite resolverlo, abre su URL de descarga.
-- Si no está disponible, abre la publicación original o la página del proyecto, donde podrás elegir manualmente el `.fwsc`.
-- La API pública de GitHub puede imponer límites de consultas sin autenticación; por eso hay un enlace de respaldo.
-- Las herramientas enlazadas **no instalan firmware en el dispositivo físico**; el objetivo es el uso informativo y las pruebas en FM-1 Emulator VST. Antes de instalar en hardware, comprueba siempre compatibilidad del chip flash, precauciones del autor y respaldos.
+Abre **http://localhost:8000/**. No abras `public/index.html` con doble clic: el navegador puede bloquear la lectura local del JSON.
 
-## Probar localmente
+Para ejecutar las pruebas, desde la raíz:
 
-Abrir `public/index.html` mediante doble clic no es suficiente (el navegador bloquearía el acceso a `/catalog.json`). Usa un servidor local:
+~~~powershell
+python -m unittest discover -s tests -v
+~~~
 
-```powershell
-cd RUTA\A\FM1_Catalogo_Netlify_Auto\public
-python -m http.server 8000
-```
+Para procesar una copia **ya descargada** del catálogo fuente, sin hacer otra consulta a la red:
 
-Abre `http://localhost:8000`.
+~~~powershell
+python scripts/update_catalog.py --from-file fuente.json
+~~~
 
-## Ejecutar actualizaciones manuales (desarrollo)
+La ejecución sin `--from-file` consulta la fuente remota: **no la ejecutes más de una vez al día**, en conjunto con cualquier actualización programada.
 
-```bash
-python scripts/update_catalog.py
-```
+## Publicación en Netlify
 
-Este comando **consulta el catálogo fuente**: no lo ejecutes más de una vez al día. Para probar sin red se puede usar `python scripts/update_catalog.py --from-file catalogo_fuente.json` con un JSON original descargado previamente.
+1. Importa el repositorio de GitHub como un sitio nuevo o utiliza el proyecto ya conectado.
+2. Configura la rama de producción `main`.
+3. Usa la carpeta de publicación **`public`**. `netlify.toml` ya la define; no hay comando de compilación ni dependencias de Node.
+4. Comprueba que la URL publicada sea **https://fm1-library.netlify.app/** y que `/catalog.json` se pueda leer.
+5. Para las actualizaciones automáticas, revisa que **GitHub Actions** esté habilitado y tenga permisos de escritura del contenido.
 
-## Estructura
+Si el sitio muestra un **404**, comprueba que la configuración publica `public/` y que `public/index.html` existe en la raíz de la rama desplegada. Evita subir un ZIP manual como mecanismo definitivo de actualización: conecta Netlify a GitHub.
 
-- `public/index.html`: interfaz web en español.
-- `public/styles.css`: estilos adaptables a escritorio y móvil.
-- `public/app.js`: buscador, filtros, descarga desde autores y exportación CSV.
-- `public/catalog.json`: instantánea de metadatos para Netlify.
-- `public/changes.json`: IDs de proyectos nuevos, actualizados y retirados desde el último cambio.
-- `scripts/update_catalog.py`: consulta el JSON una vez y normaliza los datos (Python estándar, sin dependencias).
-- `.github/workflows/actualizar.yml`: automatización diaria y manual.
-- `netlify.toml`: configuración de publicación del sitio.
+## Fuente de datos y descargas
 
-## Atribución y condiciones
+- **Fuente:** [The Firmware Hub](https://thefirmwarehub.com/) — [condiciones del catálogo](https://thefirmwarehub.com/kb/#catalog).
+- **Licencia del listado original:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Atribución requerida: **Firmware list: The Firmware Hub – https://thefirmwarehub.com**.
+- La biblioteca reorganiza **metadatos técnicos**: no reproduce fichas descriptivas ni imágenes de los creadores.
+- Los nombres de los desarrolladores y sus repositorios se conservan como atribución y referencia.
+- Para archivos `.fwsc`, se prioriza la **publicación original del autor**. La API pública de GitHub puede limitar peticiones y algunos autores usan páginas externas, por lo que ciertos enlaces llevan a la página de publicación en vez de descargar directamente.
+- El código de los firmwares pertenece a sus respectivos autores y puede tener licencias distintas. La licencia CC BY 4.0 del **catálogo** no concede derechos sobre esos proyectos.
 
-**Firmware list: [The Firmware Hub](https://thefirmwarehub.com) – thefirmwarehub.com.** Compilación del listado bajo **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**, adaptada y reorganizada para esta herramienta. No se reproducen los textos descriptivos ni imágenes de los autores. Cada proyecto identifica a su creador y enlaza al repositorio de origen. Consulta [las condiciones vigentes del catálogo](https://thefirmwarehub.com/kb/#catalog).
+## Colaboración y mantenimiento
+
+Se agradecen reportes de errores, problemas con enlaces o propuestas de mejoras mediante [GitHub Issues](https://github.com/raulcamaracarreon/fm1-library/issues). Para revisar qué se ha publicado, consulta el [historial de commits](https://github.com/raulcamaracarreon/fm1-library/commits/main) y la sección [Actions](https://github.com/raulcamaracarreon/fm1-library/actions).
+
+**Autor del directorio:** [Raúl Cámara Carreón](https://github.com/raulcamaracarreon).  
+**Sitio público:** [FM-1 Library en Netlify](https://fm1-library.netlify.app/).  
+**Repositorio:** [raulcamaracarreon/fm1-library](https://github.com/raulcamaracarreon/fm1-library).
