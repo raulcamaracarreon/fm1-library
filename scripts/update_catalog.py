@@ -8,6 +8,8 @@ Atribución: Firmware list: The Firmware Hub – https://thefirmwarehub.com
 Compilación del catálogo CC BY 4.0. No se reproducen descripciones ni imágenes de autores.
 """
 import argparse
+import copy
+from pages_sources import resolve_pages_downloads
 import json
 import os
 from pathlib import Path
@@ -116,8 +118,21 @@ def changes(previous, current):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--from-file', help='Leer JSON local sin tocar la red (para inicialización o pruebas)')
+    group = ap.add_mutually_exclusive_group()
+    group.add_argument('--from-file', help='Leer JSON local sin tocar la red (para inicialización o pruebas)')
+    group.add_argument('--pages-only', action='store_true', help='Resolver Github Pages sin consultar The Firmware Hub')
     args = ap.parse_args()
+    catalog_path = OUT / 'catalog.json'
+    if args.pages_only:
+        existing = json.loads(catalog_path.read_text(encoding='utf-8'))
+        updated = copy.deepcopy(existing)
+        resolve_pages_downloads(updated, existing)
+        if updated["firmwares"] != existing["firmwares"]:
+            catalog_path.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            print('Enlaces de autores actualizados sin consultar The Firmware Hub.')
+        else:
+            print('Sin cambios en los enlaces de GitHub Pages.')
+        return
     if args.from_file:
         raw = Path(args.from_file).read_bytes()
     else:
@@ -130,8 +145,9 @@ def main():
     parsed = json.loads(raw.decode('utf-8'))
     current = normalize(parsed)
     OUT.mkdir(parents=True, exist_ok=True)
-    catalog_path = OUT / 'catalog.json'
     old = json.loads(catalog_path.read_text(encoding='utf-8')) if catalog_path.exists() else {}
+    if not args.from_file:
+        resolve_pages_downloads(current, old)
     delta = changes(old, current) if old else {'sourceUpdated': current['sourceUpdated'], 'new': [], 'updated': [], 'removed': []}
     # No modificar los archivos en el repo si las entradas son idénticas,
     # aunque el servidor fuente haya actualizado solo su sello de tiempo.

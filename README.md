@@ -85,7 +85,9 @@ fm1-library/
 │   ├── catalog.json                   # Última copia normalizada
 │   └── changes.json                   # Novedades del último cambio
 ├── scripts/update_catalog.py          # Descarga, validación y comparación
+├── scripts/pages_sources.py           # Enlaces verificados de los sitios de autores
 ├── tests/test_catalog.py              # Pruebas del procesador
+├── tests/test_pages_sources.py         # Pruebas de manifiestos y SHA-256
 ├── netlify.toml                        # Publicación de /public
 └── README.md
 ~~~
@@ -132,7 +134,11 @@ Si el sitio muestra un **404**, comprueba que la configuración publica `public/
 
 FM-1 Library distingue entre **Descargar .fwsc** (el catálogo dispone de un identificador de adjunto para localizarlo en GitHub) y **Ver opciones** (no hay un enlace directo verificable en los datos disponibles). Si la API de GitHub falla, muestra un cuadro explicativo y enlaces oficiales; **ya no redirige sin aviso** a una página genérica. No copia ni redistribuye paquetes del espejo de The Firmware Hub.
 
-**JIANT FM es un caso especial:** su autor retiró el botón de descarga independiente del firmware por riesgos de instalación incompleta de la sección Bluetooth en el FM-1 físico. La tarjeta muestra **Opciones JIANT** con su [instalador oficial](https://juanjiant-bit.github.io/JIANT/webapp/installer/), [emulador](https://juanjiant-bit.github.io/JIANT/emu/), [publicaciones](https://github.com/juanjiant-bit/JIANT/releases) y [JIANT VST3 para Windows (preview)](https://github.com/juanjiant-bit/JIANT/releases/download/ports-v0.9.18-preview1/JIANT-FM-Windows-v0.9.18-preview1.zip). Este último es un instrumento virtual distinto de los paquetes `.fwsc` de FM-1 Emulator. Consulta las [notas del autor sobre el instalador](https://github.com/juanjiant-bit/JIANT/blob/main/tools/patch_installer_downloads.py).
+**JIANT FM es un caso especial:** su autor retiró el botón de descarga independiente del firmware por riesgos de instalación incompleta de la sección Bluetooth en el FM-1 físico. FM-1 Library ahora consulta **el manifiesto de versiones de GitHub Pages** del autor, localiza el nombre exacto del paquete y **solo muestra una descarga directa para pruebas en el emulador cuando el SHA-256 del archivo coincide con el de The Firmware Hub**. La tarjeta muestra **Opciones JIANT** con su [instalador oficial](https://juanjiant-bit.github.io/JIANT/webapp/installer/), [emulador](https://juanjiant-bit.github.io/JIANT/emu/), [publicaciones](https://github.com/juanjiant-bit/JIANT/releases) y [JIANT VST3 para Windows (preview)](https://github.com/juanjiant-bit/JIANT/releases/download/ports-v0.9.18-preview1/JIANT-FM-Windows-v0.9.18-preview1.zip). Este último es un instrumento virtual distinto de los paquetes `.fwsc` de FM-1 Emulator. Consulta las [notas del autor sobre el instalador](https://github.com/juanjiant-bit/JIANT/blob/main/tools/patch_installer_downloads.py).
+
+El resolvedor de fuentes originales se encuentra en `scripts/pages_sources.py`, con pruebas en `tests/test_pages_sources.py`. Las fuentes conocidas se agregan explícitamente a `SOURCES`: no se inventan rutas, no se consulta cada repositorio de forma indiscriminada y no se redistribuyen los binarios. Si un enlace no se puede verificar, se conservan alternativas oficiales. Si ya se había verificado la misma versión y SHA, se conserva esa URL con la fecha de la última verificación.
+
+Una ejecución de **`python scripts/update_catalog.py --pages-only`** consulta únicamente los manifiestos y paquetes originales admitidos, **sin leer el catálogo de The Firmware Hub**. La tarea separada de GitHub Actions se ejecuta al instalar este cambio y puede volver a lanzarse desde GitHub. La actualización cotidiana también resuelve los enlaces en su ejecución diaria.
 
 Cuando se indica **Ver opciones**, la biblioteca muestra el nombre de archivo que figura en el catálogo y el repositorio y/o publicación original para facilitar su localización, pero **no afirma que el archivo exista en esas páginas**.
 

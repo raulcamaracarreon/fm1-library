@@ -40,12 +40,20 @@ function aButton(label, href, cls=''){const a=link(href,label);a.className='butt
 
 // Solo se presenta una descarga directa cuando el catálogo identifica un asset de GitHub.
 // Si falta o falla, se muestran alternativas en lugar de redirigir sin explicación.
+function hasVerifiedPages(f){
+  try{
+    const url=new URL(f.downloadUrl);
+    return f.downloadKind==='github_pages' && url.protocol==='https:'
+      && url.hostname.endsWith('.github.io') && /\.fwsc$/i.test(url.pathname)
+      && typeof f.downloadVerifiedAt==='string' && /^\d{4}-\d{2}-\d{2}$/.test(f.downloadVerifiedAt);
+  }catch{return false;}
+}
 function hasDirectAsset(f){
   return /^\d+$/.test(String(f.assetId||'')) && /^[\w.\-]+\/[\w.\-]+$/.test(String(f.repoSlug||''));
 }
 function downloadActionLabel(f){
-  if(f.id==='jiant')return 'Opciones JIANT ↗';
-  return hasDirectAsset(f)?'Descargar .fwsc ↗':'Ver opciones ↗';
+  if(f.id==='jiant')return hasVerifiedPages(f)?'JIANT · .fwsc / opciones ↗':'Opciones JIANT ↗';
+  return (hasVerifiedPages(f)||hasDirectAsset(f))?'Descargar .fwsc ↗':'Ver opciones ↗';
 }
 function showDownloadHelp(f, error=''){
   const body=$('downloadHelpContent');
@@ -59,8 +67,18 @@ function showDownloadHelp(f, error=''){
   if(f.id==='jiant'){
     body.append(el('p','',
       'JIANT no distribuye el .fwsc como descarga independiente en su página actual. El autor retiró esa opción porque instalar solo el paquete en el FM-1 físico puede dejar incompleta la parte Bluetooth. Para hardware, utiliza su instalador oficial.'));
+    if(hasVerifiedPages(f)){
+      body.append(el('p','',
+        'Para FM-1 Emulator (VST), localizamos un .fwsc en GitHub Pages y verificamos que su SHA-256 coincide con el catálogo. No utilices esta descarga para actualizar el hardware físico.'));
+      links.append(aButton('Descargar .fwsc para EMULADOR ↗',f.downloadUrl,'primary'));
+      body.append(el('p','',`Archivo verificado: ${f.downloadUrl.split('/').pop()} · Revisión: ${f.downloadVerifiedAt}.`));
+    }else{
+      body.append(el('p','',
+        'El proyecto publica paquetes mediante su instalador web, pero todavía no hemos verificado un .fwsc descargable para la versión del catálogo. El nombre del paquete del autor puede diferir del mostrado por The Firmware Hub.'));
+    }
     body.append(el('p','',
       'Para Reason o Reaper también existe JIANT VST3 para Windows (edición experimental). Es un instrumento virtual independiente y NO es un .fwsc que se cargue en FM-1 Emulator.'));
+    links.append(aButton('Ver manifiesto de versiones del autor ↗','https://juanjiant-bit.github.io/JIANT/firmware/versions.json'));
     links.append(aButton('Instalador FM-1 (hardware) ↗',
       'https://juanjiant-bit.github.io/JIANT/webapp/installer/'));
     links.append(aButton('Descargar JIANT VST3 Windows (preview) ↗',
@@ -72,6 +90,7 @@ function showDownloadHelp(f, error=''){
   }else{
     body.append(el('p','',error ||
       'El catálogo no incluye un archivo directo verificado para este proyecto. Puedes revisar la publicación del autor y buscar el nombre indicado arriba; algunos desarrolladores utilizan instaladores web en lugar de adjuntar un .fwsc.'));
+    if(hasVerifiedPages(f))links.append(aButton('Descargar .fwsc original ↗',f.downloadUrl,'primary'));
     const releaseUrl=validUrl(f.release)?f.release:f.repo;
     if(validUrl(releaseUrl))links.append(aButton('Publicación del autor ↗',releaseUrl,'primary'));
     if(/^[\w.\-]+\/[\w.\-]+$/.test(String(f.repoSlug||''))){
@@ -87,6 +106,8 @@ function showDownloadHelp(f, error=''){
   else dialog.setAttribute('open','');
 }
 async function openGitHubFirmware(f){
+  if(f.id==='jiant'){showDownloadHelp(f);return;}
+  if(hasVerifiedPages(f)){window.open(f.downloadUrl,'_blank','noopener');return;}
   if(!hasDirectAsset(f)){showDownloadHelp(f);return;}
   // El contexto de clic permite abrir una pestaña antes de la llamada asíncrona.
   const tab=window.open('about:blank','_blank');
@@ -134,7 +155,7 @@ function newCard(f){
   if(f.id==='mvave-original-v15'){
     actions.append(aButton('Sitio oficial ↗',f.release,'primary'));
   }else{
-    const direct=hasDirectAsset(f);
+    const direct=hasDirectAsset(f)||hasVerifiedPages(f);
     const btn=el('button',direct?'button primary':'button soft',downloadActionLabel(f));btn.type='button';
     btn.title=direct?'Buscar el adjunto .fwsc original en GitHub':'Ver alternativas y localizar el paquete sin redirecciones inesperadas';
     btn.addEventListener('click',()=>openGitHubFirmware(f));actions.append(btn);
