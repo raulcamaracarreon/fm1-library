@@ -6,6 +6,7 @@ const SOURCE = 'https://thefirmwarehub.com/';
 const cats = {groove:'Groovebox',synth:'Sintetizador',drums:'Percusión',tracker:'Tracker',chords:'Acordes',dev:'Desarrollo',other:'Otros',official:'Oficial'};
 const $ = id => document.getElementById(id);
 const state = {all:[],changes:{new:[],updated:[]},date:'',loaded:false};
+const rankingCache = {installs:new Map(),stars:new Map()};
 const text = (s) => document.createTextNode(String(s ?? ''));
 function el(tag, cls, value){const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.append(text(value));return e;}
 function link(url,label){const a=el('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;}
@@ -13,6 +14,28 @@ function catLabels(value){return String(value).split(',').map(s=>cats[s.trim()]|
 function chipLabel(f){return f.chip==='old'?'Flash antiguo':f.chip==='new'?'Flash nuevo':f.chip==='any'?'Flash universal':'';}
 function shortDate(s){return /^\d{4}-\d{2}-\d{2}$/.test(s)?new Date(s+'T12:00:00Z').toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'}):'';}
 function validUrl(x){try{return new URL(x).protocol==='https:'}catch{return false;}}
+function metric(f, key){return Number.isInteger(f[key]) && f[key]>=0 ? f[key] : null;}
+function metricDesc(a,b,key){
+  const av=metric(a,key), bv=metric(b,key);
+  if(av===null && bv===null) return a.name.localeCompare(b.name,'es');
+  if(av===null) return 1;
+  if(bv===null) return -1;
+  return (bv-av)||a.name.localeCompare(b.name,'es');
+}
+function rebuildRankings(){
+  for(const key of ['installs','stars']){
+    const ranking=state.all.filter(f=>metric(f,key)!==null).sort((a,b)=>metricDesc(a,b,key));
+    rankingCache[key]=new Map(ranking.map((f,i)=>[f.id,i+1]));
+  }
+}
+function allowedByRanking(f, value){
+  if(value==='all')return true;
+  const match=/^(installs|stars)_(top|min)(\d+)$/.exec(value);
+  if(!match)return true;
+  const [,key,mode,count]=match;
+  return mode==='top' ? (rankingCache[key].get(f.id) ?? Infinity) <= Number(count) :
+    metric(f,key)!==null && metric(f,key)>=Number(count);
+}
 function aButton(label, href, cls=''){const a=link(href,label);a.className='button '+cls;return a;}
 
 // Resolución diferida del activo GitHub al pulsar. No recurre al espejo del Hub.
@@ -46,6 +69,10 @@ function newCard(f){
   vers.append(el('div','small',shortDate(f.date)||'Fecha no indicada'));
   const cat=el('div','category');cat.append(el('div','small',f.pkgFile));
   if(chipLabel(f))cat.append(el('div','small',chipLabel(f)));
+  const metrics=el('div','ranking-metrics');
+  metrics.append(el('span','',`⬇ Hub: ${metric(f,'installs')===null?'—':metric(f,'installs').toLocaleString('es-MX')}`));
+  metrics.append(el('span','',`★ GitHub: ${metric(f,'stars')===null?'—':metric(f,'stars').toLocaleString('es-MX')}`));
+  main.append(metrics);
   const actions=el('div','links');
   if(validUrl(f.play))actions.append(link(f.play,'Probar ↗'));
   if(validUrl(f.editor))actions.append(link(f.editor,'Editor ↗'));
@@ -69,9 +96,15 @@ function matches(f,q,kind,hideBeta,onlyPlayable,onlyRecent){
 }
 function filtered(){
   const q=$('search').value.trim().toLocaleLowerCase(),kind=$('category').value;
-  const all=state.all.filter(f=>matches(f,q,kind,$('hideBetas').checked,$('onlyPlayable').checked,$('onlyRecent').checked));
+  const ranking=$('ranking').value, onlyRanked=$('onlyRanked').checked;
+  const all=state.all.filter(f=>matches(f,q,kind,$('hideBetas').checked,$('onlyPlayable').checked,$('onlyRecent').checked)
+    && allowedByRanking(f,ranking)
+    && (!onlyRanked || metric(f,'installs')!==null || metric(f,'stars')!==null));
   const order=$('order').value;
-  all.sort((a,b)=>order==='date'?(b.date||'').localeCompare(a.date||'')||a.name.localeCompare(b.name):order==='author'?a.author.localeCompare(b.author,'es')||a.name.localeCompare(b.name,'es'):a.name.localeCompare(b.name,'es'));
+  all.sort((a,b)=>order==='installs'||order==='stars'?metricDesc(a,b,order):
+    order==='date'?(b.date||'').localeCompare(a.date||'')||a.name.localeCompare(b.name,'es'):
+    order==='author'?a.author.localeCompare(b.author,'es')||a.name.localeCompare(b.name,'es'):
+    a.name.localeCompare(b.name,'es'));
   return all;
 }
 function render(){
@@ -97,6 +130,7 @@ async function load(){
     if(!Array.isArray(data.firmwares))throw Error('Estructura del catálogo inesperada');
     const delta=changeResp.ok?await changeResp.json():{};
     state.all=data.firmwares;
+    rebuildRankings();
     state.changes={new:delta.new||[],updated:delta.updated||[]};
     state.date=data.sourceUpdated||'no indicada';state.loaded=true;
     $('total').textContent=state.all.length.toLocaleString('es-MX');
@@ -113,15 +147,16 @@ async function load(){
 function csvCell(v){return '"'+String(v??'').replaceAll('"','""')+'"';}
 function exportCsv(){
   if(!state.loaded)return;
-  const cols=['Nombre','Versión','Autor','Categoría','Beta','Fecha','Publicación original','Repositorio','Archivo de referencia','SHA-256'];
-  const lines=[cols,...filtered().map(f=>[f.name,f.version,f.author,catLabels(f.category),f.beta?'Sí':'No',f.date,f.release,f.repo,f.pkgFile,f.sha256])];
+  const cols=['Nombre','Versión','Autor','Categoría','Beta','Fecha','Instalaciones Hub','Estrellas GitHub','Publicación original','Repositorio','Archivo de referencia','SHA-256'];
+  const lines=[cols,...filtered().map(f=>[f.name,f.version,f.author,catLabels(f.category),f.beta?'Sí':'No',f.date,metric(f,'installs')??'',metric(f,'stars')??'',f.release,f.repo,f.pkgFile,f.sha256])];
   const csv='\uFEFF'+lines.map(row=>row.map(csvCell).join(',')).join('\r\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=url;a.download='FM1_catalogo_actualizado.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
-for(const id of ['search','category','order','hideBetas','onlyPlayable','onlyRecent']){
+for(const id of ['search','category','order','ranking','hideBetas','onlyPlayable','onlyRecent','onlyRanked']){
   $(id).addEventListener(id==='search'?'input':'change',render);
 }
+$('ranking').addEventListener('change',()=>{ const ranking=$('ranking').value; if(ranking.startsWith('installs_'))$('order').value='installs'; if(ranking.startsWith('stars_'))$('order').value='stars'; render(); });
 $('reload').addEventListener('click',load);
 $('export').addEventListener('click',exportCsv);
 load();

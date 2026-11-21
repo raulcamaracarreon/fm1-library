@@ -24,6 +24,11 @@ def external_url(url):
     return str(url) if isinstance(url, str) and url.startswith('https://') else ''
 
 
+def metric_count(value):
+    """Conserva solo contadores enteros no negativos; ausencia ≠ cero."""
+    return value if isinstance(value, int) and not isinstance(value, bool) and value >= 0 else None
+
+
 def normalize(data):
     if not isinstance(data, dict) or not isinstance(data.get('firmwares'), list):
         raise ValueError('El catálogo no tiene el campo firmwares esperado.')
@@ -61,6 +66,8 @@ def normalize(data):
             'category': kind,
             'date': str(f.get('date') or ''),
             'beta': bool(f.get('beta')),
+            'installs': metric_count(f.get('installs')),
+            'stars': metric_count(f.get('stars')),
             'chip': str(f.get('chip') or 'unknown'),
             'pkgFile': pkg.rsplit('/', 1)[-1],
             'sha256': sha,
@@ -78,6 +85,7 @@ def normalize(data):
             'id': 'mvave-original-v15', 'name': 'FM-1 original (V15)',
             'version': '15', 'author': 'M-VAVE', 'category': 'official',
             'date': '', 'beta': False, 'chip': 'any',
+            'installs': None, 'stars': None,
             'pkgFile': stock['pkg'].rsplit('/', 1)[-1],
             'sha256': str(stock.get('sha256') or '').lower(),
             'repo': 'https://github.com/m-vave/fm1_open',

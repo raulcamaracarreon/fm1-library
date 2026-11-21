@@ -28,6 +28,18 @@ El catálogo arrancó con una instantánea de **282 registros (21 de noviembre d
 
 **Advertencia:** usar un paquete en un emulador no demuestra que sea seguro instalarlo en el hardware físico. Comprueba las indicaciones del autor, la compatibilidad con tu revisión de memoria flash y realiza una copia de seguridad antes de actualizar el FM-1.
 
+## Rankings de popularidad (instalaciones y estrellas)
+
+La biblioteca aprovecha dos **contadores públicos del catálogo de The Firmware Hub**:
+- **Instalaciones registradas en The Firmware Hub** (`installs`): recuento disponible en la fuente, no cantidad verificada de usuarios únicos ni evaluación de calidad.
+- **Estrellas del repositorio GitHub** (`stars`): señal de interés en el código del proyecto; tampoco es una reseña de calidad.
+
+**Ordenar** permite colocar primero los más instalados o los más destacados con estrellas. El filtro **Ranking** ofrece Top 10/25/50 por cada indicador y umbrales mínimos (1,000 instalaciones o 50 estrellas). **Excluir sin métricas** oculta proyectos sin ninguno de los dos datos. Los valores no disponibles se representan como **—**, nunca como cero.
+
+Los Top se calculan **globalmente sobre el catálogo completo**, antes de combinar la búsqueda, la categoría o la exclusión de betas. El CSV incluye ambas métricas y respeta la búsqueda, los filtros y el orden vigente. Los conteos se actualizan desde el **mismo JSON diario**, sin nuevas consultas a The Firmware Hub.
+
+No se incluyen puntuaciones o calificaciones subjetivas porque los datos de valoraciones de usuarios no están presentes en el catálogo reutilizado. Las clasificaciones son informativas.
+
 ## Cómo se mantiene actualizado
 
 El navegador de cada visitante **solo lee archivos alojados en este mismo sitio**. No realiza consultas al catálogo de origen.

@@ -22,7 +22,9 @@
       "tag": "v2.0",
       "assetId": "707732269",
       "play": "",
-      "editor": "https://386dx.linecross.ing/"
+      "editor": "https://386dx.linecross.ing/",
+      "installs": 54,
+      "stars": 8
     },
     {
       "id": "adrift",
@@ -41,7 +43,9 @@
       "tag": "v0.4.0",
       "assetId": "752483191",
       "play": "https://romainguy.github.io/adrift/#play",
-      "editor": ""
+      "editor": "",
+      "installs": 61,
+      "stars": 4
     },
     {
       "id": "aetherfm1",
@@ -60,7 +64,9 @@
       "tag": "v2.0.4",
       "assetId": "748178176",
       "play": "https://grimmbient.github.io/grimm/",
-      "editor": "https://grimmbient.github.io/grimm/editor.html"
+      "editor": "https://grimmbient.github.io/grimm/editor.html",
+      "installs": 32,
+      "stars": 0
     },
     {
       "id": "agtdeck",
@@ -79,7 +85,9 @@
       "tag": "v0.6.3",
       "assetId": "744690629",
       "play": "https://kevinelliott.github.io/fm-1-agent-deck/play/?fw=agtdeck&script=demo.txt",
-      "editor": "https://kevinelliott.github.io/fm-1-agent-deck/editor/"
+      "editor": "https://kevinelliott.github.io/fm-1-agent-deck/editor/",
+      "installs": null,
+      "stars": 5
     },
     {
       "id": "aisling",
@@ -98,7 +106,9 @@
       "tag": "v1.5",
       "assetId": "767515037",
       "play": "https://stephencummins.github.io/fm1-aisling/emu/",
-      "editor": "https://stephencummins.github.io/fm1-aisling/editor/"
+      "editor": "https://stephencummins.github.io/fm1-aisling/editor/",
+      "installs": 264,
+      "stars": 4
     },
     {
       "id": "aislingfx1",
@@ -117,7 +127,9 @@
       "tag": "v1.1",
       "assetId": "756116703",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 4,
+      "stars": 0
     },
     {
       "id": "amb",
@@ -136,7 +148,9 @@
       "tag": "v1.3.2",
       "assetId": "716001484",
       "play": "https://charlesvestal.github.io/fm1-amb/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 4007,
+      "stars": 138
     },
     {
       "id": "ambpond",
@@ -155,7 +169,9 @@
       "tag": "v0.1.2",
       "assetId": "758804173",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 21,
+      "stars": 0
     },
     {
       "id": "amenity",
@@ -174,7 +190,9 @@
       "tag": "v2.1.1",
       "assetId": "750869174",
       "play": "https://ejtb76.github.io/amenity/emu/",
-      "editor": "https://ejtb76.github.io/amenity/breaks/"
+      "editor": "https://ejtb76.github.io/amenity/breaks/",
+      "installs": 115,
+      "stars": 25
     },
     {
       "id": "andromeda",
@@ -193,7 +211,9 @@
       "tag": "v1.8.2-an2-r5",
       "assetId": "761033384",
       "play": "https://drophlex.github.io/ANDROMEDA/",
-      "editor": ""
+      "editor": "",
+      "installs": 56,
+      "stars": 1
     },
     {
       "id": "arctic",
@@ -212,7 +232,9 @@
       "tag": "v2.1.4",
       "assetId": "768798487",
       "play": "https://polarpatch.github.io/Arctic-scream-FM-1/",
-      "editor": "https://polarpatch.github.io/Arctic-scream-FM-1/editor.html"
+      "editor": "https://polarpatch.github.io/Arctic-scream-FM-1/editor.html",
+      "installs": 354,
+      "stars": 8
     },
     {
       "id": "arcturus",
@@ -231,7 +253,9 @@
       "tag": "v1.7",
       "assetId": "699808995",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 156,
+      "stars": 8
     },
     {
       "id": "argo",
@@ -250,7 +274,9 @@
       "tag": "v1.8.5",
       "assetId": "753127551",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=argo",
-      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/"
+      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/",
+      "installs": 10,
+      "stars": 6
     },
     {
       "id": "arpwav09",
@@ -269,7 +295,9 @@
       "tag": "v1.0.5",
       "assetId": "737005288",
       "play": "https://wav0902.github.io/wav-fm1/",
-      "editor": ""
+      "editor": "",
+      "installs": 26,
+      "stars": 1
     },
     {
       "id": "artihive",
@@ -288,7 +316,9 @@
       "tag": "artihive-2.0.4",
       "assetId": "736847300",
       "play": "https://khavld.github.io/ARTIHIVE/",
-      "editor": ""
+      "editor": "",
+      "installs": 140,
+      "stars": 5
     },
     {
       "id": "assid",
@@ -307,7 +337,9 @@
       "tag": "v1.0",
       "assetId": "733609994",
       "play": "https://altessproduction.github.io/ASS-ID_FM1/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 66,
+      "stars": 1
     },
     {
       "id": "astra",
@@ -326,7 +358,9 @@
       "tag": "v0.1",
       "assetId": "743959359",
       "play": "https://michaelaperry.github.io/ASTRA-FM-1/fm1-emu/?mhz=240",
-      "editor": ""
+      "editor": "",
+      "installs": 8,
+      "stars": 0
     },
     {
       "id": "atek303",
@@ -345,7 +379,9 @@
       "tag": "atek303-v1.4",
       "assetId": "771006367",
       "play": "https://animatek.github.io/FM1-Animatek/atek303/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 290,
+      "stars": 4
     },
     {
       "id": "atlatltheatltuner",
@@ -364,7 +400,9 @@
       "tag": "v0.8",
       "assetId": "751751198",
       "play": "https://www.jasonscheirer.com/atl-atl/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "b1",
@@ -383,7 +421,9 @@
       "tag": "V5.6",
       "assetId": "702173428",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 32,
+      "stars": 5
     },
     {
       "id": "b3organ",
@@ -402,7 +442,9 @@
       "tag": "v0.6",
       "assetId": "772213398",
       "play": "https://r-jeb.github.io/setBfree-fm1/play/",
-      "editor": "https://r-jeb.github.io/setBfree-fm1/editor/"
+      "editor": "https://r-jeb.github.io/setBfree-fm1/editor/",
+      "installs": 58,
+      "stars": 4
     },
     {
       "id": "basssomething2",
@@ -421,7 +463,9 @@
       "tag": "v0.9.4",
       "assetId": "766405225",
       "play": "https://imijes.github.io/bass-something-2/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 2
     },
     {
       "id": "bb1",
@@ -440,7 +484,9 @@
       "tag": "v2.3-hub.1",
       "assetId": "767463975",
       "play": "https://thebigbeat.app/fm1/emulator/",
-      "editor": "https://thebigbeat.app/editor/"
+      "editor": "https://thebigbeat.app/editor/",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "beetle",
@@ -459,7 +505,9 @@
       "tag": "V1.8.3",
       "assetId": "727045120",
       "play": "https://sikkenworks.github.io/BEETLE/",
-      "editor": "https://sikkenworks.github.io/BEETLE/BEETLE-Project-Manager.html"
+      "editor": "https://sikkenworks.github.io/BEETLE/BEETLE-Project-Manager.html",
+      "installs": 39,
+      "stars": 7
     },
     {
       "id": "beetleblue",
@@ -478,7 +526,9 @@
       "tag": "V1.3.1",
       "assetId": "727054938",
       "play": "",
-      "editor": "https://sikkenworks.github.io/BEETLE-BLUE/BEETLE-BLUE-Project-Manager.html"
+      "editor": "https://sikkenworks.github.io/BEETLE-BLUE/BEETLE-BLUE-Project-Manager.html",
+      "installs": 3,
+      "stars": 2
     },
     {
       "id": "beiwagen",
@@ -497,7 +547,9 @@
       "tag": "v0.2",
       "assetId": "754368906",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "berlinan",
@@ -516,7 +568,9 @@
       "tag": "v0.5.1",
       "assetId": "681288796",
       "play": "https://jiripisa.github.io/fm1-berlinan/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 29,
+      "stars": 5
     },
     {
       "id": "bigorna",
@@ -535,7 +589,9 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 191,
+      "stars": 12
     },
     {
       "id": "blop",
@@ -554,7 +610,9 @@
       "tag": "v1.1.0",
       "assetId": "707170693",
       "play": "https://osr-experiment.github.io/OSR-1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 260,
+      "stars": 4
     },
     {
       "id": "bluesbox",
@@ -573,7 +631,9 @@
       "tag": "v2.2.1",
       "assetId": "765868026",
       "play": "https://joakimeriksson.github.io/fm1-emu/?package=https://provostprovost.github.io/blues/bluesbox.fwsc&name=BLUES%20BOX&mhz=60",
-      "editor": ""
+      "editor": "",
+      "installs": 37,
+      "stars": 3
     },
     {
       "id": "bocjuhn",
@@ -592,7 +652,9 @@
       "tag": "v1.0.0-rc10",
       "assetId": "734264757",
       "play": "https://ianp06.github.io/bocjuhn/",
-      "editor": ""
+      "editor": "",
+      "installs": 75,
+      "stars": 0
     },
     {
       "id": "bubba",
@@ -611,7 +673,9 @@
       "tag": "v0.10.0-beta",
       "assetId": "673712849",
       "play": "https://erbubar23.github.io/bubba-machine/en/",
-      "editor": ""
+      "editor": "",
+      "installs": 168,
+      "stars": 10
     },
     {
       "id": "bunker",
@@ -630,7 +694,9 @@
       "tag": "v1.0.0",
       "assetId": "649160132",
       "play": "https://bunker-evolved.sugarypixie10.chatgpt.site/simulator/",
-      "editor": "https://bunker-evolved.sugarypixie10.chatgpt.site/editor/"
+      "editor": "https://bunker-evolved.sugarypixie10.chatgpt.site/editor/",
+      "installs": 168,
+      "stars": 2
     },
     {
       "id": "burgerstudiofm1",
@@ -649,7 +715,9 @@
       "tag": "v1.8.2-bs17",
       "assetId": "775766197",
       "play": "",
-      "editor": "https://perawoga2-coder.github.io/Fm1sampa/webapp/editor/"
+      "editor": "https://perawoga2-coder.github.io/Fm1sampa/webapp/editor/",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "bytemania",
@@ -668,7 +736,9 @@
       "tag": "v1.3.2",
       "assetId": "748201668",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 78,
+      "stars": 6
     },
     {
       "id": "caravel",
@@ -687,7 +757,9 @@
       "tag": "v1.1.0",
       "assetId": "774285927",
       "play": "https://bonszaimusic.github.io/caravel/emulator/",
-      "editor": "https://bonszaimusic.github.io/caravel/webapp/editor/"
+      "editor": "https://bonszaimusic.github.io/caravel/webapp/editor/",
+      "installs": 142,
+      "stars": 27
     },
     {
       "id": "carnac",
@@ -706,7 +778,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://owenkirby.github.io/carnac-os/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 150,
+      "stars": 15
     },
     {
       "id": "castletunia",
@@ -725,7 +799,9 @@
       "tag": "v1.3.0",
       "assetId": "772254870",
       "play": "https://joakimeriksson.github.io/fm1-emu/?package=https://provostprovost.github.io/castletunia/castletunia.fwsc&name=CASTLETUNIA&mhz=60",
-      "editor": ""
+      "editor": "",
+      "installs": 25,
+      "stars": 1
     },
     {
       "id": "chipbox",
@@ -744,7 +820,9 @@
       "tag": "v1.7.0-signatureshowcase",
       "assetId": "746009117",
       "play": "https://ihavenocluewhatimdoing.com/chipbox/play/",
-      "editor": "https://ihavenocluewhatimdoing.com/chipbox/projects/"
+      "editor": "https://ihavenocluewhatimdoing.com/chipbox/projects/",
+      "installs": 309,
+      "stars": 9
     },
     {
       "id": "choppah",
@@ -763,7 +841,9 @@
       "tag": "v1.5.1",
       "assetId": "774703266",
       "play": "https://profikid.github.io/fm1-break-choppah/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 451,
+      "stars": 15
     },
     {
       "id": "choralroot",
@@ -782,7 +862,9 @@
       "tag": "v0.43",
       "assetId": "774876266",
       "play": "https://quixotic7.github.io/ChoralRootFM1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 2288,
+      "stars": 109
     },
     {
       "id": "chordrun",
@@ -801,7 +883,9 @@
       "tag": "v1.4",
       "assetId": "775003481",
       "play": "https://swtdr34mz-afk.github.io/CHORD_RUN/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 3,
+      "stars": 0
     },
     {
       "id": "clairpiano",
@@ -820,7 +904,9 @@
       "tag": "v1.0.1",
       "assetId": "771224404",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 15,
+      "stars": 0
     },
     {
       "id": "clatter",
@@ -839,7 +925,9 @@
       "tag": "v1.0.0",
       "assetId": "707493391",
       "play": "https://clatter-pocket.allmyfriendsaresynths.com/demo/",
-      "editor": ""
+      "editor": "",
+      "installs": 23,
+      "stars": 3
     },
     {
       "id": "clavioline",
@@ -858,7 +946,9 @@
       "tag": "v1.3",
       "assetId": "745423458",
       "play": "https://mammothcheese.github.io/clavioline/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 1
     },
     {
       "id": "clipper",
@@ -877,7 +967,9 @@
       "tag": "v1.3.1",
       "assetId": "707952651",
       "play": "",
-      "editor": "https://isod89.github.io/clipper-fm1/webapp/editor/"
+      "editor": "https://isod89.github.io/clipper-fm1/webapp/editor/",
+      "installs": 2725,
+      "stars": 90
     },
     {
       "id": "conductor",
@@ -896,7 +988,9 @@
       "tag": "v1.0",
       "assetId": "757808201",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=conductor",
-      "editor": ""
+      "editor": "",
+      "installs": 24,
+      "stars": 1
     },
     {
       "id": "coqui",
@@ -915,7 +1009,9 @@
       "tag": "v1.1.1",
       "assetId": "721594361",
       "play": "https://saulofilho.github.io/coqui-fm1/emu/",
-      "editor": "https://saulofilho.github.io/coqui-fm1/emu/editor.html"
+      "editor": "https://saulofilho.github.io/coqui-fm1/emu/editor.html",
+      "installs": 37,
+      "stars": 0
     },
     {
       "id": "coralflower",
@@ -934,7 +1030,9 @@
       "tag": "v0.7.1",
       "assetId": "731719145",
       "play": "https://ficusficusov.github.io/CoralFlower/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 2271,
+      "stars": 27
     },
     {
       "id": "cord",
@@ -953,7 +1051,9 @@
       "tag": "v1.0.3",
       "assetId": "729189802",
       "play": "https://chasedeanda.github.io/cord-fm1/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 34,
+      "stars": 3
     },
     {
       "id": "cs1",
@@ -972,7 +1072,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://twochannels.github.io/CS-1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 474,
+      "stars": 12
     },
     {
       "id": "ctl",
@@ -991,7 +1093,9 @@
       "tag": "v1.0.3",
       "assetId": "717803119",
       "play": "https://charlesvestal.github.io/fm1-ctl/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 73,
+      "stars": 29
     },
     {
       "id": "cultbox",
@@ -1010,7 +1114,9 @@
       "tag": "v1.2",
       "assetId": "715009431",
       "play": "https://beatcult.github.io/CULTBOX/",
-      "editor": ""
+      "editor": "",
+      "installs": 56,
+      "stars": 3
     },
     {
       "id": "cursedos",
@@ -1029,7 +1135,9 @@
       "tag": "v0.20.0",
       "assetId": "772312471",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 39,
+      "stars": 2
     },
     {
       "id": "cutador",
@@ -1048,7 +1156,9 @@
       "tag": "v1.2.1",
       "assetId": "653884181",
       "play": "https://cut-a-dor.sugarypixie10.chatgpt.site/",
-      "editor": ""
+      "editor": "",
+      "installs": 91,
+      "stars": 4
     },
     {
       "id": "dabke",
@@ -1067,7 +1177,9 @@
       "tag": "v0.18-beta",
       "assetId": "760437824",
       "play": "https://studiomorphik.com/dabke/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 43,
+      "stars": 1
     },
     {
       "id": "darkfunkdurcalsynt",
@@ -1086,7 +1198,9 @@
       "tag": "v1.8.2-dfd10",
       "assetId": "765266292",
       "play": "https://drophlex.github.io/dark-funk-durcal-synt-fm1/web/DarkFunkDurcalSynt.html",
-      "editor": "https://drophlex.github.io/dark-funk-durcal-synt-fm1/web/DarkFunkDurcal-MIDI-Ritual.html"
+      "editor": "https://drophlex.github.io/dark-funk-durcal-synt-fm1/web/DarkFunkDurcal-MIDI-Ritual.html",
+      "installs": 35,
+      "stars": 0
     },
     {
       "id": "dark1",
@@ -1105,7 +1219,9 @@
       "tag": "v1.0.7",
       "assetId": "746152034",
       "play": "https://sparky480v.github.io/Dark-1/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 427,
+      "stars": 2
     },
     {
       "id": "daurade",
@@ -1124,7 +1240,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/daurade/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 56,
+      "stars": 3
     },
     {
       "id": "dayvx",
@@ -1143,7 +1261,9 @@
       "tag": "v0.1.1",
       "assetId": "741186775",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "deepfield",
@@ -1162,7 +1282,9 @@
       "tag": "1.11",
       "assetId": "757914653",
       "play": "https://deepfield.fog.baby/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 20,
+      "stars": 0
     },
     {
       "id": "delrio",
@@ -1181,7 +1303,9 @@
       "tag": "v1.0.1",
       "assetId": "769826339",
       "play": "https://jsopdebeeck.github.io/fm1-delrio/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 130,
+      "stars": 3
     },
     {
       "id": "demake",
@@ -1200,7 +1324,9 @@
       "tag": "v0.4.25",
       "assetId": "752458762",
       "play": "https://inigohernandez.github.io/demake-synth/",
-      "editor": ""
+      "editor": "",
+      "installs": 350,
+      "stars": 5
     },
     {
       "id": "dfdacidengine",
@@ -1219,7 +1345,9 @@
       "tag": "fm1-v1.8.2-da1-r7",
       "assetId": "768754803",
       "play": "https://drophlex.github.io/DFD-ACID-ENGINE/web/",
-      "editor": ""
+      "editor": "",
+      "installs": 21,
+      "stars": 0
     },
     {
       "id": "dinghy",
@@ -1238,7 +1366,9 @@
       "tag": "v0.5",
       "assetId": "720726951",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 28,
+      "stars": 54
     },
     {
       "id": "dp3oyb",
@@ -1257,7 +1387,9 @@
       "tag": "v1.0.8",
       "assetId": "769774894",
       "play": "https://dp3oyb.github.io/DP3OYB/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 23,
+      "stars": 0
     },
     {
       "id": "drift",
@@ -1276,7 +1408,9 @@
       "tag": "v0.9.6",
       "assetId": "702645035",
       "play": "https://www.fbnfrtg.de/tools/fm1/drift/webplayer/",
-      "editor": ""
+      "editor": "",
+      "installs": 175,
+      "stars": 5
     },
     {
       "id": "drumlab",
@@ -1295,7 +1429,9 @@
       "tag": "v1.0.0-graduationday",
       "assetId": "746022463",
       "play": "https://ihavenocluewhatimdoing.com/drumlab/play/",
-      "editor": "https://ihavenocluewhatimdoing.com/drumlab/projects/"
+      "editor": "https://ihavenocluewhatimdoing.com/drumlab/projects/",
+      "installs": 91,
+      "stars": 7
     },
     {
       "id": "drumtonic",
@@ -1314,7 +1450,9 @@
       "tag": "v0.9.6",
       "assetId": "765622462",
       "play": "https://fc79.github.io/drumtonic/#try",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 2
     },
     {
       "id": "dub",
@@ -1333,7 +1471,9 @@
       "tag": "v1.4.3",
       "assetId": "693367138",
       "play": "https://sbegueria.github.io/fm1-dub/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 1221,
+      "stars": 45
     },
     {
       "id": "dubbox",
@@ -1352,7 +1492,9 @@
       "tag": "v1.0.9",
       "assetId": "749062924",
       "play": "https://altessproduction.github.io/DUB-BOX-FM1/dub/",
-      "editor": ""
+      "editor": "",
+      "installs": 16,
+      "stars": 2
     },
     {
       "id": "duell",
@@ -1371,7 +1513,9 @@
       "tag": "v1.3.6",
       "assetId": "773748018",
       "play": "https://oscillr.github.io/DUELL/emu/",
-      "editor": "https://oscillr.github.io/DUELL/editor/"
+      "editor": "https://oscillr.github.io/DUELL/editor/",
+      "installs": 164,
+      "stars": 21
     },
     {
       "id": "dungeontracker",
@@ -1390,7 +1534,9 @@
       "tag": "v1.5",
       "assetId": "708130880",
       "play": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/emulator/",
-      "editor": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/editor/"
+      "editor": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/editor/",
+      "installs": 42,
+      "stars": 1
     },
     {
       "id": "dx747",
@@ -1409,7 +1555,9 @@
       "tag": "v0.1",
       "assetId": "715362756",
       "play": "https://esbenvb.github.io/fm1-dx747/#device",
-      "editor": "https://esbenvb.github.io/fm1-dx747/#configure"
+      "editor": "https://esbenvb.github.io/fm1-dx747/#configure",
+      "installs": 41,
+      "stars": 4
     },
     {
       "id": "echofield",
@@ -1428,7 +1576,9 @@
       "tag": "v0.2.15",
       "assetId": "759183077",
       "play": "https://philip-bos.github.io/echofield-fm1/emulator/",
-      "editor": "https://philip-bos.github.io/echofield-fm1/"
+      "editor": "https://philip-bos.github.io/echofield-fm1/",
+      "installs": 253,
+      "stars": 23
     },
     {
       "id": "elixir",
@@ -1447,7 +1597,9 @@
       "tag": "v1.4.7",
       "assetId": "769651752",
       "play": "https://dmajka.github.io/elixir/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 166,
+      "stars": 19
     },
     {
       "id": "estampie",
@@ -1466,7 +1618,9 @@
       "tag": "v0.3.8",
       "assetId": "720599268",
       "play": "https://fm-1.drewr.dev/estampie/webapp/emu/",
-      "editor": "https://fm-1.drewr.dev/estampie/webapp/editor/"
+      "editor": "https://fm-1.drewr.dev/estampie/webapp/editor/",
+      "installs": 47,
+      "stars": 5
     },
     {
       "id": "etch",
@@ -1485,7 +1639,9 @@
       "tag": "V1.88",
       "assetId": "692348139",
       "play": "",
-      "editor": "https://sikkenworks.github.io/ETCH/ETCH-Project-Preset-Manager.html"
+      "editor": "https://sikkenworks.github.io/ETCH/ETCH-Project-Preset-Manager.html",
+      "installs": 116,
+      "stars": 10
     },
     {
       "id": "emb",
@@ -1504,7 +1660,9 @@
       "tag": "v1.5.2",
       "assetId": "648927193",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 41,
+      "stars": 3
     },
     {
       "id": "evilgenius",
@@ -1523,7 +1681,9 @@
       "tag": "v0.1.4",
       "assetId": "758062484",
       "play": "https://quixotic7.github.io/evilgenius/try/",
-      "editor": "https://quixotic7.github.io/evilgenius/manager/"
+      "editor": "https://quixotic7.github.io/evilgenius/manager/",
+      "installs": 32,
+      "stars": 1
     },
     {
       "id": "fart",
@@ -1542,7 +1702,9 @@
       "tag": "V1.1.0",
       "assetId": "667581613",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 1157,
+      "stars": 25
     },
     {
       "id": "felucca",
@@ -1561,7 +1723,9 @@
       "tag": "v1.8.2",
       "assetId": "742234136",
       "play": "",
-      "editor": "https://hugelton.github.io/Felucca/webapp/editor/"
+      "editor": "https://hugelton.github.io/Felucca/webapp/editor/",
+      "installs": 4995,
+      "stars": 760
     },
     {
       "id": "felucca8",
@@ -1580,7 +1744,9 @@
       "tag": "v1.8.5",
       "assetId": "753127551",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=argo",
-      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/"
+      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/",
+      "installs": 90,
+      "stars": 6
     },
     {
       "id": "salt",
@@ -1599,7 +1765,9 @@
       "tag": "v0.9-salt14",
       "assetId": "611721928",
       "play": "",
-      "editor": "https://chancethemaker.github.io/Felucca/webapp/editor/"
+      "editor": "https://chancethemaker.github.io/Felucca/webapp/editor/",
+      "installs": 91,
+      "stars": 9
     },
     {
       "id": "fernbedienung",
@@ -1618,7 +1786,9 @@
       "tag": "v1.1",
       "assetId": "764000282",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "fimba",
@@ -1637,7 +1807,9 @@
       "tag": "v0.7.0",
       "assetId": "728549698",
       "play": "https://jadamsowers.github.io/fm1-fimba/",
-      "editor": ""
+      "editor": "",
+      "installs": 437,
+      "stars": 23
     },
     {
       "id": "fizz",
@@ -1656,7 +1828,9 @@
       "tag": "v0.13.0",
       "assetId": "752416491",
       "play": "https://quixotic7.github.io/FIZZ/",
-      "editor": "https://quixotic7.github.io/FIZZ/manager/"
+      "editor": "https://quixotic7.github.io/FIZZ/manager/",
+      "installs": 56,
+      "stars": 4
     },
     {
       "id": "flyfish",
@@ -1675,7 +1849,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/flyfish/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 21,
+      "stars": 2
     },
     {
       "id": "fm1chimeravocal",
@@ -1694,7 +1870,9 @@
       "tag": "v0.9.0",
       "assetId": "774041295",
       "play": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/",
-      "editor": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/"
+      "editor": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/",
+      "installs": 82,
+      "stars": 9
     },
     {
       "id": "fm1midimania",
@@ -1713,7 +1891,9 @@
       "tag": "v0.9.4",
       "assetId": "771945917",
       "play": "https://shan-sherif.github.io/fm-1-midi-mania/webapp/studio/",
-      "editor": "https://shan-sherif.github.io/fm-1-midi-mania/webapp/studio/"
+      "editor": "https://shan-sherif.github.io/fm-1-midi-mania/webapp/studio/",
+      "installs": null,
+      "stars": 1
     },
     {
       "id": "mvave-original-v15",
@@ -1732,7 +1912,9 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": null
     },
     {
       "id": "fm1sid",
@@ -1751,7 +1933,9 @@
       "tag": "v0.3",
       "assetId": "676253313",
       "play": "https://joakimeriksson.github.io/fm1-emu/fm1-sid/",
-      "editor": ""
+      "editor": "",
+      "installs": 11,
+      "stars": 1
     },
     {
       "id": "fm1zx",
@@ -1770,7 +1954,9 @@
       "tag": "v1.2.0",
       "assetId": "769135014",
       "play": "https://dev-gh.nisdom.com/fm1-zx/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 1
     },
     {
       "id": "fm106",
@@ -1789,7 +1975,9 @@
       "tag": "1.02",
       "assetId": "749075961",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 842,
+      "stars": 20
     },
     {
       "id": "fmfam",
@@ -1808,7 +1996,9 @@
       "tag": "v0.3.1",
       "assetId": "740553444",
       "play": "https://davidamomusic.github.io/fm-fam/fam/docs/play/",
-      "editor": "https://davidamomusic.github.io/fm-fam/fam/docs/FM-FAM-mirror.html"
+      "editor": "https://davidamomusic.github.io/fm-fam/fam/docs/FM-FAM-mirror.html",
+      "installs": 27,
+      "stars": 4
     },
     {
       "id": "fmkick",
@@ -1827,7 +2017,9 @@
       "tag": "v0.5.1",
       "assetId": "767884288",
       "play": "https://davidamomusic.github.io/fm-kick/kick/docs/play/",
-      "editor": "https://davidamomusic.github.io/fm-kick/kick/docs/FM-KICK-mirror.html"
+      "editor": "https://davidamomusic.github.io/fm-kick/kick/docs/FM-KICK-mirror.html",
+      "installs": 7,
+      "stars": 0
     },
     {
       "id": "audiorouter",
@@ -1846,7 +2038,9 @@
       "tag": "v0.6.1",
       "assetId": "756775806",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 5
     },
     {
       "id": "fm1quest",
@@ -1865,7 +2059,9 @@
       "tag": "quest-43",
       "assetId": "702900172",
       "play": "https://fm1.quest/sim/",
-      "editor": "https://fm1.quest/editor/"
+      "editor": "https://fm1.quest/editor/",
+      "installs": 147,
+      "stars": 15
     },
     {
       "id": "fm1tonic",
@@ -1884,7 +2080,9 @@
       "tag": "v1.7",
       "assetId": "765046067",
       "play": "https://luigirossi-music.github.io/fm1-tonic/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 6,
+      "stars": 0
     },
     {
       "id": "fm1yoga",
@@ -1903,7 +2101,9 @@
       "tag": "v1.0",
       "assetId": "745238537",
       "play": "https://michamilz.github.io/fm1-yoga/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 18,
+      "stars": 0
     },
     {
       "id": "fm1800",
@@ -1922,7 +2122,9 @@
       "tag": "v0.12.5",
       "assetId": "773336218",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 11,
+      "stars": 0
     },
     {
       "id": "fm1amy",
@@ -1941,7 +2143,9 @@
       "tag": "v0.1.0",
       "assetId": "731651069",
       "play": "",
-      "editor": "https://amyboard.com/editor"
+      "editor": "https://amyboard.com/editor",
+      "installs": 12,
+      "stars": 2
     },
     {
       "id": "chord",
@@ -1960,7 +2164,9 @@
       "tag": "v0.3",
       "assetId": "626063286",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 351,
+      "stars": 15
     },
     {
       "id": "fm1dock",
@@ -1979,7 +2185,9 @@
       "tag": "v0.9.0",
       "assetId": "750651116",
       "play": "https://joakimeriksson.github.io/fm1-dock/#emulator",
-      "editor": ""
+      "editor": "",
+      "installs": 445,
+      "stars": 45
     },
     {
       "id": "fm1gm",
@@ -1998,7 +2206,9 @@
       "tag": "v1.2.0",
       "assetId": "723747187",
       "play": "https://jartificer.github.io/fm1-gm/",
-      "editor": "https://jartificer.github.io/fm1-gm/editor.html"
+      "editor": "https://jartificer.github.io/fm1-gm/editor.html",
+      "installs": 99,
+      "stars": 14
     },
     {
       "id": "fm1trax",
@@ -2017,7 +2227,9 @@
       "tag": "v0.9.5",
       "assetId": "723856100",
       "play": "https://jartificer.github.io/fm1-trax/",
-      "editor": "https://jartificer.github.io/fm1-trax/editor.html"
+      "editor": "https://jartificer.github.io/fm1-trax/editor.html",
+      "installs": 13,
+      "stars": 3
     },
     {
       "id": "fmav1",
@@ -2036,7 +2248,9 @@
       "tag": "v0.6.4",
       "assetId": "773080805",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 9,
+      "stars": 0
     },
     {
       "id": "fmdj",
@@ -2055,7 +2269,9 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 3
     },
     {
       "id": "fmel",
@@ -2074,7 +2290,9 @@
       "tag": "v1.3",
       "assetId": "731043824",
       "play": "https://antonioaltea.github.io/fmel-1/",
-      "editor": ""
+      "editor": "",
+      "installs": 415,
+      "stars": 9
     },
     {
       "id": "fmini",
@@ -2093,7 +2311,9 @@
       "tag": "v2.6.0",
       "assetId": "752744530",
       "play": "https://ruppert.github.io/fmini-1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 3586,
+      "stars": 45
     },
     {
       "id": "fmlarynx",
@@ -2112,7 +2332,9 @@
       "tag": "v0.4.2",
       "assetId": "750774027",
       "play": "https://ejtb76.github.io/FMLarynx/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 2
     },
     {
       "id": "fomajam",
@@ -2131,7 +2353,9 @@
       "tag": "v0.1.12",
       "assetId": "729816526",
       "play": "https://konsumer.js.org/fomajam/",
-      "editor": ""
+      "editor": "",
+      "installs": 71,
+      "stars": 6
     },
     {
       "id": "fomni",
@@ -2150,7 +2374,9 @@
       "tag": "v0.5",
       "assetId": "775427433",
       "play": "https://charlesvestal.github.io/fm1-fomni/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 821,
+      "stars": 84
     },
     {
       "id": "frasil",
@@ -2169,7 +2395,9 @@
       "tag": "v3.4",
       "assetId": "774364793",
       "play": "https://frasilsynth.com/play/",
-      "editor": "https://editor.frasilsynth.com/"
+      "editor": "https://editor.frasilsynth.com/",
+      "installs": 2069,
+      "stars": 22
     },
     {
       "id": "frodhes",
@@ -2188,7 +2416,9 @@
       "tag": "v0.9.11",
       "assetId": "739247494",
       "play": "https://leonardomirabal.github.io/frodhes/",
-      "editor": ""
+      "editor": "",
+      "installs": 313,
+      "stars": 15
     },
     {
       "id": "fumi",
@@ -2207,7 +2437,9 @@
       "tag": "fumi-1.1.1",
       "assetId": "763085951",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 349,
+      "stars": 21
     },
     {
       "id": "gator",
@@ -2226,7 +2458,9 @@
       "tag": "v0.6",
       "assetId": "649930557",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 29,
+      "stars": 8
     },
     {
       "id": "ghoulbox",
@@ -2245,7 +2479,9 @@
       "tag": "ghoulbox-v2.4",
       "assetId": "672093892",
       "play": "",
-      "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/"
+      "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/",
+      "installs": 2050,
+      "stars": 94
     },
     {
       "id": "glitch",
@@ -2264,7 +2500,9 @@
       "tag": "v2.0.2",
       "assetId": "752167888",
       "play": "https://saulofilho.github.io/glitch/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 50,
+      "stars": 0
     },
     {
       "id": "golana",
@@ -2283,7 +2521,9 @@
       "tag": "golana-v1.3",
       "assetId": "677928842",
       "play": "https://gadlele.github.io/Golana/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 386,
+      "stars": 12
     },
     {
       "id": "golanadz",
@@ -2302,7 +2542,9 @@
       "tag": "v0.1.0-beta",
       "assetId": "648999882",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 9,
+      "stars": 0
     },
     {
       "id": "golf",
@@ -2321,7 +2563,9 @@
       "tag": "v1.0",
       "assetId": "748771654",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 20,
+      "stars": 2
     },
     {
       "id": "grimm",
@@ -2340,7 +2584,9 @@
       "tag": "v2.0.2",
       "assetId": "706782910",
       "play": "https://grimmbient.github.io/grimm/",
-      "editor": "https://grimmbient.github.io/grimm/editor.html"
+      "editor": "https://grimmbient.github.io/grimm/editor.html",
+      "installs": 2271,
+      "stars": 54
     },
     {
       "id": "guitchordi",
@@ -2359,7 +2605,9 @@
       "tag": "v0.1.0-beta.1",
       "assetId": "679511929",
       "play": "https://stoogs.github.io/guitchordi/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 112,
+      "stars": 2
     },
     {
       "id": "guru600",
@@ -2378,7 +2626,9 @@
       "tag": "v1.3.1",
       "assetId": "768046520",
       "play": "https://guru-600.com/jouer/",
-      "editor": "https://marcgoudy.github.io/guru-600/editor/"
+      "editor": "https://marcgoudy.github.io/guru-600/editor/",
+      "installs": 351,
+      "stars": 8
     },
     {
       "id": "h1",
@@ -2397,7 +2647,9 @@
       "tag": "v0.3.0",
       "assetId": "773098068",
       "play": "https://jakehandy.github.io/fm1-browser-simulator/?fw=h1",
-      "editor": "https://jakehandy.com/h1"
+      "editor": "https://jakehandy.com/h1",
+      "installs": 183,
+      "stars": 14
     },
     {
       "id": "hadal1",
@@ -2416,7 +2668,9 @@
       "tag": "v1.0.1",
       "assetId": "752004583",
       "play": "https://sparky480v.github.io/hadal-1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 178,
+      "stars": 2
     },
     {
       "id": "hawkchua",
@@ -2435,7 +2689,9 @@
       "tag": "v2.1.7",
       "assetId": "751699965",
       "play": "https://plieuw.github.io/hawk-chua/webapp/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 44,
+      "stars": 1
     },
     {
       "id": "hera",
@@ -2454,7 +2710,9 @@
       "tag": "v1.1",
       "assetId": "663933080",
       "play": "https://benbadio.github.io/hera-fm1/",
-      "editor": ""
+      "editor": "",
+      "installs": 87,
+      "stars": 1
     },
     {
       "id": "hortator",
@@ -2473,7 +2731,9 @@
       "tag": "drum-v1.0.1",
       "assetId": "707434606",
       "play": "https://deadactive.github.io/hortator/",
-      "editor": ""
+      "editor": "",
+      "installs": 842,
+      "stars": 64
     },
     {
       "id": "hortator-bt",
@@ -2492,7 +2752,9 @@
       "tag": "drum-v1.0.1",
       "assetId": "707434610",
       "play": "https://deadactive.github.io/hortator/",
-      "editor": ""
+      "editor": "",
+      "installs": 99,
+      "stars": 64
     },
     {
       "id": "hungrytravis",
@@ -2511,7 +2773,9 @@
       "tag": "fm1-797",
       "assetId": "729719855",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 13,
+      "stars": 0
     },
     {
       "id": "hyp1",
@@ -2530,7 +2794,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://rustypawz.github.io/fm1-HYP1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 1006,
+      "stars": 32
     },
     {
       "id": "j6",
@@ -2549,7 +2815,9 @@
       "tag": "v1.4.0",
       "assetId": "689740915",
       "play": "",
-      "editor": "https://jackiealacrity2373.github.io/fm1-j6/"
+      "editor": "https://jackiealacrity2373.github.io/fm1-j6/",
+      "installs": 138,
+      "stars": 3
     },
     {
       "id": "jam",
@@ -2568,7 +2836,9 @@
       "tag": "jam-1.2.0",
       "assetId": "689197583",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 48,
+      "stars": 0
     },
     {
       "id": "jamtrack",
@@ -2587,7 +2857,9 @@
       "tag": "v0.2.3",
       "assetId": "728597400",
       "play": "https://philip-bos.github.io/jamtrack-fm1/emulator/",
-      "editor": "https://philip-bos.github.io/jamtrack-fm1/"
+      "editor": "https://philip-bos.github.io/jamtrack-fm1/",
+      "installs": 130,
+      "stars": 11
     },
     {
       "id": "jangada",
@@ -2606,7 +2878,9 @@
       "tag": "v1.0.1",
       "assetId": "647395558",
       "play": "https://zednaked.github.io/jangada/webapp/studio/",
-      "editor": "https://zednaked.github.io/jangada/webapp/editor/"
+      "editor": "https://zednaked.github.io/jangada/webapp/editor/",
+      "installs": 129,
+      "stars": 39
     },
     {
       "id": "jiant",
@@ -2625,7 +2899,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=jiant",
-      "editor": "https://juanjiant-bit.github.io/JIANT/webapp/editor/"
+      "editor": "https://juanjiant-bit.github.io/JIANT/webapp/editor/",
+      "installs": 9108,
+      "stars": 262
     },
     {
       "id": "juicy",
@@ -2644,7 +2920,9 @@
       "tag": "v0.1",
       "assetId": "751419703",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 5,
+      "stars": 0
     },
     {
       "id": "kwasub",
@@ -2663,7 +2941,9 @@
       "tag": "v1.2.1b",
       "assetId": "",
       "play": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/emulator/index.html",
-      "editor": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/data.html"
+      "editor": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/data.html",
+      "installs": 372,
+      "stars": 6
     },
     {
       "id": "karma",
@@ -2682,7 +2962,9 @@
       "tag": "v3.1.5",
       "assetId": "759678881",
       "play": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/emu/",
-      "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/"
+      "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/",
+      "installs": 587,
+      "stars": 30
     },
     {
       "id": "kawa",
@@ -2701,7 +2983,9 @@
       "tag": "v0.9",
       "assetId": "",
       "play": "https://guizmoh.github.io/Kawa-Tracker-Fm1/emulator/",
-      "editor": ""
+      "editor": "",
+      "installs": 230,
+      "stars": 16
     },
     {
       "id": "keystepone",
@@ -2720,7 +3004,9 @@
       "tag": "v0.5.42",
       "assetId": "731254867",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 4,
+      "stars": 1
     },
     {
       "id": "kittenrack",
@@ -2739,7 +3025,9 @@
       "tag": "v1.5.0",
       "assetId": "752635626",
       "play": "https://blackkittendevices.github.io/kitten-rack/play.html",
-      "editor": "https://blackkittendevices.github.io/kitten-rack/"
+      "editor": "https://blackkittendevices.github.io/kitten-rack/",
+      "installs": 27,
+      "stars": 8
     },
     {
       "id": "kitten",
@@ -2758,7 +3046,9 @@
       "tag": "v2.8-kitten.14",
       "assetId": "773333564",
       "play": "https://blackkittendevices.github.io/Kitten-Synths/play/?fw=kittensynths&mhz=60&latency=0.25",
-      "editor": "https://blackkittendevices.github.io/Kitten-Synths/site/webapp/editor/"
+      "editor": "https://blackkittendevices.github.io/Kitten-Synths/site/webapp/editor/",
+      "installs": 183,
+      "stars": 7
     },
     {
       "id": "kriechstrom",
@@ -2777,7 +3067,9 @@
       "tag": "v0.5.2",
       "assetId": "770031323",
       "play": "https://fm1-emulator.atst.tools/?firmware=kriechstrom",
-      "editor": "https://xforsa.github.io/kriechstrom/webapp/editor/"
+      "editor": "https://xforsa.github.io/kriechstrom/webapp/editor/",
+      "installs": 52,
+      "stars": 2
     },
     {
       "id": "krisjangle",
@@ -2796,7 +3088,9 @@
       "tag": "v0.15",
       "assetId": "768858384",
       "play": "https://doohinkus.github.io/kris-jangle/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 3,
+      "stars": 1
     },
     {
       "id": "kurzhaar",
@@ -2815,7 +3109,9 @@
       "tag": "v1.1",
       "assetId": "748954713",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 11,
+      "stars": 0
     },
     {
       "id": "lrry",
@@ -2834,7 +3130,9 @@
       "tag": "v0.1.0-beta",
       "assetId": "743829849",
       "play": "https://oscillr.github.io/LRRY/emu/",
-      "editor": "https://oscillr.github.io/LRRY/editor/"
+      "editor": "https://oscillr.github.io/LRRY/editor/",
+      "installs": null,
+      "stars": 4
     },
     {
       "id": "loafbreaker",
@@ -2853,7 +3151,9 @@
       "tag": "loaf-v0.9.70",
       "assetId": "771670028",
       "play": "https://flexor-r.github.io/loaf-breaker/emu/",
-      "editor": "https://flexor-r.github.io/loaf-breaker/breaks/"
+      "editor": "https://flexor-r.github.io/loaf-breaker/breaks/",
+      "installs": 251,
+      "stars": 8
     },
     {
       "id": "loomfm1",
@@ -2872,7 +3172,9 @@
       "tag": "v0.1.0",
       "assetId": "653902486",
       "play": "https://co-oscillator.github.io/Loom-FM-1/",
-      "editor": ""
+      "editor": "",
+      "installs": 60,
+      "stars": 5
     },
     {
       "id": "loom",
@@ -2891,7 +3193,9 @@
       "tag": "v0.17.1",
       "assetId": "772578207",
       "play": "https://charlesvestal.github.io/fm1-loom/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 1259,
+      "stars": 86
     },
     {
       "id": "loopheads",
@@ -2910,7 +3214,9 @@
       "tag": "v0.1.2",
       "assetId": "766040989",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=loopheads&mhz=100#play",
-      "editor": ""
+      "editor": "",
+      "installs": 11,
+      "stars": 0
     },
     {
       "id": "lsdjburrito",
@@ -2929,7 +3235,9 @@
       "tag": "v0.9.97",
       "assetId": "724707112",
       "play": "https://dreamsofbacon.github.io/lsdj-burrito/#emulator-sec",
-      "editor": "https://dreamsofbacon.github.io/lsdj-burrito/#connect"
+      "editor": "https://dreamsofbacon.github.io/lsdj-burrito/#connect",
+      "installs": null,
+      "stars": 2
     },
     {
       "id": "luxr",
@@ -2948,7 +3256,9 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 19,
+      "stars": 6
     },
     {
       "id": "mpyre",
@@ -2967,7 +3277,9 @@
       "tag": "v1.0.3",
       "assetId": "732696982",
       "play": "https://historyofsky.github.io/m-pyre/emu/",
-      "editor": "https://historyofsky.github.io/m-pyre/webapp/editor/"
+      "editor": "https://historyofsky.github.io/m-pyre/webapp/editor/",
+      "installs": 151,
+      "stars": 23
     },
     {
       "id": "mvance",
@@ -2986,7 +3298,9 @@
       "tag": "v2.6.3",
       "assetId": "760801973",
       "play": "https://bk40-home.github.io/M-vance/sim/",
-      "editor": "https://bk40-home.github.io/M-vance/sim/bank/editor.html"
+      "editor": "https://bk40-home.github.io/M-vance/sim/bank/editor.html",
+      "installs": 18,
+      "stars": 2
     },
     {
       "id": "mvsynth2",
@@ -3005,7 +3319,9 @@
       "tag": "v1.5.2",
       "assetId": "769702391",
       "play": "https://bk40-home.github.io/M-Vsynth2/sim/",
-      "editor": "https://bk40-home.github.io/M-Vsynth2/library.html"
+      "editor": "https://bk40-home.github.io/M-Vsynth2/library.html",
+      "installs": 38,
+      "stars": 7
     },
     {
       "id": "makohai",
@@ -3024,7 +3340,9 @@
       "tag": "v1.4",
       "assetId": "711152595",
       "play": "https://delirioux.github.io/makohai/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 31,
+      "stars": 2
     },
     {
       "id": "maku",
@@ -3043,7 +3361,9 @@
       "tag": "maku-v1.0",
       "assetId": "646329532",
       "play": "https://okumurari2.github.io/maku/",
-      "editor": ""
+      "editor": "",
+      "installs": 288,
+      "stars": 25
     },
     {
       "id": "manifold",
@@ -3062,7 +3382,9 @@
       "tag": "v1.0.6",
       "assetId": "768476206",
       "play": "https://stets43.github.io/Manifold/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 41,
+      "stars": 5
     },
     {
       "id": "manta",
@@ -3081,7 +3403,9 @@
       "tag": "v1.1",
       "assetId": "752559718",
       "play": "https://delirioux.github.io/manta/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 28,
+      "stars": 0
     },
     {
       "id": "matryoshka",
@@ -3100,7 +3424,9 @@
       "tag": "v1.23.0",
       "assetId": "773165866",
       "play": "https://matryoshka.lol/#emu",
-      "editor": "https://matryoshka.lol/"
+      "editor": "https://matryoshka.lol/",
+      "installs": 5,
+      "stars": 10
     },
     {
       "id": "mc1",
@@ -3119,7 +3445,9 @@
       "tag": "v1.2.0",
       "assetId": "659760508",
       "play": "https://dspaudio.github.io/mc-1/",
-      "editor": ""
+      "editor": "",
+      "installs": 69,
+      "stars": 7
     },
     {
       "id": "melodee",
@@ -3138,7 +3466,9 @@
       "tag": "v1.6.1",
       "assetId": "703362911",
       "play": "",
-      "editor": "https://keremimo.github.io/melodee/webapp/editor/"
+      "editor": "https://keremimo.github.io/melodee/webapp/editor/",
+      "installs": 3410,
+      "stars": 216
     },
     {
       "id": "metronome",
@@ -3157,7 +3487,9 @@
       "tag": "v0.4",
       "assetId": "771723523",
       "play": "https://daviddwlee84.github.io/fm1-metronome/web/try/",
-      "editor": "https://daviddwlee84.github.io/fm1-metronome/web/"
+      "editor": "https://daviddwlee84.github.io/fm1-metronome/web/",
+      "installs": null,
+      "stars": 1
     },
     {
       "id": "midimon",
@@ -3176,7 +3508,9 @@
       "tag": "v0.5",
       "assetId": "722794500",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 10,
+      "stars": 5
     },
     {
       "id": "mightyarp",
@@ -3195,7 +3529,9 @@
       "tag": "v1.5",
       "assetId": "755689931",
       "play": "https://nickculbertson.github.io/FM1-Mighty-Arp/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 12,
+      "stars": 3
     },
     {
       "id": "mikufm",
@@ -3214,7 +3550,9 @@
       "tag": "v0.9",
       "assetId": "768115209",
       "play": "https://michaelaperry.github.io/MIKU-FM1/fm1-emu/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 2
     },
     {
       "id": "min1",
@@ -3233,7 +3571,9 @@
       "tag": "v0.2.1",
       "assetId": "645975454",
       "play": "https://reytian.github.io/fm1-min1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 127,
+      "stars": 7
     },
     {
       "id": "minigrain",
@@ -3252,7 +3592,9 @@
       "tag": "mini-grain-1.0.0",
       "assetId": "750325242",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 8,
+      "stars": 0
     },
     {
       "id": "miniju08",
@@ -3271,7 +3613,9 @@
       "tag": "mini-ju08-1.00",
       "assetId": "750397407",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 7,
+      "stars": 1
     },
     {
       "id": "minitone",
@@ -3290,7 +3634,9 @@
       "tag": "minitone-1.0.5",
       "assetId": "677771317",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 303,
+      "stars": 6
     },
     {
       "id": "mnm1",
@@ -3309,7 +3655,9 @@
       "tag": "v1.0.1",
       "assetId": "681595605",
       "play": "https://galfaroth.github.io/mnm1/",
-      "editor": ""
+      "editor": "",
+      "installs": 239,
+      "stars": 9
     },
     {
       "id": "modelar",
@@ -3328,7 +3676,9 @@
       "tag": "v0.3",
       "assetId": "665811235",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 88,
+      "stars": 1
     },
     {
       "id": "monk",
@@ -3347,7 +3697,9 @@
       "tag": "v0.10",
       "assetId": "714645699",
       "play": "https://charlesvestal.github.io/fm1-monk/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 371,
+      "stars": 12
     },
     {
       "id": "mono2k",
@@ -3366,7 +3718,9 @@
       "tag": "v1.13",
       "assetId": "772186380",
       "play": "https://inigohernandez.github.io/mono2k/",
-      "editor": "https://inigohernandez.github.io/mono2k/editor.html"
+      "editor": "https://inigohernandez.github.io/mono2k/editor.html",
+      "installs": 736,
+      "stars": 28
     },
     {
       "id": "monohull",
@@ -3385,7 +3739,9 @@
       "tag": "v0.2.0",
       "assetId": "674730646",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 11,
+      "stars": 1
     },
     {
       "id": "mope1",
@@ -3404,7 +3760,9 @@
       "tag": "v0.5.0",
       "assetId": "775295813",
       "play": "https://slothpallas.github.io/mope-1/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 87,
+      "stars": 3
     },
     {
       "id": "morpheus",
@@ -3423,7 +3781,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://benbadio.github.io/morpheus-fm1/",
-      "editor": ""
+      "editor": "",
+      "installs": 15,
+      "stars": 1
     },
     {
       "id": "morse",
@@ -3442,7 +3802,9 @@
       "tag": "v0.8",
       "assetId": "763199794",
       "play": "https://daviddwlee84.github.io/fm1-morse/web/try/",
-      "editor": "https://daviddwlee84.github.io/fm1-morse/web/"
+      "editor": "https://daviddwlee84.github.io/fm1-morse/web/",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "moss1",
@@ -3461,7 +3823,9 @@
       "tag": "v1.0",
       "assetId": "746011925",
       "play": "https://theowecker.github.io/fm1-moss/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 13,
+      "stars": 0
     },
     {
       "id": "mutable",
@@ -3480,7 +3844,9 @@
       "tag": "v2.3",
       "assetId": "756362559",
       "play": "https://kidbee85-beep.github.io/mutable-dreams/Mutable-Dreams-2.3.html",
-      "editor": "https://kidbee85-beep.github.io/mutable-dreams/Mutable-Dreams-2.3.html#device-editor"
+      "editor": "https://kidbee85-beep.github.io/mutable-dreams/Mutable-Dreams-2.3.html#device-editor",
+      "installs": 2957,
+      "stars": 34
     },
     {
       "id": "mycelium",
@@ -3499,7 +3865,9 @@
       "tag": "v1.0-test",
       "assetId": "639418372",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 108,
+      "stars": 5
     },
     {
       "id": "nachtfahrt",
@@ -3518,7 +3886,9 @@
       "tag": "v1.0.2",
       "assetId": "749397400",
       "play": "https://fartypants.github.io/fm1-nachtfahrt/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 947,
+      "stars": 25
     },
     {
       "id": "nauclerus",
@@ -3537,7 +3907,9 @@
       "tag": "v1.1.0",
       "assetId": "775528438",
       "play": "https://mr-roboto.github.io/nauclerus/#play",
-      "editor": ""
+      "editor": "",
+      "installs": 84,
+      "stars": 1
     },
     {
       "id": "nccnovationcircuitcompan",
@@ -3556,7 +3928,9 @@
       "tag": "v0.7",
       "assetId": "750605204",
       "play": "https://fenderberg.github.io/fm1-nc-companion/webapp/try/",
-      "editor": "https://fenderberg.github.io/fm1-nc-companion/webapp/manager/"
+      "editor": "https://fenderberg.github.io/fm1-nc-companion/webapp/manager/",
+      "installs": null,
+      "stars": 14
     },
     {
       "id": "neon",
@@ -3575,7 +3949,9 @@
       "tag": "v0.2",
       "assetId": "773566604",
       "play": "https://joakimeriksson.github.io/fm1-emu",
-      "editor": ""
+      "editor": "",
+      "installs": 37,
+      "stars": 0
     },
     {
       "id": "niagara",
@@ -3594,7 +3970,9 @@
       "tag": "v0.3.1",
       "assetId": "759597623",
       "play": "https://evanyerburgh.github.io/niagara-drift/",
-      "editor": ""
+      "editor": "",
+      "installs": 1120,
+      "stars": 21
     },
     {
       "id": "nmsfm",
@@ -3613,7 +3991,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://hericdk.github.io/nomanskyFM/sim/",
-      "editor": ""
+      "editor": "",
+      "installs": 129,
+      "stars": 8
     },
     {
       "id": "noizdemons",
@@ -3632,7 +4012,9 @@
       "tag": "v666",
       "assetId": "775308264",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 266,
+      "stars": 9
     },
     {
       "id": "obervave",
@@ -3651,7 +4033,9 @@
       "tag": "v3.5.2",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=obervave",
-      "editor": ""
+      "editor": "",
+      "installs": 3468,
+      "stars": 65
     },
     {
       "id": "obssynthfm1",
@@ -3670,7 +4054,9 @@
       "tag": "v0.2.0",
       "assetId": "752323910",
       "play": "https://orianbsilva.github.io/obssynth-fm1/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "ombak",
@@ -3689,7 +4075,9 @@
       "tag": "v1.2",
       "assetId": "714993260",
       "play": "https://madmooneyham.github.io/Ombak/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 61,
+      "stars": 0
     },
     {
       "id": "opn1",
@@ -3708,7 +4096,9 @@
       "tag": "v2.0.1",
       "assetId": "743860179",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 85,
+      "stars": 1
     },
     {
       "id": "orbit",
@@ -3727,7 +4117,9 @@
       "tag": "v1.0.1B",
       "assetId": "709278443",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 360,
+      "stars": 42
     },
     {
       "id": "orbita",
@@ -3746,7 +4138,9 @@
       "tag": "v2.0.12",
       "assetId": "769300422",
       "play": "https://drophlex.github.io/ORBITA/",
-      "editor": ""
+      "editor": "",
+      "installs": 18,
+      "stars": 1
     },
     {
       "id": "orgigs",
@@ -3765,7 +4159,9 @@
       "tag": "v1.1",
       "assetId": "772421324",
       "play": "https://orgelbobo.github.io/orgigs/try/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "paperlagoon",
@@ -3784,7 +4180,9 @@
       "tag": "v1.1",
       "assetId": "746687033",
       "play": "https://hacha.github.io/paperlagoon/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 31,
+      "stars": 0
     },
     {
       "id": "patchwerk",
@@ -3803,7 +4201,9 @@
       "tag": "v1.0.3",
       "assetId": "725151093",
       "play": "https://mattkuebrich.com/patchwerk/",
-      "editor": "https://mattkuebrich.com/patchwerk/"
+      "editor": "https://mattkuebrich.com/patchwerk/",
+      "installs": 75,
+      "stars": 12
     },
     {
       "id": "penumbra",
@@ -3822,7 +4222,9 @@
       "tag": "v1.9",
       "assetId": "773086834",
       "play": "https://madmooneyham.github.io/Penumbra/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 305,
+      "stars": 1
     },
     {
       "id": "perf1",
@@ -3841,7 +4243,9 @@
       "tag": "v0.17.0",
       "assetId": "721948022",
       "play": "https://deamonslinky.github.io/PERF-1/emu/",
-      "editor": "https://deamonslinky.github.io/PERF-1/editor/"
+      "editor": "https://deamonslinky.github.io/PERF-1/editor/",
+      "installs": 653,
+      "stars": 16
     },
     {
       "id": "pigeon",
@@ -3860,7 +4264,9 @@
       "tag": "v0.5.0-beta.1",
       "assetId": "",
       "play": "https://theshrimpblimp.com/pigeon/webapp/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 55,
+      "stars": 10
     },
     {
       "id": "pingos1",
@@ -3879,7 +4285,9 @@
       "tag": "v1.0.1",
       "assetId": "771831434",
       "play": "https://pingaudio.github.io/PING-OS-1/#play",
-      "editor": "https://pingaudio.github.io/PING-OS-1/#transfer"
+      "editor": "https://pingaudio.github.io/PING-OS-1/#transfer",
+      "installs": 27,
+      "stars": 0
     },
     {
       "id": "piterfly",
@@ -3898,7 +4306,9 @@
       "tag": "1.2.5",
       "assetId": "761057933",
       "play": "https://piotrwozniak.github.io/piterfly/webapp/editor/?mock=1",
-      "editor": "https://piotrwozniak.github.io/piterfly/webapp/editor/"
+      "editor": "https://piotrwozniak.github.io/piterfly/webapp/editor/",
+      "installs": 8,
+      "stars": 1
     },
     {
       "id": "playa",
@@ -3917,7 +4327,9 @@
       "tag": "playa-v0.1",
       "assetId": "733671213",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 1,
+      "stars": 1
     },
     {
       "id": "plissken",
@@ -3936,7 +4348,9 @@
       "tag": "v0.15",
       "assetId": "772556016",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 1
     },
     {
       "id": "pocketband",
@@ -3955,7 +4369,9 @@
       "tag": "v0.4",
       "assetId": "735144695",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 16,
+      "stars": 0
     },
     {
       "id": "gammawave",
@@ -3974,7 +4390,9 @@
       "tag": "v1.2.1-GW",
       "assetId": "679495490",
       "play": "https://fvalente.github.io/GammaWave-FM1/",
-      "editor": "https://fvalente.github.io/GammaWave-FM1/webapp/editor/?mock=1"
+      "editor": "https://fvalente.github.io/GammaWave-FM1/webapp/editor/?mock=1",
+      "installs": 143,
+      "stars": 11
     },
     {
       "id": "polly",
@@ -3993,7 +4411,9 @@
       "tag": "v0.6.4",
       "assetId": "742757164",
       "play": "https://charlesvestal.github.io/fm1-polly/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 135,
+      "stars": 28
     },
     {
       "id": "ptfm",
@@ -4012,7 +4432,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://hitosu.github.io/ptfm/emulator/",
-      "editor": "https://hitosu.github.io/ptfm/editor/"
+      "editor": "https://hitosu.github.io/ptfm/editor/",
+      "installs": 62,
+      "stars": 12
     },
     {
       "id": "pulhra",
@@ -4031,7 +4453,9 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 48,
+      "stars": 3
     },
     {
       "id": "purplemonkey",
@@ -4050,7 +4474,9 @@
       "tag": "v0.12",
       "assetId": "723616634",
       "play": "https://quixotic7.github.io/PurpleMonkeyFM1/",
-      "editor": ""
+      "editor": "",
+      "installs": 188,
+      "stars": 9
     },
     {
       "id": "quantumgammawave",
@@ -4069,7 +4495,9 @@
       "tag": "v1.6.0",
       "assetId": "775078515",
       "play": "https://guillel51.github.io/Quantum-GammaWave/emulator/",
-      "editor": "https://guillel51.github.io/Quantum-GammaWave/webapp/editor/"
+      "editor": "https://guillel51.github.io/Quantum-GammaWave/webapp/editor/",
+      "installs": 30,
+      "stars": 3
     },
     {
       "id": "quartet",
@@ -4088,7 +4516,9 @@
       "tag": "v2.4",
       "assetId": "771806001",
       "play": "https://mammothcheese.github.io/quartet/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 22,
+      "stars": 1
     },
     {
       "id": "quartz",
@@ -4107,7 +4537,9 @@
       "tag": "v0.10",
       "assetId": "775105938",
       "play": "https://f0nski.github.io/quartz/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 10,
+      "stars": 0
     },
     {
       "id": "rainbow",
@@ -4126,7 +4558,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://joshbartlettband-web.github.io/felucca-rainbow/webapp/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 860,
+      "stars": 24
     },
     {
       "id": "rakt",
@@ -4145,7 +4579,9 @@
       "tag": "v0.1.8",
       "assetId": "744681102",
       "play": "https://chasedeanda.github.io/rakt-fm1/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 9,
+      "stars": 2
     },
     {
       "id": "rambeaver",
@@ -4164,7 +4600,9 @@
       "tag": "v745-hub",
       "assetId": "733870065",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 21,
+      "stars": 1
     },
     {
       "id": "ravel",
@@ -4183,7 +4621,9 @@
       "tag": "v1.43.1",
       "assetId": "774910936",
       "play": "https://de-pattern.github.io/Ravel_FM1/",
-      "editor": ""
+      "editor": "",
+      "installs": 755,
+      "stars": 36
     },
     {
       "id": "remotefm1",
@@ -4202,7 +4642,9 @@
       "tag": "v0.4.0",
       "assetId": "770358533",
       "play": "",
-      "editor": "https://remotefm1.com/"
+      "editor": "https://remotefm1.com/",
+      "installs": 24,
+      "stars": 51
     },
     {
       "id": "rhythmer",
@@ -4221,7 +4663,9 @@
       "tag": "v0.1.1-beta3",
       "assetId": "723111726",
       "play": "https://jazzyrhythmer.github.io/rhythmer/#play",
-      "editor": "https://jazzyrhythmer.github.io/rhythmer/editor/"
+      "editor": "https://jazzyrhythmer.github.io/rhythmer/editor/",
+      "installs": null,
+      "stars": 15
     },
     {
       "id": "rhytmsec1",
@@ -4240,7 +4684,9 @@
       "tag": "v1.4.2",
       "assetId": "739753431",
       "play": "https://joakimeriksson.github.io/fm1-emu/?package=https://hamperj.github.io/rhytm-sec-1/rhytm-sec-1.fwsc&name=RHYTM-SEC-1&mhz=60",
-      "editor": ""
+      "editor": "",
+      "installs": 25,
+      "stars": 2
     },
     {
       "id": "ruido",
@@ -4259,7 +4705,9 @@
       "tag": "v0.7.2",
       "assetId": "774668057",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 33,
+      "stars": 0
     },
     {
       "id": "rupture",
@@ -4278,7 +4726,9 @@
       "tag": "V2.0.14",
       "assetId": "760930172",
       "play": "https://sikkenworks.github.io/RUPTURE/emu/web",
-      "editor": ""
+      "editor": "",
+      "installs": 26,
+      "stars": 2
     },
     {
       "id": "s1vave",
@@ -4297,7 +4747,9 @@
       "tag": "v2.0.1",
       "assetId": "744768707",
       "play": "https://andrewgg.one/s1vave/sim/",
-      "editor": "https://andrewgg.one/s1vave/editor/"
+      "editor": "https://andrewgg.one/s1vave/editor/",
+      "installs": 537,
+      "stars": 17
     },
     {
       "id": "samsara",
@@ -4316,7 +4768,9 @@
       "tag": "v1.0.0",
       "assetId": "760072729",
       "play": "https://tomorrowsman.github.io/fm1-samsara/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 21,
+      "stars": 0
     },
     {
       "id": "sardine",
@@ -4335,7 +4789,9 @@
       "tag": "v1.0.6",
       "assetId": "725131687",
       "play": "https://delirioux.github.io/sardine/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 15,
+      "stars": 0
     },
     {
       "id": "satie1",
@@ -4354,7 +4810,9 @@
       "tag": "v0.1.3-beta",
       "assetId": "730452722",
       "play": "https://ockm-studio.github.io/SATIE-1/",
-      "editor": ""
+      "editor": "",
+      "installs": 132,
+      "stars": 6
     },
     {
       "id": "scintilla",
@@ -4373,7 +4831,9 @@
       "tag": "v0.3.2",
       "assetId": "741256715",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 126,
+      "stars": 2
     },
     {
       "id": "shineon",
@@ -4392,7 +4852,9 @@
       "tag": "v3.5",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=shineon",
-      "editor": ""
+      "editor": "",
+      "installs": 224,
+      "stars": 8
     },
     {
       "id": "sid1",
@@ -4411,7 +4873,9 @@
       "tag": "v1.0.1",
       "assetId": "743868680",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 82,
+      "stars": 0
     },
     {
       "id": "sidj",
@@ -4430,7 +4894,9 @@
       "tag": "v1.5.1",
       "assetId": "720128212",
       "play": "https://thomasj.github.io/fm1-sidj/emu/",
-      "editor": "https://thomasj.github.io/fm1-sidj/#songs"
+      "editor": "https://thomasj.github.io/fm1-sidj/#songs",
+      "installs": 22,
+      "stars": 3
     },
     {
       "id": "sidou",
@@ -4449,7 +4915,9 @@
       "tag": "v2.0.0",
       "assetId": "764717880",
       "play": "https://dsablic.github.io/sidou/",
-      "editor": "https://dsablic.github.io/sidou/editor.html"
+      "editor": "https://dsablic.github.io/sidou/editor.html",
+      "installs": 111,
+      "stars": 10
     },
     {
       "id": "sill",
@@ -4468,7 +4936,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/sill/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 106,
+      "stars": 1
     },
     {
       "id": "sillage",
@@ -4487,7 +4957,9 @@
       "tag": "v2.2.0",
       "assetId": "764699189",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 5
     },
     {
       "id": "skiff",
@@ -4506,7 +4978,9 @@
       "tag": "v2.7",
       "assetId": "756971959",
       "play": "https://illuminus5.github.io/skiff/try/",
-      "editor": "https://illuminus5.github.io/skiff/webapp/editor/"
+      "editor": "https://illuminus5.github.io/skiff/webapp/editor/",
+      "installs": 6870,
+      "stars": 196
     },
     {
       "id": "atlatl",
@@ -4525,7 +4999,9 @@
       "tag": "V1.2",
       "assetId": "745751282",
       "play": "https://likst4.github.io/skiff-atlatl/emu/",
-      "editor": "https://likst4.github.io/skiff-atlatl/editor/"
+      "editor": "https://likst4.github.io/skiff-atlatl/editor/",
+      "installs": 87,
+      "stars": 6
     },
     {
       "id": "sloop",
@@ -4544,7 +5020,9 @@
       "tag": "v2.8.5",
       "assetId": "707958195",
       "play": "",
-      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/"
+      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
+      "installs": 13350,
+      "stars": 845
     },
     {
       "id": "sloopbanks",
@@ -4563,7 +5041,9 @@
       "tag": "v2.5-b28-test",
       "assetId": "624879197",
       "play": "",
-      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/"
+      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
+      "installs": 219,
+      "stars": 5
     },
     {
       "id": "floyd",
@@ -4582,7 +5062,9 @@
       "tag": "v2.4",
       "assetId": "614611131",
       "play": "",
-      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/"
+      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
+      "installs": 130,
+      "stars": 3
     },
     {
       "id": "sloopdub",
@@ -4601,7 +5083,9 @@
       "tag": "v1.8",
       "assetId": "773292934",
       "play": "https://altessproduction.github.io/sloop-dub-fm1/dub/",
-      "editor": "https://altessproduction.github.io/sloop-dub-fm1/webapp/editor/"
+      "editor": "https://altessproduction.github.io/sloop-dub-fm1/webapp/editor/",
+      "installs": 169,
+      "stars": 5
     },
     {
       "id": "sloopdx",
@@ -4620,7 +5104,9 @@
       "tag": "v4.0.1",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=dxsloop",
-      "editor": "https://dx7.designburgapps.com/webapp/editor/"
+      "editor": "https://dx7.designburgapps.com/webapp/editor/",
+      "installs": 582,
+      "stars": 28
     },
     {
       "id": "smileyface",
@@ -4639,7 +5125,9 @@
       "tag": "v1.3.0-tutorialtime",
       "assetId": "746021396",
       "play": "https://ihavenocluewhatimdoing.com/smileyface/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 187,
+      "stars": 0
     },
     {
       "id": "spampy",
@@ -4658,7 +5146,9 @@
       "tag": "v1.1-r058",
       "assetId": "751360748",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 1018,
+      "stars": 6
     },
     {
       "id": "spellbox",
@@ -4677,7 +5167,9 @@
       "tag": "v0.3",
       "assetId": "685280753",
       "play": "https://pjac1810.github.io/spellbox/",
-      "editor": ""
+      "editor": "",
+      "installs": 49,
+      "stars": 2
     },
     {
       "id": "splitmilk",
@@ -4696,7 +5188,9 @@
       "tag": "v1.0",
       "assetId": "737355053",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=splitmilk&mhz=60",
-      "editor": ""
+      "editor": "",
+      "installs": 18,
+      "stars": 1
     },
     {
       "id": "sq80",
@@ -4715,7 +5209,9 @@
       "tag": "v0.14.0",
       "assetId": "766326709",
       "play": "https://leonardolopezchavira.github.io/sq80-fm1/emu/",
-      "editor": "https://leonardolopezchavira.github.io/sq80-fm1/edit/"
+      "editor": "https://leonardolopezchavira.github.io/sq80-fm1/edit/",
+      "installs": 18,
+      "stars": 2
     },
     {
       "id": "stallion",
@@ -4734,7 +5230,9 @@
       "tag": "v1.1",
       "assetId": "759141895",
       "play": "",
-      "editor": "https://eberonltd.github.io/stallion-fm1/webapp/editor/"
+      "editor": "https://eberonltd.github.io/stallion-fm1/webapp/editor/",
+      "installs": 15,
+      "stars": 3
     },
     {
       "id": "sy1",
@@ -4753,7 +5251,9 @@
       "tag": "v1.0.0",
       "assetId": "774977415",
       "play": "https://fenderberg.github.io/fm1-sy1/emu/",
-      "editor": "https://fenderberg.github.io/fm1-sy1/manager/"
+      "editor": "https://fenderberg.github.io/fm1-sy1/manager/",
+      "installs": 13,
+      "stars": 19
     },
     {
       "id": "tack",
@@ -4772,7 +5272,9 @@
       "tag": "v0.15.0",
       "assetId": "746978942",
       "play": "https://oikoaudio.com/tack/fm1/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 5,
+      "stars": 2
     },
     {
       "id": "tastywaves",
@@ -4791,7 +5293,9 @@
       "tag": "v1.0.1",
       "assetId": "676578265",
       "play": "https://marksweiss.github.io/tastywaves/",
-      "editor": "https://marksweiss.github.io/tastywaves/"
+      "editor": "https://marksweiss.github.io/tastywaves/",
+      "installs": 54,
+      "stars": 7
     },
     {
       "id": "tekstuur",
@@ -4810,7 +5314,9 @@
       "tag": "v2.0",
       "assetId": "748771850",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 1,
+      "stars": 1
     },
     {
       "id": "tessera",
@@ -4829,7 +5335,9 @@
       "tag": "v3.7.4",
       "assetId": "770765585",
       "play": "https://rastapopolix.github.io/tessera/webapp/sim/",
-      "editor": "https://rastapopolix.github.io/tessera/webapp/editor/"
+      "editor": "https://rastapopolix.github.io/tessera/webapp/editor/",
+      "installs": 376,
+      "stars": 37
     },
     {
       "id": "tether",
@@ -4848,7 +5356,9 @@
       "tag": "tether-v1.0",
       "assetId": "769824200",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 3
     },
     {
       "id": "textura",
@@ -4867,7 +5377,9 @@
       "tag": "textura-v0.2.9",
       "assetId": "763770696",
       "play": "https://leonardomirabal.github.io/textura/",
-      "editor": ""
+      "editor": "",
+      "installs": 27,
+      "stars": 1
     },
     {
       "id": "tonitor",
@@ -4886,7 +5398,9 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 1386,
+      "stars": 34
     },
     {
       "id": "trapstationos",
@@ -4905,7 +5419,9 @@
       "tag": "v1.1.0.2",
       "assetId": "756561524",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 18,
+      "stars": 2
     },
     {
       "id": "tribe",
@@ -4924,7 +5440,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://apiel.github.io/fm1-tribe/#emulator",
-      "editor": ""
+      "editor": "",
+      "installs": 121,
+      "stars": 14
     },
     {
       "id": "trumpagotchi",
@@ -4943,7 +5461,9 @@
       "tag": "v1.0.1",
       "assetId": "733870039",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 51,
+      "stars": 6
     },
     {
       "id": "tuna",
@@ -4962,7 +5482,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/tuna/try/",
-      "editor": ""
+      "editor": "",
+      "installs": 173,
+      "stars": 5
     },
     {
       "id": "u0u",
@@ -4981,7 +5503,9 @@
       "tag": "v0.4",
       "assetId": "772470537",
       "play": "https://youlisse.github.io/U0U/",
-      "editor": ""
+      "editor": "",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "unholy",
@@ -5000,7 +5524,9 @@
       "tag": "v0.2.3",
       "assetId": "638605896",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 14,
+      "stars": 6
     },
     {
       "id": "valle",
@@ -5019,7 +5545,9 @@
       "tag": "v0.9-alpha",
       "assetId": "765826674",
       "play": "https://tammygucci.github.io/valee/try/",
-      "editor": "https://tammygucci.github.io/valee/webapp/editor/"
+      "editor": "https://tammygucci.github.io/valee/webapp/editor/",
+      "installs": 20,
+      "stars": 1
     },
     {
       "id": "vector37",
@@ -5038,7 +5566,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://genkigenki.github.io/smk37/vector37-sim/",
-      "editor": ""
+      "editor": "",
+      "installs": 92,
+      "stars": 18
     },
     {
       "id": "veffbox",
@@ -5057,7 +5587,9 @@
       "tag": "v0.11.0",
       "assetId": "744444423",
       "play": "https://galfaroth.github.io/veffbox/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 27,
+      "stars": 4
     },
     {
       "id": "vesper",
@@ -5076,7 +5608,9 @@
       "tag": "vesper-2.0.2",
       "assetId": "728562199",
       "play": "https://fatcatstudios-hub.github.io/vesper-fm1/play/",
-      "editor": ""
+      "editor": "",
+      "installs": 237,
+      "stars": 2
     },
     {
       "id": "vibe-link",
@@ -5095,7 +5629,9 @@
       "tag": "v0.4",
       "assetId": "721827310",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 55,
+      "stars": 3
     },
     {
       "id": "viber",
@@ -5114,7 +5650,9 @@
       "tag": "v1.1",
       "assetId": "775007377",
       "play": "https://ant25fr.github.io/viber/try/",
-      "editor": "https://ant25fr.github.io/viber/webapp/editor/"
+      "editor": "https://ant25fr.github.io/viber/webapp/editor/",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "vnl1",
@@ -5133,7 +5671,9 @@
       "tag": "v0.9.2",
       "assetId": "749607760",
       "play": "https://samoltz.com/fm1-vnl/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 12,
+      "stars": 3
     },
     {
       "id": "volna",
@@ -5152,7 +5692,9 @@
       "tag": "v1.1",
       "assetId": "775252179",
       "play": "",
-      "editor": "https://soundplayground.twc1.net/fm1-firmwares/volna/#editor"
+      "editor": "https://soundplayground.twc1.net/fm1-firmwares/volna/#editor",
+      "installs": null,
+      "stars": 0
     },
     {
       "id": "wanderer",
@@ -5171,7 +5713,9 @@
       "tag": "v1.4.0",
       "assetId": "702265047",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 25,
+      "stars": 1
     },
     {
       "id": "waveloop",
@@ -5190,7 +5734,9 @@
       "tag": "1.0.5.2-midi23",
       "assetId": "625442376",
       "play": "",
-      "editor": "https://eli7vh.github.io/Felucca/webapp/editor/"
+      "editor": "https://eli7vh.github.io/Felucca/webapp/editor/",
+      "installs": 217,
+      "stars": 9
     },
     {
       "id": "winampfm",
@@ -5209,7 +5755,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://hericdk.github.io/winampFM/sim/",
-      "editor": ""
+      "editor": "",
+      "installs": 206,
+      "stars": 12
     },
     {
       "id": "x0x",
@@ -5228,7 +5776,9 @@
       "tag": "v1.3",
       "assetId": "775473006",
       "play": "https://charlesvestal.github.io/fm1-x0x/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 2951,
+      "stars": 244
     },
     {
       "id": "x0xrmx",
@@ -5247,7 +5797,9 @@
       "tag": "v1.1.0",
       "assetId": "653363897",
       "play": "https://mr-roboto.github.io/fm1-x0x-rmx/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 134,
+      "stars": 3
     },
     {
       "id": "xenolith",
@@ -5266,7 +5818,9 @@
       "tag": "v1.0",
       "assetId": "757730859",
       "play": "",
-      "editor": ""
+      "editor": "",
+      "installs": 8,
+      "stars": 0
     },
     {
       "id": "xmod",
@@ -5285,7 +5839,9 @@
       "tag": "v1.2.1",
       "assetId": "745049532",
       "play": "https://kotmorderca.github.io/XMOD/sim/",
-      "editor": "https://kotmorderca.github.io/XMOD/"
+      "editor": "https://kotmorderca.github.io/XMOD/",
+      "installs": 40,
+      "stars": 5
     },
     {
       "id": "yehnah",
@@ -5304,7 +5860,9 @@
       "tag": "v0.1.0",
       "assetId": "756577937",
       "play": "https://mello-d.github.io/yehnah/",
-      "editor": ""
+      "editor": "",
+      "installs": 7,
+      "stars": 7
     },
     {
       "id": "zen",
@@ -5323,7 +5881,9 @@
       "tag": "v1.2",
       "assetId": "663723235",
       "play": "https://aceyprime.github.io/zen-1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 1316,
+      "stars": 15
     },
     {
       "id": "zenith1",
@@ -5342,7 +5902,9 @@
       "tag": "v1.0",
       "assetId": "763753269",
       "play": "https://sparky480v.github.io/zenith-1/emu/",
-      "editor": ""
+      "editor": "",
+      "installs": 51,
+      "stars": 0
     },
     {
       "id": "zp12",
@@ -5361,7 +5923,9 @@
       "tag": "",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=zp12n",
-      "editor": "https://zp12.designburgapps.com/editor/"
+      "editor": "https://zp12.designburgapps.com/editor/",
+      "installs": 485,
+      "stars": 38
     }
   ]
 }

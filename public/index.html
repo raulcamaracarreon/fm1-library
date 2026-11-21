@@ -37,13 +37,16 @@
       <div class="filters">
         <label class="search-wrap" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="Buscar JIANT, LOOM, SLOOP, autor, versión..." /></label>
         <label class="select-wrap"><span>Tipo</span><select id="category"><option value="all">Todos</option></select></label>
-        <label class="select-wrap"><span>Ordenar</span><select id="order"><option value="name">Nombre A–Z</option><option value="date">Más recientes</option><option value="author">Autor</option></select></label>
+        <label class="select-wrap"><span>Ordenar</span><select id="order"><option value="name">Nombre A–Z</option><option value="date">Más recientes</option><option value="author">Autor</option><option value="installs">Más instalaciones (Hub)</option><option value="stars">Más estrellas (GitHub)</option></select></label>
+        <label class="select-wrap"><span>Ranking</span><select id="ranking"><option value="all">Todos los rankings</option><option value="installs_top10">Top 10 instalaciones</option><option value="installs_top25">Top 25 instalaciones</option><option value="installs_top50">Top 50 instalaciones</option><option value="installs_min1000">Desde 1,000 instalaciones</option><option value="stars_top10">Top 10 estrellas</option><option value="stars_top25">Top 25 estrellas</option><option value="stars_top50">Top 50 estrellas</option><option value="stars_min50">Desde 50 estrellas</option></select></label>
       </div>
       <div class="toggles">
         <label><input id="hideBetas" type="checkbox" /> Excluir beta</label>
         <label><input id="onlyPlayable" type="checkbox" /> Con versión web</label>
         <label><input id="onlyRecent" type="checkbox" /> Solo novedades</label>
+        <label><input id="onlyRanked" type="checkbox" /> Excluir sin métricas</label>
       </div>
+      <p class="ranking-note">Rankings informativos: instalaciones registradas en The Firmware Hub y estrellas públicas de GitHub. No son reseñas ni una evaluación de calidad. Los Top se calculan sobre el catálogo completo antes de aplicar otros filtros; «—» indica dato no disponible.</p>
       <div id="error" role="alert" class="error hidden"></div>
       <div class="list" id="firmwareList" aria-live="polite"></div>
       <div class="empty hidden" id="empty">No se encontraron firmwares con esos filtros.</div>
