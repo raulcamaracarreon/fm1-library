@@ -38,23 +38,77 @@ function allowedByRanking(f, value){
 }
 function aButton(label, href, cls=''){const a=link(href,label);a.className='button '+cls;return a;}
 
-// Resolución diferida del activo GitHub al pulsar. No recurre al espejo del Hub.
+// Solo se presenta una descarga directa cuando el catálogo identifica un asset de GitHub.
+// Si falta o falla, se muestran alternativas en lugar de redirigir sin explicación.
+function hasDirectAsset(f){
+  return /^\d+$/.test(String(f.assetId||'')) && /^[\w.\-]+\/[\w.\-]+$/.test(String(f.repoSlug||''));
+}
+function downloadActionLabel(f){
+  if(f.id==='jiant')return 'Opciones JIANT ↗';
+  return hasDirectAsset(f)?'Descargar .fwsc ↗':'Ver opciones ↗';
+}
+function showDownloadHelp(f, error=''){
+  const body=$('downloadHelpContent');
+  body.replaceChildren();
+  body.append(el('h3','',f.name+' · '+f.version));
+  const wanted=el('p','help-filename','Archivo del catálogo: ');
+  wanted.append(el('code','',f.pkgFile||'no especificado'));
+  body.append(wanted);
+  const links=el('div','help-links');
+
+  if(f.id==='jiant'){
+    body.append(el('p','',
+      'JIANT no distribuye el .fwsc como descarga independiente en su página actual. El autor retiró esa opción porque instalar solo el paquete en el FM-1 físico puede dejar incompleta la parte Bluetooth. Para hardware, utiliza su instalador oficial.'));
+    body.append(el('p','',
+      'Para Reason o Reaper también existe JIANT VST3 para Windows (edición experimental). Es un instrumento virtual independiente y NO es un .fwsc que se cargue en FM-1 Emulator.'));
+    links.append(aButton('Instalador FM-1 (hardware) ↗',
+      'https://juanjiant-bit.github.io/JIANT/webapp/installer/'));
+    links.append(aButton('Descargar JIANT VST3 Windows (preview) ↗',
+      'https://github.com/juanjiant-bit/JIANT/releases/download/ports-v0.9.18-preview1/JIANT-FM-Windows-v0.9.18-preview1.zip','primary'));
+    links.append(aButton('Ver todas las versiones del autor ↗',
+      'https://github.com/juanjiant-bit/JIANT/releases'));
+    links.append(aButton('Probar JIANT en navegador ↗',
+      'https://juanjiant-bit.github.io/JIANT/emu/'));
+  }else{
+    body.append(el('p','',error ||
+      'El catálogo no incluye un archivo directo verificado para este proyecto. Puedes revisar la publicación del autor y buscar el nombre indicado arriba; algunos desarrolladores utilizan instaladores web en lugar de adjuntar un .fwsc.'));
+    const releaseUrl=validUrl(f.release)?f.release:f.repo;
+    if(validUrl(releaseUrl))links.append(aButton('Publicación del autor ↗',releaseUrl,'primary'));
+    if(/^[\w.\-]+\/[\w.\-]+$/.test(String(f.repoSlug||''))){
+      const ghReleases=`https://github.com/${f.repoSlug}/releases`;
+      if(ghReleases!==releaseUrl)links.append(aButton('Releases de GitHub ↗',ghReleases));
+    }
+    if(validUrl(f.repo))links.append(aButton('Código fuente ↗',f.repo));
+    if(validUrl(f.play))links.append(aButton('Probar en navegador ↗',f.play));
+  }
+  body.append(links);
+  const dialog=$('downloadDialog');
+  if(typeof dialog.showModal==='function')dialog.showModal();
+  else dialog.setAttribute('open','');
+}
 async function openGitHubFirmware(f){
-  const fallback = validUrl(f.release)?f.release:f.repo;
-  // Abrir sincronizadamente para evitar bloqueadores de ventanas emergentes.
+  if(!hasDirectAsset(f)){showDownloadHelp(f);return;}
+  // El contexto de clic permite abrir una pestaña antes de la llamada asíncrona.
   const tab=window.open('about:blank','_blank');
-  if(!tab){window.location.href=fallback;return;}
-  tab.opener = null;
+  if(tab){
+    tab.opener=null;
+    const p=tab.document.createElement('p');
+    p.textContent='Localizando paquete .fwsc en GitHub…';
+    tab.document.body.append(p);
+  }
   try{
-    if(!f.assetId || !/^\d+$/.test(f.assetId) || !/^[\w.\-]+\/[\w.\-]+$/.test(f.repoSlug))throw Error('Sin identificador de archivo');
     const endpoint=`https://api.github.com/repos/${f.repoSlug}/releases/assets/${f.assetId}`;
     const resp=await fetch(endpoint,{headers:{'Accept':'application/vnd.github+json'}});
     if(!resp.ok)throw Error(`GitHub devolvió ${resp.status}`);
     const info=await resp.json();
     const url=info.browser_download_url;
-    if(typeof url!=='string' || !url.startsWith('https://github.com/') || !/\.fwsc(?:\?|$)/i.test(url))throw Error('Enlace no disponible');
-    tab.location.replace(url);
-  }catch(e){tab.location.replace(fallback);}
+    if(typeof url!=='string' || !url.startsWith('https://github.com/') || !/\.fwsc(?:\?|$)/i.test(url))throw Error('No encontramos un adjunto .fwsc verificado');
+    if(tab)tab.location.replace(url);
+    else showDownloadHelp(f,'El navegador bloqueó la pestaña de descarga. Abre la publicación del autor para obtener el archivo.');
+  }catch(e){
+    if(tab)tab.close();
+    showDownloadHelp(f,'No pudimos confirmar una descarga directa desde GitHub ('+e.message+'). No significa necesariamente que no exista; revisa las opciones oficiales.');
+  }
 }
 
 function newCard(f){
@@ -78,10 +132,11 @@ function newCard(f){
   if(validUrl(f.editor))actions.append(link(f.editor,'Editor ↗'));
   actions.append(link(f.repo,'Código ↗'));
   if(f.id==='mvave-original-v15'){
-    actions.append(aButton('Archivo original ↗',f.release,'primary'));
+    actions.append(aButton('Sitio oficial ↗',f.release,'primary'));
   }else{
-    const btn=el('button','button primary','Obtener .fwsc ↗');btn.type='button';
-    btn.title='Busca el archivo original en GitHub; si no se puede, abre la publicación del autor';
+    const direct=hasDirectAsset(f);
+    const btn=el('button',direct?'button primary':'button soft',downloadActionLabel(f));btn.type='button';
+    btn.title=direct?'Buscar el adjunto .fwsc original en GitHub':'Ver alternativas y localizar el paquete sin redirecciones inesperadas';
     btn.addEventListener('click',()=>openGitHubFirmware(f));actions.append(btn);
   }
   row.append(main,vers,cat,actions);return row;

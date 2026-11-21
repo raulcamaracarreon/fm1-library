@@ -50,12 +50,18 @@
       <div id="error" role="alert" class="error hidden"></div>
       <div class="list" id="firmwareList" aria-live="polite"></div>
       <div class="empty hidden" id="empty">No se encontraron firmwares con esos filtros.</div>
+      <p class="download-note">Los archivos <code>.fwsc</code> se descargan desde las publicaciones de sus autores. Si no hay un enlace directo verificable, mostraremos las opciones disponibles en lugar de enviarte a una página sin explicación.</p>
     </section>
     <footer>
       <p><b>Atribución:</b> Firmware list: <a href="https://thefirmwarehub.com/" target="_blank" rel="noopener noreferrer">The Firmware Hub</a> – thefirmwarehub.com · Compilación del catálogo bajo <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>, adaptada para esta interfaz. Los proyectos, marcas y contenidos pertenecen a sus respectivos autores; cada resultado enlaza al repositorio de su creador.</p>
       <p>La biblioteca no distribuye archivos de firmware ni instala nada en el FM-1 físico. Sigue las instrucciones del autor antes de actualizar hardware. Puedes usar los paquetes compatibles en tu VST FM-1 Emulator.</p>
       <p>Proyecto independiente desarrollado por <a href="https://github.com/raulcamaracarreon" target="_blank" rel="noopener noreferrer">Raúl Cámara Carreón</a> · <a href="https://github.com/raulcamaracarreon/fm1-library" target="_blank" rel="noopener noreferrer">Repositorio, documentación y reporte de errores en GitHub ↗</a> · <a href="https://fm1-library.netlify.app/">FM-1 Library</a>.</p>
     </footer>
+    <dialog id="downloadDialog" class="download-dialog" aria-labelledby="downloadTitle">
+      <form method="dialog" class="download-dialog-close"><button class="button soft" aria-label="Cerrar información de descarga">✕ Cerrar</button></form>
+      <h2 id="downloadTitle">Opciones para obtener el firmware</h2>
+      <div id="downloadHelpContent" class="download-help-content"></div>
+    </dialog>
   </main>
 </body>
 </html>

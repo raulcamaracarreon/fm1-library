@@ -128,6 +128,14 @@ La ejecución sin `--from-file` consulta la fuente remota: **no la ejecutes más
 
 Si el sitio muestra un **404**, comprueba que la configuración publica `public/` y que `public/index.html` existe en la raíz de la rama desplegada. Evita subir un ZIP manual como mecanismo definitivo de actualización: conecta Netlify a GitHub.
 
+## Descargas directas y casos especiales
+
+FM-1 Library distingue entre **Descargar .fwsc** (el catálogo dispone de un identificador de adjunto para localizarlo en GitHub) y **Ver opciones** (no hay un enlace directo verificable en los datos disponibles). Si la API de GitHub falla, muestra un cuadro explicativo y enlaces oficiales; **ya no redirige sin aviso** a una página genérica. No copia ni redistribuye paquetes del espejo de The Firmware Hub.
+
+**JIANT FM es un caso especial:** su autor retiró el botón de descarga independiente del firmware por riesgos de instalación incompleta de la sección Bluetooth en el FM-1 físico. La tarjeta muestra **Opciones JIANT** con su [instalador oficial](https://juanjiant-bit.github.io/JIANT/webapp/installer/), [emulador](https://juanjiant-bit.github.io/JIANT/emu/), [publicaciones](https://github.com/juanjiant-bit/JIANT/releases) y [JIANT VST3 para Windows (preview)](https://github.com/juanjiant-bit/JIANT/releases/download/ports-v0.9.18-preview1/JIANT-FM-Windows-v0.9.18-preview1.zip). Este último es un instrumento virtual distinto de los paquetes `.fwsc` de FM-1 Emulator. Consulta las [notas del autor sobre el instalador](https://github.com/juanjiant-bit/JIANT/blob/main/tools/patch_installer_downloads.py).
+
+Cuando se indica **Ver opciones**, la biblioteca muestra el nombre de archivo que figura en el catálogo y el repositorio y/o publicación original para facilitar su localización, pero **no afirma que el archivo exista en esas páginas**.
+
 ## Fuente de datos y descargas
 
 - **Fuente:** [The Firmware Hub](https://thefirmwarehub.com/) — [condiciones del catálogo](https://thefirmwarehub.com/kb/#catalog).
