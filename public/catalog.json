@@ -1,5 +1,5 @@
 {
-  "sourceUpdated": "2026-11-21 15:01 UTC",
+  "sourceUpdated": "2026-11-22 21:02 UTC",
   "sourceUrl": "https://thefirmwarehub.com/catalog.json",
   "attribution": "Firmware list: The Firmware Hub – https://thefirmwarehub.com",
   "license": "CC BY 4.0",
@@ -13,6 +13,8 @@
       "category": "other",
       "date": "2026-11-04",
       "beta": false,
+      "installs": 54,
+      "stars": 8,
       "chip": "old",
       "pkgFile": "386dx-2.0.fwsc",
       "sha256": "2ba90c24c0586c7519bc524113a9727e43fec60dd3314ddc245179833871e059",
@@ -22,9 +24,28 @@
       "tag": "v2.0",
       "assetId": "707732269",
       "play": "",
-      "editor": "https://386dx.linecross.ing/",
-      "installs": 54,
-      "stars": 8
+      "editor": "https://386dx.linecross.ing/"
+    },
+    {
+      "id": "abyss",
+      "name": "ABYSS",
+      "version": "1.0.1",
+      "author": "Tentacle",
+      "category": "synth",
+      "date": "2026-11-22",
+      "beta": false,
+      "installs": 5,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "abyss-1.0.1.fwsc",
+      "sha256": "855e3adc1b3b609eb0887c373f8496cbfb63f49f040c36a27c05f92419faea8d",
+      "repo": "https://github.com/Tentacletunes/abyss",
+      "repoSlug": "Tentacletunes/abyss",
+      "release": "https://github.com/Tentacletunes/abyss/releases/tag/v1.0.1",
+      "tag": "v1.0.1",
+      "assetId": "779736583",
+      "play": "https://tentacletunes.github.io/abyss/emu/",
+      "editor": ""
     },
     {
       "id": "adrift",
@@ -34,6 +55,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": true,
+      "installs": 67,
+      "stars": 4,
       "chip": "new",
       "pkgFile": "adrift-0.4.0.fwsc",
       "sha256": "6135ebfb1a2dd33ca5f4a142571378dc9c084b0e7bc67c5d81685566fe2a7360",
@@ -43,9 +66,7 @@
       "tag": "v0.4.0",
       "assetId": "752483191",
       "play": "https://romainguy.github.io/adrift/#play",
-      "editor": "",
-      "installs": 61,
-      "stars": 4
+      "editor": ""
     },
     {
       "id": "aetherfm1",
@@ -55,6 +76,8 @@
       "category": "groove",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 46,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "aetherfm1-2.0.4.fwsc",
       "sha256": "9296a7ab5e2de5772e2a2d50d7362eda4cb224bb539ebcc9b6f96d67fa75a632",
@@ -64,9 +87,7 @@
       "tag": "v2.0.4",
       "assetId": "748178176",
       "play": "https://grimmbient.github.io/grimm/",
-      "editor": "https://grimmbient.github.io/grimm/editor.html",
-      "installs": 32,
-      "stars": 0
+      "editor": "https://grimmbient.github.io/grimm/editor.html"
     },
     {
       "id": "agtdeck",
@@ -76,6 +97,8 @@
       "category": "other",
       "date": "2026-11-13",
       "beta": true,
+      "installs": null,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "agtdeck-0.6.3.fwsc",
       "sha256": "015036f7858ace3e294504faa06f6b49a5029db57a00991a02fc0765fee40ef4",
@@ -85,30 +108,28 @@
       "tag": "v0.6.3",
       "assetId": "744690629",
       "play": "https://kevinelliott.github.io/fm-1-agent-deck/play/?fw=agtdeck&script=demo.txt",
-      "editor": "https://kevinelliott.github.io/fm-1-agent-deck/editor/",
-      "installs": null,
-      "stars": 5
+      "editor": "https://kevinelliott.github.io/fm-1-agent-deck/editor/"
     },
     {
       "id": "aisling",
       "name": "AISLING",
-      "version": "1.5",
+      "version": "1.6",
       "author": "CU_STE",
       "category": "synth",
-      "date": "2026-11-19",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 285,
+      "stars": 4,
       "chip": "new",
-      "pkgFile": "aisling-1.5.fwsc",
-      "sha256": "e6292e7169ea373355f5f6c91a3d3408c84f21a024ac1288019c85c14f447828",
+      "pkgFile": "aisling-1.6.fwsc",
+      "sha256": "b1c51d076c16c6788274d15bc66e17ccc01c70819682ffe4d159e0760ea10c6f",
       "repo": "https://github.com/stephencummins/fm1-aisling",
       "repoSlug": "stephencummins/fm1-aisling",
-      "release": "https://github.com/stephencummins/fm1-aisling/releases/tag/v1.5",
-      "tag": "v1.5",
-      "assetId": "767515037",
+      "release": "https://github.com/stephencummins/fm1-aisling/releases/tag/v1.6",
+      "tag": "v1.6",
+      "assetId": "778272362",
       "play": "https://stephencummins.github.io/fm1-aisling/emu/",
-      "editor": "https://stephencummins.github.io/fm1-aisling/editor/",
-      "installs": 264,
-      "stars": 4
+      "editor": "https://stephencummins.github.io/fm1-aisling/editor/"
     },
     {
       "id": "aislingfx1",
@@ -118,6 +139,8 @@
       "category": "other",
       "date": "2026-11-16",
       "beta": false,
+      "installs": 4,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "aislingfx1-1.1.fwsc",
       "sha256": "41ae37d3d478737c73df32b87de1661d3cb7efd8883319f5b26c2baa011e0d1c",
@@ -127,9 +150,28 @@
       "tag": "v1.1",
       "assetId": "756116703",
       "play": "",
-      "editor": "",
-      "installs": 4,
-      "stars": 0
+      "editor": ""
+    },
+    {
+      "id": "alter",
+      "name": "ALTER",
+      "version": "1.01",
+      "author": "Forban5929",
+      "category": "groove",
+      "date": "2026-11-21",
+      "beta": false,
+      "installs": 23,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "alter-1.01.fwsc",
+      "sha256": "d6ffc17826fc4c34e9feeaa37c475d8929f87d914e20c3f1ff4e9a02601105a3",
+      "repo": "https://github.com/Forban5929/Alter-FM1",
+      "repoSlug": "Forban5929/Alter-FM1",
+      "release": "https://github.com/Forban5929/Alter-FM1/releases/tag/v1.01",
+      "tag": "v1.01",
+      "assetId": "777119151",
+      "play": "https://forban5929.github.io/Alter-FM1/",
+      "editor": "https://forban5929.github.io/Alter-FM1/editor/"
     },
     {
       "id": "amb",
@@ -139,6 +181,8 @@
       "category": "synth",
       "date": "2026-11-06",
       "beta": false,
+      "installs": 4158,
+      "stars": 140,
       "chip": "new",
       "pkgFile": "amb-1.3.2.fwsc",
       "sha256": "a949a6a2a1ced8b3857d156ad0409a55e6ba53bbdd4094d0a38f2779364064f3",
@@ -148,9 +192,7 @@
       "tag": "v1.3.2",
       "assetId": "716001484",
       "play": "https://charlesvestal.github.io/fm1-amb/emu/",
-      "editor": "",
-      "installs": 4007,
-      "stars": 138
+      "editor": ""
     },
     {
       "id": "ambpond",
@@ -160,6 +202,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": true,
+      "installs": 26,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "ambpond-0.1.2.fwsc",
       "sha256": "fb994f2903b7a26d0fff27fb7261c71654f3cc7a1812b7e040f155bd99bbffdc",
@@ -169,9 +213,7 @@
       "tag": "v0.1.2",
       "assetId": "758804173",
       "play": "",
-      "editor": "",
-      "installs": 21,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "amenity",
@@ -181,6 +223,8 @@
       "category": "drums",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 120,
+      "stars": 25,
       "chip": "new",
       "pkgFile": "amenity-2.1.1.fwsc",
       "sha256": "698cdcf3748190c93d4420f9492eb74d705c90233d69dd2e241dcefc971cb62b",
@@ -190,9 +234,7 @@
       "tag": "v2.1.1",
       "assetId": "750869174",
       "play": "https://ejtb76.github.io/amenity/emu/",
-      "editor": "https://ejtb76.github.io/amenity/breaks/",
-      "installs": 115,
-      "stars": 25
+      "editor": "https://ejtb76.github.io/amenity/breaks/"
     },
     {
       "id": "andromeda",
@@ -202,6 +244,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 73,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "andromeda-1.8.2-an2-r5.fwsc",
       "sha256": "f78308e7ba28a43fba0f68788c59abb4bfb20a09904a65dd4ab2ba62d595c698",
@@ -211,9 +255,28 @@
       "tag": "v1.8.2-an2-r5",
       "assetId": "761033384",
       "play": "https://drophlex.github.io/ANDROMEDA/",
-      "editor": "",
-      "installs": 56,
-      "stars": 1
+      "editor": ""
+    },
+    {
+      "id": "araminta",
+      "name": "Araminta",
+      "version": "4.8",
+      "author": "Wulgaren",
+      "category": "groove",
+      "date": "2026-11-20",
+      "beta": false,
+      "installs": null,
+      "stars": 15,
+      "chip": "new",
+      "pkgFile": "araminta-4.8+2f19d266.fwsc",
+      "sha256": "2f19d2660f8f1f51228ae4357c1cad1b4eda037a59430333ddb014acffc400fb",
+      "repo": "https://github.com/Wulgaren/Araminta",
+      "repoSlug": "Wulgaren/Araminta",
+      "release": "https://github.com/Wulgaren/Araminta/releases/tag/v4.8",
+      "tag": "v4.8",
+      "assetId": "778906755",
+      "play": "https://wulgaren.github.io/Araminta/webapp/try/",
+      "editor": "https://wulgaren.github.io/Araminta/webapp/editor/"
     },
     {
       "id": "arctic",
@@ -223,6 +286,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": false,
+      "installs": 372,
+      "stars": 8,
       "chip": "new",
       "pkgFile": "arctic-2.1.4.fwsc",
       "sha256": "332cb623ba9c6c1f6fe2b8769b87a27e586f3d1494da74662f1f14518f3306d2",
@@ -232,9 +297,7 @@
       "tag": "v2.1.4",
       "assetId": "768798487",
       "play": "https://polarpatch.github.io/Arctic-scream-FM-1/",
-      "editor": "https://polarpatch.github.io/Arctic-scream-FM-1/editor.html",
-      "installs": 354,
-      "stars": 8
+      "editor": "https://polarpatch.github.io/Arctic-scream-FM-1/editor.html"
     },
     {
       "id": "arcturus",
@@ -244,6 +307,8 @@
       "category": "synth",
       "date": "2026-11-01",
       "beta": false,
+      "installs": 162,
+      "stars": 9,
       "chip": "old",
       "pkgFile": "arcturus-1.7.fwsc",
       "sha256": "18b829548a23da9ef85087f0cbc1181c4ca0610a25a7d9e393079504172faee3",
@@ -253,9 +318,7 @@
       "tag": "v1.7",
       "assetId": "699808995",
       "play": "",
-      "editor": "",
-      "installs": 156,
-      "stars": 8
+      "editor": ""
     },
     {
       "id": "argo",
@@ -265,6 +328,8 @@
       "category": "groove",
       "date": "2026-11-16",
       "beta": false,
+      "installs": 10,
+      "stars": 6,
       "chip": "new",
       "pkgFile": "argo-1.8.5.fwsc",
       "sha256": "89dc21f01e99cb03d50aeb3f5f51141f028d349174dd79fcf4e246ed28957734",
@@ -274,51 +339,49 @@
       "tag": "v1.8.5",
       "assetId": "753127551",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=argo",
-      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/",
-      "installs": 10,
-      "stars": 6
+      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/"
     },
     {
       "id": "arpwav09",
       "name": "ARP WAV 09",
-      "version": "1.0.5",
+      "version": "1.0.7",
       "author": "Wav.09.02",
       "category": "synth",
-      "date": "2026-11-11",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 26,
+      "stars": 1,
       "chip": "new",
-      "pkgFile": "arpwav09-1.0.5.fwsc",
-      "sha256": "9401166d79a2602ef62dedc706018bc3e83399f175d2554bf48bdf9a768fd52e",
+      "pkgFile": "arpwav09-1.0.7.fwsc",
+      "sha256": "aba004a34d909976fc4033725915fb02db4a322b6b51f8e9d02279773e1c2620",
       "repo": "https://github.com/wav0902/wav-fm1",
       "repoSlug": "wav0902/wav-fm1",
-      "release": "https://github.com/wav0902/wav-fm1/releases/tag/v1.0.5",
-      "tag": "v1.0.5",
-      "assetId": "737005288",
+      "release": "https://github.com/wav0902/wav-fm1/releases/tag/v1.0.7",
+      "tag": "v1.0.7",
+      "assetId": "778853472",
       "play": "https://wav0902.github.io/wav-fm1/",
-      "editor": "",
-      "installs": 26,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "artihive",
       "name": "ARTIHIVE",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "author": "KHAV",
       "category": "synth",
-      "date": "2026-11-11",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 153,
+      "stars": 5,
       "chip": "new",
-      "pkgFile": "artihive-2.0.4.fwsc",
-      "sha256": "03dc25e0291ea0ed555b70ed0fd439426c35e4db48df7fa9563d74c19053f7bc",
+      "pkgFile": "artihive-2.0.5+f5dc6459.fwsc",
+      "sha256": "f5dc6459e8df2afa451d899a387df3a806bdf3f45571e88ef4fb2c940e29094e",
       "repo": "https://github.com/KHAVld/ARTIHIVE",
       "repoSlug": "KHAVld/ARTIHIVE",
-      "release": "https://github.com/KHAVld/ARTIHIVE/releases/tag/artihive-2.0.4",
-      "tag": "artihive-2.0.4",
-      "assetId": "736847300",
+      "release": "https://github.com/KHAVld/ARTIHIVE/releases/tag/artihive-2.0.5",
+      "tag": "artihive-2.0.5",
+      "assetId": "780407091",
       "play": "https://khavld.github.io/ARTIHIVE/",
-      "editor": "",
-      "installs": 140,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "assid",
@@ -328,6 +391,8 @@
       "category": "groove",
       "date": "2026-11-11",
       "beta": false,
+      "installs": 66,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "assid-1.0.fwsc",
       "sha256": "f869992c2d387301ffc1d099fffe733096ed134e10bbb8d59a642e52997a3ba4",
@@ -337,9 +402,7 @@
       "tag": "v1.0",
       "assetId": "733609994",
       "play": "https://altessproduction.github.io/ASS-ID_FM1/play/",
-      "editor": "",
-      "installs": 66,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "astra",
@@ -349,6 +412,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": true,
+      "installs": 8,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "astra-0.1.fwsc",
       "sha256": "13ac51b0051d66f30a17670511d5477eeff9dcfa80ef6ab9f97126cd10004613",
@@ -358,9 +423,7 @@
       "tag": "v0.1",
       "assetId": "743959359",
       "play": "https://michaelaperry.github.io/ASTRA-FM-1/fm1-emu/?mhz=240",
-      "editor": "",
-      "installs": 8,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "atek303",
@@ -370,6 +433,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 345,
+      "stars": 4,
       "chip": "new",
       "pkgFile": "atek303-1.4.fwsc",
       "sha256": "f1c13ebe30cdf0e403cf7d0ec06b58d12c041321322c9d82f5b19339760bb23b",
@@ -379,9 +444,7 @@
       "tag": "atek303-v1.4",
       "assetId": "771006367",
       "play": "https://animatek.github.io/FM1-Animatek/atek303/play/",
-      "editor": "",
-      "installs": 290,
-      "stars": 4
+      "editor": ""
     },
     {
       "id": "atlatltheatltuner",
@@ -391,6 +454,8 @@
       "category": "other",
       "date": "2026-11-15",
       "beta": true,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "atlatltheatltuner-0.8.fwsc",
       "sha256": "bdc5e981a4416736929df3601faac325fa9d75d2c1315150714daa7f5b82b633",
@@ -400,9 +465,7 @@
       "tag": "v0.8",
       "assetId": "751751198",
       "play": "https://www.jasonscheirer.com/atl-atl/emu/",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "b1",
@@ -412,6 +475,8 @@
       "category": "synth",
       "date": "2026-11-02",
       "beta": false,
+      "installs": 32,
+      "stars": 5,
       "chip": "any",
       "pkgFile": "b1-5.6.fwsc",
       "sha256": "4efc8646d729844f78fa3f85093cdbc45250738e218526f3f06aa69ce81cac61",
@@ -421,30 +486,28 @@
       "tag": "V5.6",
       "assetId": "702173428",
       "play": "",
-      "editor": "",
-      "installs": 32,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "b3organ",
       "name": "B3 ORGAN",
-      "version": "0.6",
+      "version": "0.6.1",
       "author": "R-Jeb",
       "category": "synth",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": true,
+      "installs": 66,
+      "stars": 4,
       "chip": "new",
-      "pkgFile": "b3organ-0.6.fwsc",
-      "sha256": "4d8750a4babe674d09ff07bf9bcab1a27ecfa77d8d9652fb84093f2565dc5d7b",
+      "pkgFile": "b3organ-0.6.1.fwsc",
+      "sha256": "c4155f7763f43ec90a22a6d53d403568942a8a36714bc7c4da501f2fa6fc8606",
       "repo": "https://github.com/R-Jeb/setBfree-fm1",
       "repoSlug": "R-Jeb/setBfree-fm1",
-      "release": "https://github.com/R-Jeb/setBfree-fm1/releases/tag/v0.6",
-      "tag": "v0.6",
-      "assetId": "772213398",
+      "release": "https://github.com/R-Jeb/setBfree-fm1/releases/tag/v0.6.1",
+      "tag": "v0.6.1",
+      "assetId": "778725507",
       "play": "https://r-jeb.github.io/setBfree-fm1/play/",
-      "editor": "https://r-jeb.github.io/setBfree-fm1/editor/",
-      "installs": 58,
-      "stars": 4
+      "editor": "https://r-jeb.github.io/setBfree-fm1/editor/"
     },
     {
       "id": "basssomething2",
@@ -454,6 +517,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": true,
+      "installs": 17,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "basssomething2-0.9.4.fwsc",
       "sha256": "9fd268b0fd3d70c82dc294ba6b12a008ea9d07b1dedc997d11ae4d83a1969b9f",
@@ -463,9 +528,7 @@
       "tag": "v0.9.4",
       "assetId": "766405225",
       "play": "https://imijes.github.io/bass-something-2/emu/",
-      "editor": "",
-      "installs": null,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "bb1",
@@ -475,6 +538,8 @@
       "category": "groove",
       "date": "2026-11-19",
       "beta": false,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "bb1-2.3-hub.1.fwsc",
       "sha256": "a272334fd67c16a825f30bb68684ed4dce95dcf571b9607d0530736b1561d23e",
@@ -484,9 +549,7 @@
       "tag": "v2.3-hub.1",
       "assetId": "767463975",
       "play": "https://thebigbeat.app/fm1/emulator/",
-      "editor": "https://thebigbeat.app/editor/",
-      "installs": null,
-      "stars": 0
+      "editor": "https://thebigbeat.app/editor/"
     },
     {
       "id": "beetle",
@@ -496,6 +559,8 @@
       "category": "tracker",
       "date": "2026-11-09",
       "beta": false,
+      "installs": 39,
+      "stars": 7,
       "chip": "new",
       "pkgFile": "beetle-1.8.3.fwsc",
       "sha256": "1c88c620b6d8763835597e085c3287b54dba9921d535efc764f4b4c5f3468538",
@@ -505,9 +570,7 @@
       "tag": "V1.8.3",
       "assetId": "727045120",
       "play": "https://sikkenworks.github.io/BEETLE/",
-      "editor": "https://sikkenworks.github.io/BEETLE/BEETLE-Project-Manager.html",
-      "installs": 39,
-      "stars": 7
+      "editor": "https://sikkenworks.github.io/BEETLE/BEETLE-Project-Manager.html"
     },
     {
       "id": "beetleblue",
@@ -517,6 +580,8 @@
       "category": "tracker",
       "date": "2026-11-09",
       "beta": false,
+      "installs": 3,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "beetleblue-1.3.1.fwsc",
       "sha256": "78de3d0ddd47ffdf98795b4a75c033c33ad96c5c8431cb7e8225e98580f3455d",
@@ -526,9 +591,7 @@
       "tag": "V1.3.1",
       "assetId": "727054938",
       "play": "",
-      "editor": "https://sikkenworks.github.io/BEETLE-BLUE/BEETLE-BLUE-Project-Manager.html",
-      "installs": 3,
-      "stars": 2
+      "editor": "https://sikkenworks.github.io/BEETLE-BLUE/BEETLE-BLUE-Project-Manager.html"
     },
     {
       "id": "beiwagen",
@@ -538,6 +601,8 @@
       "category": "other",
       "date": "2026-11-16",
       "beta": true,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "beiwagen-0.2.fwsc",
       "sha256": "38b23c864ce29936af0c679317f22d3d83c10bd7e42e10479899e14867245e1a",
@@ -547,9 +612,7 @@
       "tag": "v0.2",
       "assetId": "754368906",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "berlinan",
@@ -559,6 +622,8 @@
       "category": "other",
       "date": "2026-10-27",
       "beta": true,
+      "installs": 29,
+      "stars": 5,
       "chip": "old",
       "pkgFile": "berlinan-0.5.1.fwsc",
       "sha256": "660b2a0059ec1d002d59dd1fb1ff86f93510a6468ddd385073db22d59cf478d1",
@@ -568,30 +633,28 @@
       "tag": "v0.5.1",
       "assetId": "681288796",
       "play": "https://jiripisa.github.io/fm1-berlinan/emu/",
-      "editor": "",
-      "installs": 29,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "bigorna",
       "name": "Bigorna",
-      "version": "2026.11.18",
+      "version": "2026.11.22",
       "author": "Nuno Zimas",
       "category": "groove",
-      "date": "2026-11-18",
+      "date": "2026-11-22",
       "beta": false,
-      "chip": "old",
-      "pkgFile": "bigorna-2026.11.18.fwsc",
-      "sha256": "639c8adeea1e0fda0b5035355d3fe6033e8c42b387cdbea9b97093666550d1b7",
+      "installs": 202,
+      "stars": 12,
+      "chip": "new",
+      "pkgFile": "bigorna-2026.11.22.fwsc",
+      "sha256": "820bcd28bdfa649536b66724239b584da5ff4a089b77f0db0f957322e16a895a",
       "repo": "https://github.com/nzimas/bigorna",
       "repoSlug": "nzimas/bigorna",
       "release": "https://nzimas.github.io/bigorna/",
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": "",
-      "installs": 191,
-      "stars": 12
+      "editor": ""
     },
     {
       "id": "blop",
@@ -601,6 +664,8 @@
       "category": "chords",
       "date": "2026-11-03",
       "beta": false,
+      "installs": 268,
+      "stars": 4,
       "chip": "old",
       "pkgFile": "blop-1.1.0.fwsc",
       "sha256": "c6caccf8654d03f518c4b1c79449736579a983f9960f7fd6d14a1c7b3b0e901c",
@@ -610,30 +675,28 @@
       "tag": "v1.1.0",
       "assetId": "707170693",
       "play": "https://osr-experiment.github.io/OSR-1/emu/",
-      "editor": "",
-      "installs": 260,
-      "stars": 4
+      "editor": ""
     },
     {
       "id": "bluesbox",
       "name": "Blues Box",
-      "version": "2.2.1",
+      "version": "2.2.3",
       "author": "Brian Provost",
       "category": "groove",
-      "date": "2026-11-19",
+      "date": "2026-11-21",
       "beta": false,
+      "installs": 37,
+      "stars": 4,
       "chip": "new",
-      "pkgFile": "bluesbox-2.2.1.fwsc",
-      "sha256": "6da0d646c038dd05053f4d0af2d3cb65d0a4c6c17de2817ba3f372cade0ee3fd",
+      "pkgFile": "bluesbox-2.2.3.fwsc",
+      "sha256": "942f333036eb692a6aa3419c3f17057468d971fb0f24d0bb0b9f1305efd26829",
       "repo": "https://github.com/provostprovost/blues",
       "repoSlug": "provostprovost/blues",
-      "release": "https://github.com/provostprovost/blues/releases/tag/v2.2.1",
-      "tag": "v2.2.1",
-      "assetId": "765868026",
+      "release": "https://github.com/provostprovost/blues/releases/tag/v2.2.3",
+      "tag": "v2.2.3",
+      "assetId": "777086816",
       "play": "https://joakimeriksson.github.io/fm1-emu/?package=https://provostprovost.github.io/blues/bluesbox.fwsc&name=BLUES%20BOX&mhz=60",
-      "editor": "",
-      "installs": 37,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "bocjuhn",
@@ -643,6 +706,8 @@
       "category": "synth",
       "date": "2026-11-11",
       "beta": true,
+      "installs": 75,
+      "stars": 0,
       "chip": "old",
       "pkgFile": "bocjuhn-1.0.0-rc10.fwsc",
       "sha256": "91ef02e0e0f7868c94e2a781449e512fb34070309565533d7ccaeec413e0c09d",
@@ -652,9 +717,7 @@
       "tag": "v1.0.0-rc10",
       "assetId": "734264757",
       "play": "https://ianp06.github.io/bocjuhn/",
-      "editor": "",
-      "installs": 75,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "bubba",
@@ -664,6 +727,8 @@
       "category": "groove",
       "date": "2026-10-25",
       "beta": true,
+      "installs": 168,
+      "stars": 10,
       "chip": "any",
       "pkgFile": "bubba-0.10.0-beta.fwsc",
       "sha256": "e1f444059553b7a8e9ea6b916fed0ea3c7d5404a6e913a130f11b9d3d9624e7d",
@@ -673,9 +738,7 @@
       "tag": "v0.10.0-beta",
       "assetId": "673712849",
       "play": "https://erbubar23.github.io/bubba-machine/en/",
-      "editor": "",
-      "installs": 168,
-      "stars": 10
+      "editor": ""
     },
     {
       "id": "bunker",
@@ -685,6 +748,8 @@
       "category": "synth",
       "date": "2026-10-17",
       "beta": false,
+      "installs": 168,
+      "stars": 2,
       "chip": "old",
       "pkgFile": "bunker-1.0.0.fwsc",
       "sha256": "db0b50d0ae9c3bfccee76e3b93de09fffa55389169278a0c5899dad9c79e6bb8",
@@ -694,30 +759,28 @@
       "tag": "v1.0.0",
       "assetId": "649160132",
       "play": "https://bunker-evolved.sugarypixie10.chatgpt.site/simulator/",
-      "editor": "https://bunker-evolved.sugarypixie10.chatgpt.site/editor/",
-      "installs": 168,
-      "stars": 2
+      "editor": "https://bunker-evolved.sugarypixie10.chatgpt.site/editor/"
     },
     {
       "id": "burgerstudiofm1",
       "name": "Burger Studio FM-1",
-      "version": "1.8.2-bs17",
+      "version": "1.8.2-bs19",
       "author": "Maker Hip (Hippie Maker)",
       "category": "drums",
       "date": "2026-11-21",
       "beta": false,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
-      "pkgFile": "burgerstudiofm1-1.8.2-bs17.fwsc",
-      "sha256": "35f09baf9acdbd3cf40b175438330942ff3f3f5c0b83a7d490ca5a617aa8e5a8",
+      "pkgFile": "burgerstudiofm1-1.8.2-bs19.fwsc",
+      "sha256": "7b9e3ba31896f1f01aa2d309dc07acbbf387ff405709ae67d55acfdd788a6460",
       "repo": "https://github.com/perawoga2-coder/Fm1sampa",
       "repoSlug": "perawoga2-coder/Fm1sampa",
-      "release": "https://github.com/perawoga2-coder/Fm1sampa/releases/tag/v1.8.2-bs17",
-      "tag": "v1.8.2-bs17",
-      "assetId": "775766197",
+      "release": "https://github.com/perawoga2-coder/Fm1sampa/releases/tag/v1.8.2-bs19",
+      "tag": "v1.8.2-bs19",
+      "assetId": "776256690",
       "play": "",
-      "editor": "https://perawoga2-coder.github.io/Fm1sampa/webapp/editor/",
-      "installs": null,
-      "stars": 0
+      "editor": "https://perawoga2-coder.github.io/Fm1sampa/webapp/editor/"
     },
     {
       "id": "bytemania",
@@ -727,6 +790,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 75,
+      "stars": 6,
       "chip": "new",
       "pkgFile": "bytemania-1.3.1.fwsc",
       "sha256": "ba94dcb0fb9902fa29a8fa22b0818a7e80dc6ed334bfe9bb86d7c1242ca43925",
@@ -736,9 +801,7 @@
       "tag": "v1.3.2",
       "assetId": "748201668",
       "play": "",
-      "editor": "",
-      "installs": 78,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "caravel",
@@ -748,6 +811,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 142,
+      "stars": 28,
       "chip": "new",
       "pkgFile": "caravel-1.1.0.fwsc",
       "sha256": "1e1a126ca1d7570f8fb917d381afaa6b78885fb3b08baa084775f3a948a570ba",
@@ -756,10 +821,8 @@
       "release": "https://github.com/bonszaimusic/caravel/releases/tag/v1.1.0",
       "tag": "v1.1.0",
       "assetId": "774285927",
-      "play": "https://bonszaimusic.github.io/caravel/emulator/",
-      "editor": "https://bonszaimusic.github.io/caravel/webapp/editor/",
-      "installs": 142,
-      "stars": 27
+      "play": "https://bonszaimusic.github.io/caravel/v1/emulator/",
+      "editor": "https://bonszaimusic.github.io/caravel/v1/webapp/editor/"
     },
     {
       "id": "carnac",
@@ -769,6 +832,8 @@
       "category": "synth",
       "date": "2026-10-29",
       "beta": true,
+      "installs": 150,
+      "stars": 15,
       "chip": "old",
       "pkgFile": "carnac-0.9.6.fwsc",
       "sha256": "6d81a8d1186fecc8c4e8be082c163f5cc3d2a3286b70f66e42b4b941e604f1b2",
@@ -778,30 +843,28 @@
       "tag": "",
       "assetId": "",
       "play": "https://owenkirby.github.io/carnac-os/play/",
-      "editor": "",
-      "installs": 150,
-      "stars": 15
+      "editor": ""
     },
     {
       "id": "castletunia",
       "name": "Castletunia",
-      "version": "1.3.0",
+      "version": "1.4.1",
       "author": "Brian Provost",
       "category": "groove",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "beta": false,
+      "installs": 31,
+      "stars": 1,
       "chip": "new",
-      "pkgFile": "castletunia-1.3.0.fwsc",
-      "sha256": "e9e320929f83e039337f880bb262d35641732b4d2416182cd8667aedb7c9312b",
+      "pkgFile": "castletunia-1.4.1.fwsc",
+      "sha256": "4d535e83c04dd0a1b135d3e46e14191482dea5157621250249b75833fecbfc5d",
       "repo": "https://github.com/provostprovost/castletunia",
       "repoSlug": "provostprovost/castletunia",
-      "release": "https://github.com/provostprovost/castletunia/releases/tag/v1.3.0",
-      "tag": "v1.3.0",
-      "assetId": "772254870",
+      "release": "https://github.com/provostprovost/castletunia/releases/tag/v1.4.1",
+      "tag": "v1.4.1",
+      "assetId": "777276935",
       "play": "https://joakimeriksson.github.io/fm1-emu/?package=https://provostprovost.github.io/castletunia/castletunia.fwsc&name=CASTLETUNIA&mhz=60",
-      "editor": "",
-      "installs": 25,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "chipbox",
@@ -811,6 +874,8 @@
       "category": "groove",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 327,
+      "stars": 9,
       "chip": "new",
       "pkgFile": "chipbox-1.7.0-signatureshowcase.fwsc",
       "sha256": "9221f8331d0c6e10fa1645579936211337b2f467310002048152e4fc54cc771b",
@@ -820,72 +885,70 @@
       "tag": "v1.7.0-signatureshowcase",
       "assetId": "746009117",
       "play": "https://ihavenocluewhatimdoing.com/chipbox/play/",
-      "editor": "https://ihavenocluewhatimdoing.com/chipbox/projects/",
-      "installs": 309,
-      "stars": 9
+      "editor": "https://ihavenocluewhatimdoing.com/chipbox/projects/"
     },
     {
       "id": "choppah",
       "name": "CHOPPAH",
-      "version": "1.5.1",
+      "version": "1.5.3",
       "author": "Laurens Profittlich",
       "category": "drums",
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 507,
+      "stars": 15,
       "chip": "new",
-      "pkgFile": "choppah-1.5.1.fwsc",
-      "sha256": "5102f2251e807b3f2445692a8ada94e9b2033a91a56bf4e3edaa52eac80bcb16",
+      "pkgFile": "choppah-1.5.3.fwsc",
+      "sha256": "9ee52a7039f922f5ea6e84fbccb750c1eea8e8b416783444556bb028b35aa398",
       "repo": "https://github.com/profikid/fm1-break-choppah",
       "repoSlug": "profikid/fm1-break-choppah",
-      "release": "https://github.com/profikid/fm1-break-choppah/releases/tag/v1.5.1",
-      "tag": "v1.5.1",
-      "assetId": "774703266",
+      "release": "https://github.com/profikid/fm1-break-choppah/releases/tag/v1.5.3",
+      "tag": "v1.5.3",
+      "assetId": "779212611",
       "play": "https://profikid.github.io/fm1-break-choppah/emu/",
-      "editor": "",
-      "installs": 451,
-      "stars": 15
+      "editor": ""
     },
     {
       "id": "choralroot",
       "name": "ChoralRoot",
-      "version": "0.43",
+      "version": "0.44",
       "author": "Quixotic7",
       "category": "chords",
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "beta": true,
+      "installs": 2335,
+      "stars": 110,
       "chip": "new",
-      "pkgFile": "choralroot-0.43.fwsc",
-      "sha256": "200939f25a28649b24d7fb8b52e01c6439dab34950b02bc2ac4bc24047e23ef9",
+      "pkgFile": "choralroot-0.44.fwsc",
+      "sha256": "d680c0e0e70098cdff38c7bbed5763630db9c7f3f8d265771901bc80467acd5b",
       "repo": "https://github.com/Quixotic7/ChoralRootFM1",
       "repoSlug": "Quixotic7/ChoralRootFM1",
-      "release": "https://github.com/Quixotic7/ChoralRootFM1/releases/tag/v0.43",
-      "tag": "v0.43",
-      "assetId": "774876266",
+      "release": "https://github.com/Quixotic7/ChoralRootFM1/releases/tag/v0.44",
+      "tag": "v0.44",
+      "assetId": "778528980",
       "play": "https://quixotic7.github.io/ChoralRootFM1/emu/",
-      "editor": "",
-      "installs": 2288,
-      "stars": 109
+      "editor": ""
     },
     {
       "id": "chordrun",
       "name": "CHORD RUN",
-      "version": "1.4",
+      "version": "2.6",
       "author": "swtdr34mz (based on Blop by Obsimo)",
       "category": "chords",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 11,
+      "stars": 0,
       "chip": "new",
-      "pkgFile": "chordrun-1.4.fwsc",
-      "sha256": "6142653d6548271985bfb5fa17fa20f3e8add4b68b288607cd37dfb757fbe4f7",
-      "repo": "https://github.com/swtdr34mz-afk/plop",
-      "repoSlug": "swtdr34mz-afk/plop",
-      "release": "https://github.com/swtdr34mz-afk/plop/releases/tag/v1.4",
-      "tag": "v1.4",
-      "assetId": "775003481",
+      "pkgFile": "chordrun-2.6.fwsc",
+      "sha256": "5588f944894e77127e1eb18d1a36522a5faf45f74e2e4f9ad9d86db95aa52fa4",
+      "repo": "https://github.com/swtdr34mz-afk/CHORD_RUN",
+      "repoSlug": "swtdr34mz-afk/CHORD_RUN",
+      "release": "https://github.com/swtdr34mz-afk/CHORD_RUN/releases/tag/v2.6",
+      "tag": "v2.6",
+      "assetId": "775685747",
       "play": "https://swtdr34mz-afk.github.io/CHORD_RUN/emu/",
-      "editor": "",
-      "installs": 3,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "clairpiano",
@@ -895,6 +958,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 20,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "clairpiano-1.0.1.fwsc",
       "sha256": "c430c194a0d6116c05721a47a770fdad8f8ee19b25cf6b09ae0791d619ddb88e",
@@ -904,9 +969,7 @@
       "tag": "v1.0.1",
       "assetId": "771224404",
       "play": "",
-      "editor": "",
-      "installs": 15,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "clatter",
@@ -916,6 +979,8 @@
       "category": "drums",
       "date": "2026-11-03",
       "beta": false,
+      "installs": 23,
+      "stars": 3,
       "chip": "any",
       "pkgFile": "clatter-1.0.0.fwsc",
       "sha256": "4d661dae903801385adc99abe3387474b059210f1c49037cef3ef1cacb6f5956",
@@ -925,9 +990,7 @@
       "tag": "v1.0.0",
       "assetId": "707493391",
       "play": "https://clatter-pocket.allmyfriendsaresynths.com/demo/",
-      "editor": "",
-      "installs": 23,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "clavioline",
@@ -937,6 +1000,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": false,
+      "installs": null,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "clavioline-1.3.fwsc",
       "sha256": "836a0ffb39ca90a47ad58bf6b87951cdde623b29e085fa259966fc32f82012fb",
@@ -946,9 +1011,7 @@
       "tag": "v1.3",
       "assetId": "745423458",
       "play": "https://mammothcheese.github.io/clavioline/",
-      "editor": "",
-      "installs": null,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "clipper",
@@ -958,6 +1021,8 @@
       "category": "synth",
       "date": "2026-11-04",
       "beta": false,
+      "installs": 2815,
+      "stars": 90,
       "chip": "new",
       "pkgFile": "clipper-1.3.1.fwsc",
       "sha256": "b29d53498a7bc40eb6d8409270b15b53576a6d116c2839217ac6210bf96e752a",
@@ -967,9 +1032,7 @@
       "tag": "v1.3.1",
       "assetId": "707952651",
       "play": "",
-      "editor": "https://isod89.github.io/clipper-fm1/webapp/editor/",
-      "installs": 2725,
-      "stars": 90
+      "editor": "https://isod89.github.io/clipper-fm1/webapp/editor/"
     },
     {
       "id": "conductor",
@@ -979,6 +1042,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 20,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "conductor-1.0.fwsc",
       "sha256": "d59b3f9dd05bcd18b10dc2a0196204216468b54d1a31c8fa99770c6a4bc3089d",
@@ -988,9 +1053,7 @@
       "tag": "v1.0",
       "assetId": "757808201",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=conductor",
-      "editor": "",
-      "installs": 24,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "coqui",
@@ -1000,6 +1063,8 @@
       "category": "groove",
       "date": "2026-11-07",
       "beta": false,
+      "installs": 35,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "coqui-1.1.1.fwsc",
       "sha256": "9edbd1c8d66b3d9bc908924b33b9001c93625c406be3d4d64eac9efa9d45d238",
@@ -1009,9 +1074,7 @@
       "tag": "v1.1.1",
       "assetId": "721594361",
       "play": "https://saulofilho.github.io/coqui-fm1/emu/",
-      "editor": "https://saulofilho.github.io/coqui-fm1/emu/editor.html",
-      "installs": 37,
-      "stars": 0
+      "editor": "https://saulofilho.github.io/coqui-fm1/emu/editor.html"
     },
     {
       "id": "coralflower",
@@ -1021,6 +1084,8 @@
       "category": "chords",
       "date": "2026-11-10",
       "beta": true,
+      "installs": 2405,
+      "stars": 28,
       "chip": "new",
       "pkgFile": "coralflower-0.7.1.fwsc",
       "sha256": "d87d6327e0f98000cfa740bab70487728de85d3d64fd96c3a65dfd6bbdf71bbd",
@@ -1030,9 +1095,7 @@
       "tag": "v0.7.1",
       "assetId": "731719145",
       "play": "https://ficusficusov.github.io/CoralFlower/play/",
-      "editor": "",
-      "installs": 2271,
-      "stars": 27
+      "editor": ""
     },
     {
       "id": "cord",
@@ -1042,6 +1105,8 @@
       "category": "chords",
       "date": "2026-11-09",
       "beta": false,
+      "installs": 36,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "cord-1.0.3.fwsc",
       "sha256": "249d4d1802725b245bad395156360c0c8c42d261c89c83b98eee8d2f6a2a8643",
@@ -1051,9 +1116,7 @@
       "tag": "v1.0.3",
       "assetId": "729189802",
       "play": "https://chasedeanda.github.io/cord-fm1/play/",
-      "editor": "",
-      "installs": 34,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "cs1",
@@ -1063,6 +1126,8 @@
       "category": "synth",
       "date": "2026-10-22",
       "beta": false,
+      "installs": 480,
+      "stars": 12,
       "chip": "old",
       "pkgFile": "cs1-2026.10.22.fwsc",
       "sha256": "25179bef57f6136a36071647bbca6d6b82f718042d8ca6ccb5b13d1c9051110c",
@@ -1072,9 +1137,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://twochannels.github.io/CS-1/emu/",
-      "editor": "",
-      "installs": 474,
-      "stars": 12
+      "editor": ""
     },
     {
       "id": "ctl",
@@ -1084,6 +1147,8 @@
       "category": "other",
       "date": "2026-11-06",
       "beta": false,
+      "installs": 73,
+      "stars": 29,
       "chip": "new",
       "pkgFile": "ctl-1.0.3.fwsc",
       "sha256": "1ecf7e3c2af255c7f404fa6232e9a55cdbaaf3e60cc1c549e14ecd310f7d5104",
@@ -1093,9 +1158,7 @@
       "tag": "v1.0.3",
       "assetId": "717803119",
       "play": "https://charlesvestal.github.io/fm1-ctl/emu/",
-      "editor": "",
-      "installs": 73,
-      "stars": 29
+      "editor": ""
     },
     {
       "id": "cultbox",
@@ -1105,6 +1168,8 @@
       "category": "groove",
       "date": "2026-11-05",
       "beta": false,
+      "installs": 53,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "cultbox-1.2.fwsc",
       "sha256": "472dd790dd2169e6a764ae5be1bf9843b3a1599b45129ba7196d5ec99d17fae5",
@@ -1114,9 +1179,7 @@
       "tag": "v1.2",
       "assetId": "715009431",
       "play": "https://beatcult.github.io/CULTBOX/",
-      "editor": "",
-      "installs": 56,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "cursedos",
@@ -1126,6 +1189,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 48,
+      "stars": 2,
       "chip": "any",
       "pkgFile": "cursedos-0.20.0.fwsc",
       "sha256": "38e713f21689e498fd834129d845e2faf6b06a091c0a5041e3d3a8f27d9b792e",
@@ -1135,9 +1200,7 @@
       "tag": "v0.20.0",
       "assetId": "772312471",
       "play": "",
-      "editor": "",
-      "installs": 39,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "cutador",
@@ -1147,6 +1210,8 @@
       "category": "drums",
       "date": "2026-10-18",
       "beta": false,
+      "installs": 91,
+      "stars": 4,
       "chip": "old",
       "pkgFile": "cutador-1.2.1.fwsc",
       "sha256": "5d4be92061cc5bf1396d3ff599ac3a1ef9ec1261afe003b74e32f4298307f614",
@@ -1156,30 +1221,28 @@
       "tag": "v1.2.1",
       "assetId": "653884181",
       "play": "https://cut-a-dor.sugarypixie10.chatgpt.site/",
-      "editor": "",
-      "installs": 91,
-      "stars": 4
+      "editor": ""
     },
     {
       "id": "dabke",
       "name": "DABKE",
-      "version": "0.18-beta",
+      "version": "0.19-beta",
       "author": "STUDIOMORPHIK",
       "category": "groove",
-      "date": "2026-11-17",
+      "date": "2026-11-22",
       "beta": true,
+      "installs": 47,
+      "stars": 1,
       "chip": "new",
-      "pkgFile": "dabke-0.18-beta.fwsc",
-      "sha256": "43c7e24f8c84ba6c40f10c38dbd5051c9a61f7d2c212c0ba4723e91bff9dbb41",
+      "pkgFile": "dabke-0.19-beta.fwsc",
+      "sha256": "b8224e10da850f9c45301e8b4f5847b04579107eef01051a73f0344db4333e10",
       "repo": "https://github.com/wissamsader/dabke",
       "repoSlug": "wissamsader/dabke",
-      "release": "https://github.com/wissamsader/dabke/releases/tag/v0.18-beta",
-      "tag": "v0.18-beta",
-      "assetId": "760437824",
+      "release": "https://github.com/wissamsader/dabke/releases/tag/v0.19-beta",
+      "tag": "v0.19-beta",
+      "assetId": "779519426",
       "play": "https://studiomorphik.com/dabke/emu/",
-      "editor": "",
-      "installs": 43,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "darkfunkdurcalsynt",
@@ -1189,6 +1252,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 42,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "darkfunkdurcalsynt-1.8.2-dfd10+f4b009c2.fwsc",
       "sha256": "f4b009c2d80557e639c1bb11eec5256897f06c007a263f42052549881bef74d3",
@@ -1198,9 +1263,7 @@
       "tag": "v1.8.2-dfd10",
       "assetId": "765266292",
       "play": "https://drophlex.github.io/dark-funk-durcal-synt-fm1/web/DarkFunkDurcalSynt.html",
-      "editor": "https://drophlex.github.io/dark-funk-durcal-synt-fm1/web/DarkFunkDurcal-MIDI-Ritual.html",
-      "installs": 35,
-      "stars": 0
+      "editor": "https://drophlex.github.io/dark-funk-durcal-synt-fm1/web/DarkFunkDurcal-MIDI-Ritual.html"
     },
     {
       "id": "dark1",
@@ -1210,6 +1273,8 @@
       "category": "groove",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 459,
+      "stars": 4,
       "chip": "new",
       "pkgFile": "dark1-1.0.7.fwsc",
       "sha256": "8c036b8b27802e6cbc90e8dfbdafa1bbf64ac0308c73031029ee6324b8d154a7",
@@ -1219,9 +1284,7 @@
       "tag": "v1.0.7",
       "assetId": "746152034",
       "play": "https://sparky480v.github.io/Dark-1/play/",
-      "editor": "",
-      "installs": 427,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "daurade",
@@ -1231,6 +1294,8 @@
       "category": "groove",
       "date": "2026-11-08",
       "beta": false,
+      "installs": 56,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "daurade-1.0.1-0bf2076.fwsc",
       "sha256": "11c4ce13a13e3ee6cd7f3bf0bf47373c1f79b447fe9a57bdb5e476520f295118",
@@ -1240,9 +1305,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/daurade/try/",
-      "editor": "",
-      "installs": 56,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "dayvx",
@@ -1252,6 +1315,8 @@
       "category": "groove",
       "date": "2026-11-12",
       "beta": true,
+      "installs": 5,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "dayvx-0.1.1.fwsc",
       "sha256": "f58ad342162d812c9846dce3cd6cb8df7ec9ac7f52cf848488bac5fa6d913df0",
@@ -1261,9 +1326,7 @@
       "tag": "v0.1.1",
       "assetId": "741186775",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "deepfield",
@@ -1273,6 +1336,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 20,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "deepfield-1.11.fwsc",
       "sha256": "74b1112eaaf22ce95a294aec16d499be1456483766d8e0b6c0690d0b42fbb500",
@@ -1282,9 +1347,7 @@
       "tag": "1.11",
       "assetId": "757914653",
       "play": "https://deepfield.fog.baby/emu/",
-      "editor": "",
-      "installs": 20,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "delrio",
@@ -1294,6 +1357,8 @@
       "category": "drums",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 131,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "delrio-1.0.1.fwsc",
       "sha256": "147cc72c6b071d73bf588a02fc57339239d6fa545791f731ce368c29c68a286f",
@@ -1303,9 +1368,7 @@
       "tag": "v1.0.1",
       "assetId": "769826339",
       "play": "https://jsopdebeeck.github.io/fm1-delrio/emu/",
-      "editor": "",
-      "installs": 130,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "demake",
@@ -1315,6 +1378,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": true,
+      "installs": 366,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "demake-0.4.25.fwsc",
       "sha256": "426b322abb001271eab63787463884395c73641be35830f6f3ac630bf0b3bd48",
@@ -1324,9 +1389,7 @@
       "tag": "v0.4.25",
       "assetId": "752458762",
       "play": "https://inigohernandez.github.io/demake-synth/",
-      "editor": "",
-      "installs": 350,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "dfdacidengine",
@@ -1336,6 +1399,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": false,
+      "installs": 22,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "dfdacidengine-1-v1.8.2-da1-r6.fwsc",
       "sha256": "2bcc2cc7b5ba6a73c25f26c39fbcb4134af5d6dd58a6a7322763438add4f093f",
@@ -1345,9 +1410,7 @@
       "tag": "fm1-v1.8.2-da1-r7",
       "assetId": "768754803",
       "play": "https://drophlex.github.io/DFD-ACID-ENGINE/web/",
-      "editor": "",
-      "installs": 21,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "dinghy",
@@ -1357,6 +1420,8 @@
       "category": "dev",
       "date": "2026-11-07",
       "beta": true,
+      "installs": 28,
+      "stars": 54,
       "chip": "new",
       "pkgFile": "dinghy-0.5.fwsc",
       "sha256": "139da045ea20eb5e772e7da5242ae2efaa0dcd9b533ac169992f7795a77efb90",
@@ -1366,30 +1431,28 @@
       "tag": "v0.5",
       "assetId": "720726951",
       "play": "",
-      "editor": "",
-      "installs": 28,
-      "stars": 54
+      "editor": ""
     },
     {
       "id": "dp3oyb",
       "name": "DP3OYB",
-      "version": "1.0.8",
+      "version": "1.1.0",
       "author": "DP3OYB",
       "category": "groove",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "beta": false,
+      "installs": 23,
+      "stars": 0,
       "chip": "new",
-      "pkgFile": "dp3oyb-1.0.8.fwsc",
-      "sha256": "708a36ef3461393dd3c58450f05f53edbeb49e8237b26311b3b0fd7c142a482b",
+      "pkgFile": "dp3oyb-1.1.0+a0ff6081.fwsc",
+      "sha256": "a0ff6081a4ff925e785edf087da04ab6339db1e4c3bb4826a0e7a91fd6c91d9b",
       "repo": "https://github.com/DP3OYB/DP3OYB",
       "repoSlug": "DP3OYB/DP3OYB",
-      "release": "https://github.com/DP3OYB/DP3OYB/releases/tag/v1.0.8",
-      "tag": "v1.0.8",
-      "assetId": "769774894",
+      "release": "https://github.com/DP3OYB/DP3OYB/releases/tag/v1.1.0",
+      "tag": "v1.1.0",
+      "assetId": "777792926",
       "play": "https://dp3oyb.github.io/DP3OYB/try/",
-      "editor": "",
-      "installs": 23,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "drift",
@@ -1399,6 +1462,8 @@
       "category": "synth",
       "date": "2026-11-02",
       "beta": true,
+      "installs": 178,
+      "stars": 5,
       "chip": "old",
       "pkgFile": "drift-0.9.6.fwsc",
       "sha256": "df7b25c88964be5d3c70ef5f19b35a5c98c78bfce8761bc99e3c8f3a28f72d6e",
@@ -1408,9 +1473,7 @@
       "tag": "v0.9.6",
       "assetId": "702645035",
       "play": "https://www.fbnfrtg.de/tools/fm1/drift/webplayer/",
-      "editor": "",
-      "installs": 175,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "drumlab",
@@ -1420,6 +1483,8 @@
       "category": "drums",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 97,
+      "stars": 7,
       "chip": "new",
       "pkgFile": "drumlab-1.0.0-graduationday.fwsc",
       "sha256": "5f560f3a24515e9093ee541ad86ef012fb42c7959a623cdc4e0367a689ddc5be",
@@ -1429,9 +1494,7 @@
       "tag": "v1.0.0-graduationday",
       "assetId": "746022463",
       "play": "https://ihavenocluewhatimdoing.com/drumlab/play/",
-      "editor": "https://ihavenocluewhatimdoing.com/drumlab/projects/",
-      "installs": 91,
-      "stars": 7
+      "editor": "https://ihavenocluewhatimdoing.com/drumlab/projects/"
     },
     {
       "id": "drumtonic",
@@ -1441,6 +1504,8 @@
       "category": "drums",
       "date": "2026-11-19",
       "beta": true,
+      "installs": null,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "drumtonic-0.9.6.fwsc",
       "sha256": "ce48ccb9d49d205189797511633dd85a7dc8ff3412f8f107199f4698cb9b5f04",
@@ -1450,9 +1515,7 @@
       "tag": "v0.9.6",
       "assetId": "765622462",
       "play": "https://fc79.github.io/drumtonic/#try",
-      "editor": "",
-      "installs": null,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "dub",
@@ -1462,6 +1525,8 @@
       "category": "groove",
       "date": "2026-10-30",
       "beta": false,
+      "installs": 1264,
+      "stars": 45,
       "chip": "old",
       "pkgFile": "dub-1.4.3.fwsc",
       "sha256": "19cc9649583192d0634467e18e28532078d4d7889231c9e842da7fb4ff869c0a",
@@ -1471,9 +1536,7 @@
       "tag": "v1.4.3",
       "assetId": "693367138",
       "play": "https://sbegueria.github.io/fm1-dub/emu/",
-      "editor": "",
-      "installs": 1221,
-      "stars": 45
+      "editor": ""
     },
     {
       "id": "dubbox",
@@ -1483,6 +1546,8 @@
       "category": "other",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 16,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "dubbox-1.0.9.fwsc",
       "sha256": "8cc61f631178a86f842ed15990bdda7b697452a749bd0f22fe0b5c0f24aa9333",
@@ -1492,30 +1557,28 @@
       "tag": "v1.0.9",
       "assetId": "749062924",
       "play": "https://altessproduction.github.io/DUB-BOX-FM1/dub/",
-      "editor": "",
-      "installs": 16,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "duell",
       "name": "DUELL",
-      "version": "1.3.6",
+      "version": "1.3.7",
       "author": "OSCILL/R",
       "category": "synth",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 164,
+      "stars": 22,
       "chip": "new",
-      "pkgFile": "duell-1.3.6.fwsc",
-      "sha256": "6e46c8774c752dcc46570ef321a3184e16251cdda9c5cf8a41e71fc39ac7b89d",
+      "pkgFile": "duell-1.3.7.fwsc",
+      "sha256": "e6754a533cf970e01e0e7dad6297db48244f0bfdca1859d4b6cfd21a9e3adb38",
       "repo": "https://github.com/oscillr/DUELL",
       "repoSlug": "oscillr/DUELL",
-      "release": "https://github.com/oscillr/DUELL/releases/tag/v1.3.6",
-      "tag": "v1.3.6",
-      "assetId": "773748018",
+      "release": "https://github.com/oscillr/DUELL/releases/tag/v1.3.7",
+      "tag": "v1.3.7",
+      "assetId": "779805664",
       "play": "https://oscillr.github.io/DUELL/emu/",
-      "editor": "https://oscillr.github.io/DUELL/editor/",
-      "installs": 164,
-      "stars": 21
+      "editor": "https://oscillr.github.io/DUELL/editor/"
     },
     {
       "id": "dungeontracker",
@@ -1525,6 +1588,8 @@
       "category": "tracker",
       "date": "2026-11-04",
       "beta": false,
+      "installs": 42,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "dungeontracker-1.5.fwsc",
       "sha256": "ba6994ccb82327840c6e475da0fd5a30fb2a097d5fe852be216f0d1d0a353cae",
@@ -1534,9 +1599,7 @@
       "tag": "v1.5",
       "assetId": "708130880",
       "play": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/emulator/",
-      "editor": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/editor/",
-      "installs": 42,
-      "stars": 1
+      "editor": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/editor/"
     },
     {
       "id": "dx747",
@@ -1546,6 +1609,8 @@
       "category": "synth",
       "date": "2026-11-06",
       "beta": true,
+      "installs": 45,
+      "stars": 4,
       "chip": "any",
       "pkgFile": "dx747-0.1.fwsc",
       "sha256": "91f9acd06e37cea10d2af519d74a50343507709f5edd69b635d7711b69520934",
@@ -1555,9 +1620,7 @@
       "tag": "v0.1",
       "assetId": "715362756",
       "play": "https://esbenvb.github.io/fm1-dx747/#device",
-      "editor": "https://esbenvb.github.io/fm1-dx747/#configure",
-      "installs": 41,
-      "stars": 4
+      "editor": "https://esbenvb.github.io/fm1-dx747/#configure"
     },
     {
       "id": "echofield",
@@ -1567,6 +1630,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": true,
+      "installs": 274,
+      "stars": 24,
       "chip": "new",
       "pkgFile": "echofield-0.2.15.fwsc",
       "sha256": "d536bce30b1fd5726002497e17637f810373651c6e49157e17beac736498120e",
@@ -1576,51 +1641,49 @@
       "tag": "v0.2.15",
       "assetId": "759183077",
       "play": "https://philip-bos.github.io/echofield-fm1/emulator/",
-      "editor": "https://philip-bos.github.io/echofield-fm1/",
-      "installs": 253,
-      "stars": 23
+      "editor": "https://philip-bos.github.io/echofield-fm1/"
     },
     {
       "id": "elixir",
       "name": "Elixir",
-      "version": "1.4.7",
+      "version": "1.5.1",
       "author": "Dan Majka",
       "category": "drums",
-      "date": "2026-11-19",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 178,
+      "stars": 19,
       "chip": "new",
-      "pkgFile": "elixir-1.4.7.fwsc",
-      "sha256": "7cd0fc12a14aaff192edfe5de3cfadc3b25f93383d3652188bfeac2ea349b6f1",
+      "pkgFile": "elixir-1.5.1.fwsc",
+      "sha256": "d867f6863a092c161e182fd5dc8e2eb09f1ba4256f77e0291760bf402b2c6041",
       "repo": "https://github.com/dmajka/elixir",
       "repoSlug": "dmajka/elixir",
-      "release": "https://github.com/dmajka/elixir/releases/tag/v1.4.7",
-      "tag": "v1.4.7",
-      "assetId": "769651752",
+      "release": "https://github.com/dmajka/elixir/releases/tag/v1.5.1",
+      "tag": "v1.5.1",
+      "assetId": "777478922",
       "play": "https://dmajka.github.io/elixir/try/",
-      "editor": "",
-      "installs": 166,
-      "stars": 19
+      "editor": ""
     },
     {
       "id": "estampie",
       "name": "ESTAMPIE",
-      "version": "0.3.8",
+      "version": "0.4.0",
       "author": "Drew Robinson",
       "category": "groove",
-      "date": "2026-11-07",
+      "date": "2026-11-21",
       "beta": true,
+      "installs": 47,
+      "stars": 5,
       "chip": "new",
-      "pkgFile": "estampie-0.3.8.fwsc",
-      "sha256": "6889451585cd623e9d524cb64ef143b75a783b8a7952ea71f1f89d9a46f54c61",
+      "pkgFile": "estampie-0.4.0.fwsc",
+      "sha256": "025663c65b269b845f2c59abf6e04fcdf42cdcc9e010abbe8c0a26cdaa2dcceb",
       "repo": "https://github.com/ocean/estampie",
       "repoSlug": "ocean/estampie",
-      "release": "https://github.com/ocean/estampie/releases/tag/v0.3.8",
-      "tag": "v0.3.8",
-      "assetId": "720599268",
+      "release": "https://github.com/ocean/estampie/releases/tag/v0.4.0",
+      "tag": "v0.4.0",
+      "assetId": "777001756",
       "play": "https://fm-1.drewr.dev/estampie/webapp/emu/",
-      "editor": "https://fm-1.drewr.dev/estampie/webapp/editor/",
-      "installs": 47,
-      "stars": 5
+      "editor": "https://fm-1.drewr.dev/estampie/webapp/editor/"
     },
     {
       "id": "etch",
@@ -1630,6 +1693,8 @@
       "category": "synth",
       "date": "2026-10-30",
       "beta": false,
+      "installs": 116,
+      "stars": 10,
       "chip": "any",
       "pkgFile": "etch-1.88.fwsc",
       "sha256": "65bcb51012d81c9c8206c4843ce04b5c03177b8f09ed74313799ebec0798330f",
@@ -1639,9 +1704,7 @@
       "tag": "V1.88",
       "assetId": "692348139",
       "play": "",
-      "editor": "https://sikkenworks.github.io/ETCH/ETCH-Project-Preset-Manager.html",
-      "installs": 116,
-      "stars": 10
+      "editor": "https://sikkenworks.github.io/ETCH/ETCH-Project-Preset-Manager.html"
     },
     {
       "id": "emb",
@@ -1651,6 +1714,8 @@
       "category": "synth",
       "date": "2026-10-16",
       "beta": false,
+      "installs": 41,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "emb-1.5.2.fwsc",
       "sha256": "4316a6e114912952ed70e1b230b0fc199b353f1fa0bc5c8c04ebb4bcd4801b57",
@@ -1660,9 +1725,7 @@
       "tag": "v1.5.2",
       "assetId": "648927193",
       "play": "",
-      "editor": "",
-      "installs": 41,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "evilgenius",
@@ -1672,6 +1735,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": true,
+      "installs": 37,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "evilgenius-0.1.4.fwsc",
       "sha256": "58399e80af1860ff142b1c45e578f910f195e84da1e0886fb8e8eff35d704a59",
@@ -1681,9 +1746,7 @@
       "tag": "v0.1.4",
       "assetId": "758062484",
       "play": "https://quixotic7.github.io/evilgenius/try/",
-      "editor": "https://quixotic7.github.io/evilgenius/manager/",
-      "installs": 32,
-      "stars": 1
+      "editor": "https://quixotic7.github.io/evilgenius/manager/"
     },
     {
       "id": "fart",
@@ -1693,6 +1756,8 @@
       "category": "other",
       "date": "2026-10-23",
       "beta": false,
+      "installs": 1198,
+      "stars": 25,
       "chip": "old",
       "pkgFile": "fart-1.1.0.fwsc",
       "sha256": "b9e380061ddc086d5c45cfa4d4e583249a9bfb45869e1fcd6fdaf5249c7ee7e2",
@@ -1702,30 +1767,28 @@
       "tag": "V1.1.0",
       "assetId": "667581613",
       "play": "",
-      "editor": "",
-      "installs": 1157,
-      "stars": 25
+      "editor": ""
     },
     {
       "id": "felucca",
       "name": "Felucca",
-      "version": "1.8.2",
+      "version": "1.8.3",
       "author": "Leo Kuroshita (Hügelton Instruments)",
       "category": "groove, dev",
-      "date": "2026-11-13",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 5139,
+      "stars": 763,
       "chip": "new",
-      "pkgFile": "felucca-1.8.2.fwsc",
-      "sha256": "770ea7c756088d08ac59a193f1ae78126476c3c8251a86938c837ead5ab0048a",
+      "pkgFile": "felucca-1.8.3.fwsc",
+      "sha256": "49af224db01eb1132b1f80b68788b62d949a8d2dae3b0ce10838c50bd43e34ec",
       "repo": "https://github.com/hugelton/Felucca",
       "repoSlug": "hugelton/Felucca",
-      "release": "https://github.com/hugelton/Felucca/releases/tag/v1.8.2",
-      "tag": "v1.8.2",
-      "assetId": "742234136",
+      "release": "https://github.com/hugelton/Felucca/releases/tag/v1.8.3",
+      "tag": "v1.8.3",
+      "assetId": "779161129",
       "play": "",
-      "editor": "https://hugelton.github.io/Felucca/webapp/editor/",
-      "installs": 4995,
-      "stars": 760
+      "editor": "https://hugelton.github.io/Felucca/webapp/editor/"
     },
     {
       "id": "felucca8",
@@ -1735,6 +1798,8 @@
       "category": "groove",
       "date": "2026-11-16",
       "beta": false,
+      "installs": 90,
+      "stars": 6,
       "chip": "new",
       "pkgFile": "felucca8-1.8.5.fwsc",
       "sha256": "89dc21f01e99cb03d50aeb3f5f51141f028d349174dd79fcf4e246ed28957734",
@@ -1744,9 +1809,7 @@
       "tag": "v1.8.5",
       "assetId": "753127551",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=argo",
-      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/",
-      "installs": 90,
-      "stars": 6
+      "editor": "https://echoe.github.io/argo_fm1/webapp/editor/"
     },
     {
       "id": "salt",
@@ -1756,6 +1819,8 @@
       "category": "groove",
       "date": "2026-10-05",
       "beta": true,
+      "installs": 91,
+      "stars": 9,
       "chip": "old",
       "pkgFile": "salt-0.9-salt14.fwsc",
       "sha256": "efb516a7131d12eb5c008ff9af5a380d07e82eb1040bd03990f28d1233417e28",
@@ -1765,9 +1830,7 @@
       "tag": "v0.9-salt14",
       "assetId": "611721928",
       "play": "",
-      "editor": "https://chancethemaker.github.io/Felucca/webapp/editor/",
-      "installs": 91,
-      "stars": 9
+      "editor": "https://chancethemaker.github.io/Felucca/webapp/editor/"
     },
     {
       "id": "fernbedienung",
@@ -1777,6 +1840,8 @@
       "category": "other",
       "date": "2026-11-18",
       "beta": false,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "fernbedienung-1.1.fwsc",
       "sha256": "8adec12949d0d3e344123140a2d6d45895baf9c41e067f27b88e6f78076c8fe3",
@@ -1786,9 +1851,7 @@
       "tag": "v1.1",
       "assetId": "764000282",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "fimba",
@@ -1798,6 +1861,8 @@
       "category": "synth",
       "date": "2026-11-09",
       "beta": true,
+      "installs": 447,
+      "stars": 23,
       "chip": "new",
       "pkgFile": "fimba-0.7.0.fwsc",
       "sha256": "c77036f22fb85a0922310cd50f40c00edbef504cbceffc7506468843dbe4dc34",
@@ -1807,9 +1872,7 @@
       "tag": "v0.7.0",
       "assetId": "728549698",
       "play": "https://jadamsowers.github.io/fm1-fimba/",
-      "editor": "",
-      "installs": 437,
-      "stars": 23
+      "editor": ""
     },
     {
       "id": "fizz",
@@ -1819,6 +1882,8 @@
       "category": "groove",
       "date": "2026-11-15",
       "beta": true,
+      "installs": 56,
+      "stars": 4,
       "chip": "new",
       "pkgFile": "fizz-0.13.0.fwsc",
       "sha256": "f695bf2256f948caa4782fdc0554df17bca83d4b61f23453a5414dec7c614da2",
@@ -1828,9 +1893,28 @@
       "tag": "v0.13.0",
       "assetId": "752416491",
       "play": "https://quixotic7.github.io/FIZZ/",
-      "editor": "https://quixotic7.github.io/FIZZ/manager/",
-      "installs": 56,
-      "stars": 4
+      "editor": "https://quixotic7.github.io/FIZZ/manager/"
+    },
+    {
+      "id": "flat20",
+      "name": "FLAT-20",
+      "version": "0.3.2",
+      "author": "Brandon Matthews",
+      "category": "synth",
+      "date": "2026-11-22",
+      "beta": true,
+      "installs": 5,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "flat20-0.3.2.fwsc",
+      "sha256": "358d3731663c8a549f16b8df36a99ee699490c06a32ff19e9e539d9bd833c570",
+      "repo": "https://github.com/thenewwazoo/FLAT-20",
+      "repoSlug": "thenewwazoo/FLAT-20",
+      "release": "https://github.com/thenewwazoo/FLAT-20/releases/tag/v0.3.2",
+      "tag": "v0.3.2",
+      "assetId": "779816120",
+      "play": "",
+      "editor": ""
     },
     {
       "id": "flyfish",
@@ -1840,6 +1924,8 @@
       "category": "other",
       "date": "2026-11-08",
       "beta": false,
+      "installs": 21,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "flyfish-1.1.1-9abe2e8.fwsc",
       "sha256": "ba0908bce9dfa317e7364a8e6371b32f13d014d3c41562186d8476a8579b36db",
@@ -1849,9 +1935,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/flyfish/try/",
-      "editor": "",
-      "installs": 21,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "fm1chimeravocal",
@@ -1861,6 +1945,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": true,
+      "installs": 97,
+      "stars": 9,
       "chip": "new",
       "pkgFile": "fm1chimeravocal-0.9.0.fwsc",
       "sha256": "1938568b67c74b266e7c5b5bf07cedf5365e2aaf9ee17a1ecd9f963a4ef7849e",
@@ -1870,9 +1956,7 @@
       "tag": "v0.9.0",
       "assetId": "774041295",
       "play": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/",
-      "editor": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/",
-      "installs": 82,
-      "stars": 9
+      "editor": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/"
     },
     {
       "id": "fm1midimania",
@@ -1882,6 +1966,8 @@
       "category": "other",
       "date": "2026-11-20",
       "beta": true,
+      "installs": null,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "fm1midimania-0.9.4.fwsc",
       "sha256": "4f6b67925ece35a9bf0fb561b89c426935d02db06f47cbd9631c760d8cb83384",
@@ -1891,9 +1977,7 @@
       "tag": "v0.9.4",
       "assetId": "771945917",
       "play": "https://shan-sherif.github.io/fm-1-midi-mania/webapp/studio/",
-      "editor": "https://shan-sherif.github.io/fm-1-midi-mania/webapp/studio/",
-      "installs": null,
-      "stars": 1
+      "editor": "https://shan-sherif.github.io/fm-1-midi-mania/webapp/studio/"
     },
     {
       "id": "mvave-original-v15",
@@ -1904,6 +1988,8 @@
       "date": "",
       "beta": false,
       "chip": "any",
+      "installs": null,
+      "stars": null,
       "pkgFile": "FM-1_015.fwsc",
       "sha256": "db1642b2b6fa5c2cccb11ffd13878068bb28601678d3644049f99dc40e7edb8a",
       "repo": "https://github.com/m-vave/fm1_open",
@@ -1912,9 +1998,7 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": null
+      "editor": ""
     },
     {
       "id": "fm1sid",
@@ -1924,6 +2008,8 @@
       "category": "tracker",
       "date": "2026-10-25",
       "beta": true,
+      "installs": 11,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "fm1sid-0.3.fwsc",
       "sha256": "30fbbeb839e34eb9cd06b543b9142cce3a937d6b0a221e9985412cebba324ed3",
@@ -1933,9 +2019,7 @@
       "tag": "v0.3",
       "assetId": "676253313",
       "play": "https://joakimeriksson.github.io/fm1-emu/fm1-sid/",
-      "editor": "",
-      "installs": 11,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "fm1zx",
@@ -1945,6 +2029,8 @@
       "category": "other",
       "date": "2026-11-19",
       "beta": false,
+      "installs": null,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "fm1zx-1.2.0.fwsc",
       "sha256": "b3eabdda3ccc02a10aed9b48b2bb489d914b86707a38ded905e762773f8de1b6",
@@ -1954,9 +2040,7 @@
       "tag": "v1.2.0",
       "assetId": "769135014",
       "play": "https://dev-gh.nisdom.com/fm1-zx/",
-      "editor": "",
-      "installs": null,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "fm106",
@@ -1966,6 +2050,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 871,
+      "stars": 20,
       "chip": "new",
       "pkgFile": "fm106-1.02+f3a1229b.fwsc",
       "sha256": "f3a1229b4176de901191a6ce1da2985daa7de925bedda78bae20325e47190034",
@@ -1975,9 +2061,7 @@
       "tag": "1.02",
       "assetId": "749075961",
       "play": "",
-      "editor": "",
-      "installs": 842,
-      "stars": 20
+      "editor": ""
     },
     {
       "id": "fmfam",
@@ -1987,6 +2071,8 @@
       "category": "groove",
       "date": "2026-11-12",
       "beta": true,
+      "installs": 27,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "fmfam-0.3.1.fwsc",
       "sha256": "209aa47e147cefb1d59c7bae5cff205a89808faf9d85ba033bee6ecbc990bba9",
@@ -1996,9 +2082,7 @@
       "tag": "v0.3.1",
       "assetId": "740553444",
       "play": "https://davidamomusic.github.io/fm-fam/fam/docs/play/",
-      "editor": "https://davidamomusic.github.io/fm-fam/fam/docs/FM-FAM-mirror.html",
-      "installs": 27,
-      "stars": 4
+      "editor": "https://davidamomusic.github.io/fm-fam/fam/docs/FM-FAM-mirror.html"
     },
     {
       "id": "fmkick",
@@ -2008,6 +2092,8 @@
       "category": "drums",
       "date": "2026-11-19",
       "beta": true,
+      "installs": 7,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "fmkick-0.5.1.fwsc",
       "sha256": "bae8ab53fe6c4b94a083a2ecd8f81c34df473695566d64401206f9d5f9f6ebf4",
@@ -2017,9 +2103,7 @@
       "tag": "v0.5.1",
       "assetId": "767884288",
       "play": "https://davidamomusic.github.io/fm-kick/kick/docs/play/",
-      "editor": "https://davidamomusic.github.io/fm-kick/kick/docs/FM-KICK-mirror.html",
-      "installs": 7,
-      "stars": 0
+      "editor": "https://davidamomusic.github.io/fm-kick/kick/docs/FM-KICK-mirror.html"
     },
     {
       "id": "audiorouter",
@@ -2029,6 +2113,8 @@
       "category": "other",
       "date": "2026-11-16",
       "beta": true,
+      "installs": null,
+      "stars": 5,
       "chip": "old",
       "pkgFile": "audiorouter-0.6.1.fwsc",
       "sha256": "bd0e4f4b71a8c2c3fecb58295833ded5450a43d7f16dd13bdac42ae9960c79b9",
@@ -2038,9 +2124,7 @@
       "tag": "v0.6.1",
       "assetId": "756775806",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "fm1quest",
@@ -2050,6 +2134,8 @@
       "category": "other",
       "date": "2026-11-02",
       "beta": false,
+      "installs": 150,
+      "stars": 15,
       "chip": "old",
       "pkgFile": "fm1quest-42.fwsc",
       "sha256": "08a9d725bdb3f00aef7703e0a00f27a9f3e2e63794d47bfc1f152507a3c0f483",
@@ -2059,30 +2145,28 @@
       "tag": "quest-43",
       "assetId": "702900172",
       "play": "https://fm1.quest/sim/",
-      "editor": "https://fm1.quest/editor/",
-      "installs": 147,
-      "stars": 15
+      "editor": "https://fm1.quest/editor/"
     },
     {
       "id": "fm1tonic",
       "name": "FM1 TONIC",
-      "version": "1.7",
+      "version": "1.8b",
       "author": "Luigi Rossi",
       "category": "groove",
-      "date": "2026-11-18",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 6,
+      "stars": 0,
       "chip": "new",
-      "pkgFile": "fm1tonic-1.7.fwsc",
-      "sha256": "35974057e3290c5426558c9495783db2fa4ce1776f28849eaf0587ae8d0dfa84",
+      "pkgFile": "fm1tonic-1.8b.fwsc",
+      "sha256": "ab9b6f221e65a63aa94594bcaa0bdb3bf429ca960afa11e715104bc5f9ef1b36",
       "repo": "https://github.com/luigirossi-music/fm1-tonic",
       "repoSlug": "luigirossi-music/fm1-tonic",
-      "release": "https://github.com/luigirossi-music/fm1-tonic/releases/tag/v1.7",
-      "tag": "v1.7",
-      "assetId": "765046067",
+      "release": "https://github.com/luigirossi-music/fm1-tonic/releases/tag/v1.8b",
+      "tag": "v1.8b",
+      "assetId": "779684598",
       "play": "https://luigirossi-music.github.io/fm1-tonic/emu/",
-      "editor": "",
-      "installs": 6,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "fm1yoga",
@@ -2092,6 +2176,8 @@
       "category": "other",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 22,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "fm1yoga-1.0.fwsc",
       "sha256": "fd22c28c7d252fb1e599b93da8970687866952cfb85767323db1e768754f137d",
@@ -2101,9 +2187,7 @@
       "tag": "v1.0",
       "assetId": "745238537",
       "play": "https://michamilz.github.io/fm1-yoga/emu/",
-      "editor": "",
-      "installs": 18,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "fm1800",
@@ -2113,6 +2197,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 20,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "fm1800-0.12.5.fwsc",
       "sha256": "6a16968706aa9b74c16afce5a5ccdeb6a9e9cf1354e4c677885dbe22121803bb",
@@ -2122,9 +2208,7 @@
       "tag": "v0.12.5",
       "assetId": "773336218",
       "play": "",
-      "editor": "",
-      "installs": 11,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "fm1amy",
@@ -2134,6 +2218,8 @@
       "category": "synth",
       "date": "2026-11-10",
       "beta": true,
+      "installs": 12,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "fm1amy-0.1.0.fwsc",
       "sha256": "6aeeddcc5737c8d92192943ffc3d42b4b4cffbc0a7b50b3cf0b09826eb77162d",
@@ -2143,9 +2229,7 @@
       "tag": "v0.1.0",
       "assetId": "731651069",
       "play": "",
-      "editor": "https://amyboard.com/editor",
-      "installs": 12,
-      "stars": 2
+      "editor": "https://amyboard.com/editor"
     },
     {
       "id": "chord",
@@ -2155,6 +2239,8 @@
       "category": "chords",
       "date": "2026-10-09",
       "beta": true,
+      "installs": 348,
+      "stars": 15,
       "chip": "old",
       "pkgFile": "chord-0.3.fwsc",
       "sha256": "e2d06d0bfd4cd93bb0913494496a526775cb4661a3f2973818c4dd696807d145",
@@ -2164,9 +2250,7 @@
       "tag": "v0.3",
       "assetId": "626063286",
       "play": "",
-      "editor": "",
-      "installs": 351,
-      "stars": 15
+      "editor": ""
     },
     {
       "id": "fm1dock",
@@ -2176,6 +2260,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": true,
+      "installs": 470,
+      "stars": 45,
       "chip": "new",
       "pkgFile": "fm1dock-0.9.0.fwsc",
       "sha256": "8bb30b2b890ee5fafa720b765f3f1585dcd56d2ce4bf1657d7c9e0a2a13dbe27",
@@ -2185,9 +2271,7 @@
       "tag": "v0.9.0",
       "assetId": "750651116",
       "play": "https://joakimeriksson.github.io/fm1-dock/#emulator",
-      "editor": "",
-      "installs": 445,
-      "stars": 45
+      "editor": ""
     },
     {
       "id": "fm1gm",
@@ -2197,6 +2281,8 @@
       "category": "groove",
       "date": "2026-11-08",
       "beta": false,
+      "installs": 99,
+      "stars": 14,
       "chip": "new",
       "pkgFile": "fm1gm-1.2.0.fwsc",
       "sha256": "42187d51166f2850005aa1235ca440f40e94ec41911f71e8e75d06ce8e45f75e",
@@ -2206,9 +2292,7 @@
       "tag": "v1.2.0",
       "assetId": "723747187",
       "play": "https://jartificer.github.io/fm1-gm/",
-      "editor": "https://jartificer.github.io/fm1-gm/editor.html",
-      "installs": 99,
-      "stars": 14
+      "editor": "https://jartificer.github.io/fm1-gm/editor.html"
     },
     {
       "id": "fm1trax",
@@ -2218,6 +2302,8 @@
       "category": "tracker",
       "date": "2026-11-08",
       "beta": true,
+      "installs": 13,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "fm1trax-0.9.5.fwsc",
       "sha256": "86de2ecc0fbba397abae98cfa07315003ee6c5d8bafa99be6acdcc24d22e6478",
@@ -2227,9 +2313,7 @@
       "tag": "v0.9.5",
       "assetId": "723856100",
       "play": "https://jartificer.github.io/fm1-trax/",
-      "editor": "https://jartificer.github.io/fm1-trax/editor.html",
-      "installs": 13,
-      "stars": 3
+      "editor": "https://jartificer.github.io/fm1-trax/editor.html"
     },
     {
       "id": "fmav1",
@@ -2239,6 +2323,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 9,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "fmav1-0.6.4.fwsc",
       "sha256": "9ab30bda5cdef9b8deef58214fac678805d20dd812a1d18c030813f4a050a929",
@@ -2248,9 +2334,7 @@
       "tag": "v0.6.4",
       "assetId": "773080805",
       "play": "",
-      "editor": "",
-      "installs": 9,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "fmdj",
@@ -2260,6 +2344,8 @@
       "category": "tracker",
       "date": "2026-10-22",
       "beta": false,
+      "installs": null,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "fmdj-2026.10.22.fwsc",
       "sha256": "857bd4fafca1fb78ac47386b5c02ab58acd8c72ca69ce341461f188c49b68342",
@@ -2269,9 +2355,7 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "fmel",
@@ -2281,6 +2365,8 @@
       "category": "synth",
       "date": "2026-11-10",
       "beta": false,
+      "installs": 433,
+      "stars": 9,
       "chip": "new",
       "pkgFile": "fmel-1.3.fwsc",
       "sha256": "7145b58e4ff071aff43df2178e7ed63ecd6c53dff145e2648a982c99a88d1d70",
@@ -2290,9 +2376,7 @@
       "tag": "v1.3",
       "assetId": "731043824",
       "play": "https://antonioaltea.github.io/fmel-1/",
-      "editor": "",
-      "installs": 415,
-      "stars": 9
+      "editor": ""
     },
     {
       "id": "fmini",
@@ -2302,6 +2386,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 3765,
+      "stars": 45,
       "chip": "new",
       "pkgFile": "fmini-2.6.0.fwsc",
       "sha256": "625f315af1dcc78ee4251c1626a31b967667c4f396f1bcca454c570930979cf4",
@@ -2311,9 +2397,7 @@
       "tag": "v2.6.0",
       "assetId": "752744530",
       "play": "https://ruppert.github.io/fmini-1/emu/",
-      "editor": "",
-      "installs": 3586,
-      "stars": 45
+      "editor": ""
     },
     {
       "id": "fmlarynx",
@@ -2323,6 +2407,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": true,
+      "installs": null,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "fmlarynx-0.4.2.fwsc",
       "sha256": "845dbf1c6f6cbbf1406de49d304e9838f9e04390c953619ece1f94e70c0077bf",
@@ -2332,9 +2418,7 @@
       "tag": "v0.4.2",
       "assetId": "750774027",
       "play": "https://ejtb76.github.io/FMLarynx/emu/",
-      "editor": "",
-      "installs": null,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "fomajam",
@@ -2344,6 +2428,8 @@
       "category": "drums",
       "date": "2026-11-10",
       "beta": true,
+      "installs": 71,
+      "stars": 6,
       "chip": "new",
       "pkgFile": "fomajam-0.1.12.fwsc",
       "sha256": "b18d747f4e005f392a4071a00847268fe244d5e4e7d8bd7a359c25bd9dc3ac88",
@@ -2353,9 +2439,7 @@
       "tag": "v0.1.12",
       "assetId": "729816526",
       "play": "https://konsumer.js.org/fomajam/",
-      "editor": "",
-      "installs": 71,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "fomni",
@@ -2365,6 +2449,8 @@
       "category": "chords",
       "date": "2026-11-21",
       "beta": true,
+      "installs": 852,
+      "stars": 84,
       "chip": "new",
       "pkgFile": "fomni-0.5.fwsc",
       "sha256": "eda4ce0078eeed9541aa99e1efedfeb773d1ccf1d7f82563d2ef81a4b41cf570",
@@ -2374,9 +2460,7 @@
       "tag": "v0.5",
       "assetId": "775427433",
       "play": "https://charlesvestal.github.io/fm1-fomni/emu/",
-      "editor": "",
-      "installs": 821,
-      "stars": 84
+      "editor": ""
     },
     {
       "id": "frasil",
@@ -2386,6 +2470,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 2178,
+      "stars": 23,
       "chip": "new",
       "pkgFile": "frasil-3.4.fwsc",
       "sha256": "288f8fb0f64a5811ebd781a986d7c93237e21bbc1e437a05eb89a5c7aba403c5",
@@ -2395,9 +2481,7 @@
       "tag": "v3.4",
       "assetId": "774364793",
       "play": "https://frasilsynth.com/play/",
-      "editor": "https://editor.frasilsynth.com/",
-      "installs": 2069,
-      "stars": 22
+      "editor": "https://editor.frasilsynth.com/"
     },
     {
       "id": "frodhes",
@@ -2407,6 +2491,8 @@
       "category": "synth",
       "date": "2026-11-12",
       "beta": true,
+      "installs": 325,
+      "stars": 15,
       "chip": "new",
       "pkgFile": "frodhes-0.9.11.fwsc",
       "sha256": "9524a3cff24aae8bf2567e18c177f3c945c1849bdc8b538b4ac9414fae5d88f2",
@@ -2416,9 +2502,7 @@
       "tag": "v0.9.11",
       "assetId": "739247494",
       "play": "https://leonardomirabal.github.io/frodhes/",
-      "editor": "",
-      "installs": 313,
-      "stars": 15
+      "editor": ""
     },
     {
       "id": "fumi",
@@ -2428,6 +2512,8 @@
       "category": "chords",
       "date": "2026-11-18",
       "beta": false,
+      "installs": 359,
+      "stars": 21,
       "chip": "new",
       "pkgFile": "fumi-1.1.1.fwsc",
       "sha256": "03979d6592791f3547e0a1992147434dfdcc0e6df3e9eee8dd6ca588dd21cac7",
@@ -2437,9 +2523,7 @@
       "tag": "fumi-1.1.1",
       "assetId": "763085951",
       "play": "",
-      "editor": "",
-      "installs": 349,
-      "stars": 21
+      "editor": ""
     },
     {
       "id": "gator",
@@ -2449,6 +2533,8 @@
       "category": "synth",
       "date": "2026-10-17",
       "beta": true,
+      "installs": 29,
+      "stars": 9,
       "chip": "old",
       "pkgFile": "gator-0.6.fwsc",
       "sha256": "52bcd2428c098b373f237622a392424069219b83d87f7a5606ca91cf28430bfb",
@@ -2458,9 +2544,7 @@
       "tag": "v0.6",
       "assetId": "649930557",
       "play": "",
-      "editor": "",
-      "installs": 29,
-      "stars": 8
+      "editor": ""
     },
     {
       "id": "ghoulbox",
@@ -2470,6 +2554,8 @@
       "category": "groove",
       "date": "2026-10-24",
       "beta": false,
+      "installs": 2085,
+      "stars": 95,
       "chip": "old",
       "pkgFile": "ghoulbox-2.4.fwsc",
       "sha256": "92630ae278d4a0b4233ff2512b62ad9b5dbe976a4c9083046222d9293a8df749",
@@ -2479,9 +2565,7 @@
       "tag": "ghoulbox-v2.4",
       "assetId": "672093892",
       "play": "",
-      "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/",
-      "installs": 2050,
-      "stars": 94
+      "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/"
     },
     {
       "id": "glitch",
@@ -2491,6 +2575,8 @@
       "category": "groove",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 53,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "glitch-2.0.2.fwsc",
       "sha256": "fdf6afb861a2cb54d590bcbecd5a0e0de24f373df43befb606f1560c05c33938",
@@ -2500,9 +2586,7 @@
       "tag": "v2.0.2",
       "assetId": "752167888",
       "play": "https://saulofilho.github.io/glitch/emu/",
-      "editor": "",
-      "installs": 50,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "golana",
@@ -2512,6 +2596,8 @@
       "category": "synth",
       "date": "2026-10-26",
       "beta": false,
+      "installs": 395,
+      "stars": 12,
       "chip": "old",
       "pkgFile": "golana-1.3.fwsc",
       "sha256": "49806d009e140d1e90a1396d0f8caf54870d9d633d3ade2718ec0461b9501745",
@@ -2521,9 +2607,7 @@
       "tag": "golana-v1.3",
       "assetId": "677928842",
       "play": "https://gadlele.github.io/Golana/try/",
-      "editor": "",
-      "installs": 386,
-      "stars": 12
+      "editor": ""
     },
     {
       "id": "golanadz",
@@ -2533,6 +2617,8 @@
       "category": "groove",
       "date": "2026-10-17",
       "beta": true,
+      "installs": 9,
+      "stars": 0,
       "chip": "old",
       "pkgFile": "golanadz-0.1.0-beta.fwsc",
       "sha256": "b93e2c911366037031e83c9a366158ca090aa2eb9c939889e9e5982dfc568ca7",
@@ -2542,9 +2628,7 @@
       "tag": "v0.1.0-beta",
       "assetId": "648999882",
       "play": "",
-      "editor": "",
-      "installs": 9,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "golf",
@@ -2554,6 +2638,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 20,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "golf-1.0.fwsc",
       "sha256": "adf966894bb1040f57a48d062e537feb5bace11f54b86087240cd0a0b3c0f99e",
@@ -2563,9 +2649,7 @@
       "tag": "v1.0",
       "assetId": "748771654",
       "play": "",
-      "editor": "",
-      "installs": 20,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "grimm",
@@ -2575,6 +2659,8 @@
       "category": "groove",
       "date": "2026-11-03",
       "beta": false,
+      "installs": 2322,
+      "stars": 56,
       "chip": "old",
       "pkgFile": "grimm-2.0.2.fwsc",
       "sha256": "d85c0dd3d668f48157afad7b9a1eb2e49e376f931afd2349bebef9014eb1375d",
@@ -2584,9 +2670,28 @@
       "tag": "v2.0.2",
       "assetId": "706782910",
       "play": "https://grimmbient.github.io/grimm/",
-      "editor": "https://grimmbient.github.io/grimm/editor.html",
-      "installs": 2271,
-      "stars": 54
+      "editor": "https://grimmbient.github.io/grimm/editor.html"
+    },
+    {
+      "id": "grainpiano",
+      "name": "GRAIN PIANO",
+      "version": "1.3",
+      "author": "swtdr34mz",
+      "category": "synth",
+      "date": "2026-11-21",
+      "beta": false,
+      "installs": 5,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "grainpiano-1.3.fwsc",
+      "sha256": "6a2473f3a5461c3d3777ba1ea8b8de9e2e21fbed145e72cd7b75f172754972cc",
+      "repo": "https://github.com/swtdr34mz-afk/GRAIN_PIANO",
+      "repoSlug": "swtdr34mz-afk/GRAIN_PIANO",
+      "release": "https://github.com/swtdr34mz-afk/GRAIN_PIANO/releases/tag/v1.3",
+      "tag": "v1.3",
+      "assetId": "776392787",
+      "play": "https://swtdr34mz-afk.github.io/GRAIN_PIANO/emu/",
+      "editor": ""
     },
     {
       "id": "guitchordi",
@@ -2596,6 +2701,8 @@
       "category": "chords",
       "date": "2026-10-26",
       "beta": true,
+      "installs": 117,
+      "stars": 2,
       "chip": "old",
       "pkgFile": "guitchordi-0.1.0-beta.1.fwsc",
       "sha256": "330396f043093bcdda65aacbd0098dd1fc1f253a17d5707db19ff5d971e05217",
@@ -2605,9 +2712,7 @@
       "tag": "v0.1.0-beta.1",
       "assetId": "679511929",
       "play": "https://stoogs.github.io/guitchordi/emu/",
-      "editor": "",
-      "installs": 112,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "guru600",
@@ -2617,6 +2722,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": false,
+      "installs": 374,
+      "stars": 8,
       "chip": "new",
       "pkgFile": "guru600-1.3.1.fwsc",
       "sha256": "7b8d13ebd0b4adac0ff15dc96ff3534039ab9fff4690a853a6056ca0c9ba2ff0",
@@ -2626,9 +2733,7 @@
       "tag": "v1.3.1",
       "assetId": "768046520",
       "play": "https://guru-600.com/jouer/",
-      "editor": "https://marcgoudy.github.io/guru-600/editor/",
-      "installs": 351,
-      "stars": 8
+      "editor": "https://marcgoudy.github.io/guru-600/editor/"
     },
     {
       "id": "h1",
@@ -2638,6 +2743,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 278,
+      "stars": 16,
       "chip": "new",
       "pkgFile": "h1-0.3.0.fwsc",
       "sha256": "eef5b290694458b2da400a08e7faf3526bcd3fc1e429000abedb4bc41ba19dcb",
@@ -2647,9 +2754,7 @@
       "tag": "v0.3.0",
       "assetId": "773098068",
       "play": "https://jakehandy.github.io/fm1-browser-simulator/?fw=h1",
-      "editor": "https://jakehandy.com/h1",
-      "installs": 183,
-      "stars": 14
+      "editor": "https://jakehandy.com/h1"
     },
     {
       "id": "hadal1",
@@ -2659,6 +2764,8 @@
       "category": "other",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 206,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "hadal1-1.0.1.fwsc",
       "sha256": "579917ffb03b5b757e33daccb51300f1b9f122c9a56fae7e834e5cfc1d2751d4",
@@ -2668,9 +2775,7 @@
       "tag": "v1.0.1",
       "assetId": "752004583",
       "play": "https://sparky480v.github.io/hadal-1/emu/",
-      "editor": "",
-      "installs": 178,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "hawkchua",
@@ -2680,6 +2785,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 44,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "hawkchua-2.1.7.fwsc",
       "sha256": "bcd5b641b8269e89795246502d31cfa5249d191ba70c9c4833115974fc345d4a",
@@ -2689,9 +2796,7 @@
       "tag": "v2.1.7",
       "assetId": "751699965",
       "play": "https://plieuw.github.io/hawk-chua/webapp/try/",
-      "editor": "",
-      "installs": 44,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "hera",
@@ -2701,6 +2806,8 @@
       "category": "groove",
       "date": "2026-10-21",
       "beta": false,
+      "installs": 87,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "hera-1.1.fwsc",
       "sha256": "dc0153ecba3daecfe289cb59124509117701311d15717db9a326d192928a9c45",
@@ -2710,9 +2817,7 @@
       "tag": "v1.1",
       "assetId": "663933080",
       "play": "https://benbadio.github.io/hera-fm1/",
-      "editor": "",
-      "installs": 87,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "hortator",
@@ -2722,6 +2827,8 @@
       "category": "drums",
       "date": "2026-11-03",
       "beta": false,
+      "installs": 875,
+      "stars": 64,
       "chip": "new",
       "pkgFile": "hortator-1.0.1.fwsc",
       "sha256": "ac81af292e035ee0c4b8b7ab3a78b942e4f03deee31ae213a2613c743cd9110f",
@@ -2731,9 +2838,7 @@
       "tag": "drum-v1.0.1",
       "assetId": "707434606",
       "play": "https://deadactive.github.io/hortator/",
-      "editor": "",
-      "installs": 842,
-      "stars": 64
+      "editor": ""
     },
     {
       "id": "hortator-bt",
@@ -2743,6 +2848,8 @@
       "category": "drums",
       "date": "2026-11-03",
       "beta": false,
+      "installs": 103,
+      "stars": 64,
       "chip": "new",
       "pkgFile": "hortator-bt-1.0.1.fwsc",
       "sha256": "3d5fc15367945576cc590dac20269b108658fd592200b9e4c3626f9b7c8aab61",
@@ -2752,9 +2859,7 @@
       "tag": "drum-v1.0.1",
       "assetId": "707434610",
       "play": "https://deadactive.github.io/hortator/",
-      "editor": "",
-      "installs": 99,
-      "stars": 64
+      "editor": ""
     },
     {
       "id": "hungrytravis",
@@ -2764,6 +2869,8 @@
       "category": "other",
       "date": "2026-11-10",
       "beta": false,
+      "installs": 13,
+      "stars": 0,
       "chip": "old",
       "pkgFile": "hungrytravis-2026.11.10.fwsc",
       "sha256": "de460db393835644f013540ba5620396eb23c72e4373cdcbac889466bd7ef32c",
@@ -2773,9 +2880,7 @@
       "tag": "fm1-797",
       "assetId": "729719855",
       "play": "",
-      "editor": "",
-      "installs": 13,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "hyp1",
@@ -2785,6 +2890,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 1036,
+      "stars": 32,
       "chip": "new",
       "pkgFile": "hyp1-1.5.70.fwsc",
       "sha256": "e141c1f6264033c73e99999e257269d844aa62b90b26bea2023edd8bde461b4b",
@@ -2794,9 +2901,28 @@
       "tag": "",
       "assetId": "",
       "play": "https://rustypawz.github.io/fm1-HYP1/emu/",
-      "editor": "",
-      "installs": 1006,
-      "stars": 32
+      "editor": ""
+    },
+    {
+      "id": "insertcoin",
+      "name": "INSERT COIN",
+      "version": "0.8",
+      "author": "swtdr34mz (based on Blop by Obsimo)",
+      "category": "chords",
+      "date": "2026-11-21",
+      "beta": true,
+      "installs": 7,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "insertcoin-0.8.fwsc",
+      "sha256": "d9b1f08f2fe066886c7c11e677107d5e203356423b6a99d1b3aef2561f29a58d",
+      "repo": "https://github.com/swtdr34mz-afk/INSERT_COIN",
+      "repoSlug": "swtdr34mz-afk/INSERT_COIN",
+      "release": "https://github.com/swtdr34mz-afk/INSERT_COIN/releases/tag/v0.8",
+      "tag": "v0.8",
+      "assetId": "777041817",
+      "play": "https://swtdr34mz-afk.github.io/INSERT_COIN/emu/",
+      "editor": ""
     },
     {
       "id": "j6",
@@ -2806,6 +2932,8 @@
       "category": "synth",
       "date": "2026-10-29",
       "beta": false,
+      "installs": 138,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "j6-1.4.0.fwsc",
       "sha256": "0bf0a53e4213e070917650294acf92c8bf83f12b2539f78aee29de9330f3de8f",
@@ -2815,9 +2943,7 @@
       "tag": "v1.4.0",
       "assetId": "689740915",
       "play": "",
-      "editor": "https://jackiealacrity2373.github.io/fm1-j6/",
-      "installs": 138,
-      "stars": 3
+      "editor": "https://jackiealacrity2373.github.io/fm1-j6/"
     },
     {
       "id": "jam",
@@ -2827,6 +2953,8 @@
       "category": "groove",
       "date": "2026-10-29",
       "beta": false,
+      "installs": 48,
+      "stars": 0,
       "chip": "old",
       "pkgFile": "jam-1.2.0.fwsc",
       "sha256": "be3f972864fcc7a38b813991b18eac17bef3213441bac4db19dabd7a6fdb7214",
@@ -2836,9 +2964,7 @@
       "tag": "jam-1.2.0",
       "assetId": "689197583",
       "play": "",
-      "editor": "",
-      "installs": 48,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "jamtrack",
@@ -2848,6 +2974,8 @@
       "category": "groove",
       "date": "2026-11-09",
       "beta": true,
+      "installs": 157,
+      "stars": 11,
       "chip": "new",
       "pkgFile": "jamtrack-0.2.3.fwsc",
       "sha256": "4111f8e9b2019ba4bbc1d3137c490ffcd4261574ad7265992dc15ef0806e1902",
@@ -2857,9 +2985,7 @@
       "tag": "v0.2.3",
       "assetId": "728597400",
       "play": "https://philip-bos.github.io/jamtrack-fm1/emulator/",
-      "editor": "https://philip-bos.github.io/jamtrack-fm1/",
-      "installs": 130,
-      "stars": 11
+      "editor": "https://philip-bos.github.io/jamtrack-fm1/"
     },
     {
       "id": "jangada",
@@ -2869,6 +2995,8 @@
       "category": "groove",
       "date": "2026-10-16",
       "beta": false,
+      "installs": 129,
+      "stars": 39,
       "chip": "old",
       "pkgFile": "jangada-1.0.1.fwsc",
       "sha256": "c382e334057bd107294940e456e5c1140754917ba152a1958af3aa1696333588",
@@ -2878,21 +3006,21 @@
       "tag": "v1.0.1",
       "assetId": "647395558",
       "play": "https://zednaked.github.io/jangada/webapp/studio/",
-      "editor": "https://zednaked.github.io/jangada/webapp/editor/",
-      "installs": 129,
-      "stars": 39
+      "editor": "https://zednaked.github.io/jangada/webapp/editor/"
     },
     {
       "id": "jiant",
       "name": "JIANT FM",
-      "version": "V10.7.58",
+      "version": "V10.7.81",
       "author": "juanjiant-bit",
       "category": "groove",
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 9448,
+      "stars": 267,
       "chip": "new",
-      "pkgFile": "jiant-V10.7.58.fwsc",
-      "sha256": "88cdb00ea213601086d8704f24d60d9b984afe09f2b200d84001a2411342554c",
+      "pkgFile": "jiant-V10.7.81+de2922f2.fwsc",
+      "sha256": "de2922f2cd248b436a47c8196767e2d17d8899261f4994692da6468abe8c76ad",
       "repo": "https://github.com/juanjiant-bit/JIANT",
       "repoSlug": "juanjiant-bit/JIANT",
       "release": "https://juanjiant-bit.github.io/JIANT/",
@@ -2900,11 +3028,9 @@
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=jiant",
       "editor": "https://juanjiant-bit.github.io/JIANT/webapp/editor/",
-      "installs": 9108,
-      "stars": 262,
       "downloadKind": "github_pages",
-      "downloadUrl": "https://juanjiant-bit.github.io/JIANT/firmware/felucca-V10.7.58.fwsc",
-      "downloadVerifiedAt": "2026-11-21"
+      "downloadUrl": "https://juanjiant-bit.github.io/JIANT/firmware/felucca-V10.7.81.fwsc",
+      "downloadVerifiedAt": "2026-11-22"
     },
     {
       "id": "juicy",
@@ -2914,6 +3040,8 @@
       "category": "groove",
       "date": "2026-11-15",
       "beta": true,
+      "installs": 5,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "juicy-0.1.fwsc",
       "sha256": "ca5e969dc06ee3c677a52a5b2b998974c9011921b0b36a884ec80d75b355286a",
@@ -2923,9 +3051,7 @@
       "tag": "v0.1",
       "assetId": "751419703",
       "play": "",
-      "editor": "",
-      "installs": 5,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "kwasub",
@@ -2935,6 +3061,8 @@
       "category": "synth",
       "date": "2026-11-18",
       "beta": false,
+      "installs": 411,
+      "stars": 6,
       "chip": "new",
       "pkgFile": "kwasub-1.2.1b.fwsc",
       "sha256": "2b0b94cdee8e5fdf3d3ea9e5f995f411475c653402ae84daa47434e2b4343cad",
@@ -2944,30 +3072,28 @@
       "tag": "v1.2.1b",
       "assetId": "",
       "play": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/emulator/index.html",
-      "editor": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/data.html",
-      "installs": 372,
-      "stars": 6
+      "editor": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/data.html"
     },
     {
       "id": "karma",
       "name": "KARMA",
-      "version": "3.1.5",
+      "version": "3.1.6",
       "author": "Ariel Muchnik",
       "category": "groove",
-      "date": "2026-11-17",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 610,
+      "stars": 30,
       "chip": "new",
-      "pkgFile": "karma-3.1.5.fwsc",
-      "sha256": "cd0f643c9728375d31592a63f79ef440501b9e8da9e8ff034699179cb50b3c9b",
+      "pkgFile": "karma-3.1.6.fwsc",
+      "sha256": "e9620b28b2d29f816036dbf40f824b9339da6b68ab0a0cead8c65135152c41e1",
       "repo": "https://github.com/eatyourgreensstudio-dotcom/karma-fm1",
       "repoSlug": "eatyourgreensstudio-dotcom/karma-fm1",
-      "release": "https://github.com/eatyourgreensstudio-dotcom/karma-fm1/releases/tag/v3.1.5",
-      "tag": "v3.1.5",
-      "assetId": "759678881",
+      "release": "https://github.com/eatyourgreensstudio-dotcom/karma-fm1/releases/tag/v3.1.6",
+      "tag": "v3.1.6",
+      "assetId": "779473455",
       "play": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/emu/",
-      "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/",
-      "installs": 587,
-      "stars": 30
+      "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/"
     },
     {
       "id": "kawa",
@@ -2977,6 +3103,8 @@
       "category": "tracker",
       "date": "2026-11-09",
       "beta": true,
+      "installs": 243,
+      "stars": 16,
       "chip": "new",
       "pkgFile": "kawa-0.9.fwsc",
       "sha256": "05bd45948f591159780c025d637aa04629501ceb93b4d00e86a56ad3cc6dc1b4",
@@ -2986,9 +3114,7 @@
       "tag": "v0.9",
       "assetId": "",
       "play": "https://guizmoh.github.io/Kawa-Tracker-Fm1/emulator/",
-      "editor": "",
-      "installs": 230,
-      "stars": 16
+      "editor": ""
     },
     {
       "id": "keystepone",
@@ -2998,6 +3124,8 @@
       "category": "groove",
       "date": "2026-11-10",
       "beta": true,
+      "installs": 4,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "keystepone-0.5.42.fwsc",
       "sha256": "9de60f29818022dd72cd2c098b91c9d27427bd8898682cf0c30863fc5754569b",
@@ -3007,9 +3135,7 @@
       "tag": "v0.5.42",
       "assetId": "731254867",
       "play": "",
-      "editor": "",
-      "installs": 4,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "kittenrack",
@@ -3019,6 +3145,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 27,
+      "stars": 8,
       "chip": "old",
       "pkgFile": "kittenrack-1.5.0.fwsc",
       "sha256": "3ef77c39ec5d720d17b021fb936e73bef33dcb65560ae3e0e78e05eb5c1c261d",
@@ -3028,9 +3156,7 @@
       "tag": "v1.5.0",
       "assetId": "752635626",
       "play": "https://blackkittendevices.github.io/kitten-rack/play.html",
-      "editor": "https://blackkittendevices.github.io/kitten-rack/",
-      "installs": 27,
-      "stars": 8
+      "editor": "https://blackkittendevices.github.io/kitten-rack/"
     },
     {
       "id": "kitten",
@@ -3040,6 +3166,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 197,
+      "stars": 7,
       "chip": "new",
       "pkgFile": "kitten-2.8-kitten.14.fwsc",
       "sha256": "7a9c4c3416e763b4d845259afd1dd5de4bb59daae8a435f337e3ea22c37e252d",
@@ -3049,9 +3177,7 @@
       "tag": "v2.8-kitten.14",
       "assetId": "773333564",
       "play": "https://blackkittendevices.github.io/Kitten-Synths/play/?fw=kittensynths&mhz=60&latency=0.25",
-      "editor": "https://blackkittendevices.github.io/Kitten-Synths/site/webapp/editor/",
-      "installs": 183,
-      "stars": 7
+      "editor": "https://blackkittendevices.github.io/Kitten-Synths/site/webapp/editor/"
     },
     {
       "id": "kriechstrom",
@@ -3061,6 +3187,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 53,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "kriechstrom-0.5.2.fwsc",
       "sha256": "3f7e6e28951f50579e68293225b9151f2ce6e4c56562d5228a64d176b5a2f3e4",
@@ -3070,9 +3198,7 @@
       "tag": "v0.5.2",
       "assetId": "770031323",
       "play": "https://fm1-emulator.atst.tools/?firmware=kriechstrom",
-      "editor": "https://xforsa.github.io/kriechstrom/webapp/editor/",
-      "installs": 52,
-      "stars": 2
+      "editor": "https://xforsa.github.io/kriechstrom/webapp/editor/"
     },
     {
       "id": "krisjangle",
@@ -3082,6 +3208,8 @@
       "category": "other",
       "date": "2026-11-19",
       "beta": true,
+      "installs": 5,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "krisjangle-0.15.fwsc",
       "sha256": "8f67370a58b435781011ab7b2a6d114d99a479f7c83b5bdd43f98e54ec2f4fb1",
@@ -3091,9 +3219,7 @@
       "tag": "v0.15",
       "assetId": "768858384",
       "play": "https://doohinkus.github.io/kris-jangle/emu/",
-      "editor": "",
-      "installs": 3,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "kurzhaar",
@@ -3103,6 +3229,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 11,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "kurzhaar-1.1.fwsc",
       "sha256": "e348d6c73e7099f543deda0c77f911aa60fa349eb193f507a4e8b49138225c22",
@@ -3112,9 +3240,7 @@
       "tag": "v1.1",
       "assetId": "748954713",
       "play": "",
-      "editor": "",
-      "installs": 11,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "lrry",
@@ -3124,6 +3250,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": true,
+      "installs": null,
+      "stars": 4,
       "chip": "new",
       "pkgFile": "lrry-0.1.0-beta.fwsc",
       "sha256": "b6a4db70335a7c111dfdeb51fce44424ff1c598a609f5f9916d4abccc33b5571",
@@ -3133,30 +3261,28 @@
       "tag": "v0.1.0-beta",
       "assetId": "743829849",
       "play": "https://oscillr.github.io/LRRY/emu/",
-      "editor": "https://oscillr.github.io/LRRY/editor/",
-      "installs": null,
-      "stars": 4
+      "editor": "https://oscillr.github.io/LRRY/editor/"
     },
     {
       "id": "loafbreaker",
       "name": "LOAF BREAKER",
-      "version": "0.9.70",
+      "version": "0.9.73",
       "author": "FLEXOR",
       "category": "drums",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": true,
+      "installs": 322,
+      "stars": 9,
       "chip": "new",
-      "pkgFile": "loafbreaker-0.9.70.fwsc",
-      "sha256": "c1dc86ee665590bff9e83a693f84931cd2de69c2d5409bd26e1d95d0d2fdb9c3",
+      "pkgFile": "loafbreaker-0.9.73.fwsc",
+      "sha256": "edaab4673c6fae2c58158e3d32e1b7bd89fb66c51c1737b2dd96c3468b594dd8",
       "repo": "https://github.com/FLEXOR-R/loaf-breaker",
       "repoSlug": "FLEXOR-R/loaf-breaker",
-      "release": "https://github.com/FLEXOR-R/loaf-breaker/releases/tag/loaf-v0.9.70",
-      "tag": "loaf-v0.9.70",
-      "assetId": "771670028",
+      "release": "https://github.com/FLEXOR-R/loaf-breaker/releases/tag/loaf-v0.9.73",
+      "tag": "loaf-v0.9.73",
+      "assetId": "777300290",
       "play": "https://flexor-r.github.io/loaf-breaker/emu/",
-      "editor": "https://flexor-r.github.io/loaf-breaker/breaks/",
-      "installs": 251,
-      "stars": 8
+      "editor": "https://flexor-r.github.io/loaf-breaker/breaks/"
     },
     {
       "id": "loomfm1",
@@ -3166,6 +3292,8 @@
       "category": "groove",
       "date": "2026-10-18",
       "beta": true,
+      "installs": 60,
+      "stars": 5,
       "chip": "old",
       "pkgFile": "loomfm1-0.1.0.fwsc",
       "sha256": "bbb5ba438d62e947158c614b18ac37264a64a472a077d57eb271acb60f6f47af",
@@ -3175,30 +3303,28 @@
       "tag": "v0.1.0",
       "assetId": "653902486",
       "play": "https://co-oscillator.github.io/Loom-FM-1/",
-      "editor": "",
-      "installs": 60,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "loom",
       "name": "LOOM-8",
-      "version": "0.17.1",
+      "version": "0.18.2",
       "author": "Charles Vestal",
       "category": "groove",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": true,
+      "installs": 1327,
+      "stars": 90,
       "chip": "new",
-      "pkgFile": "loom-0.17.1.fwsc",
-      "sha256": "ac34e565f04cd56c79b8e508d686ec0e96af0c57f1939d864f96f95bdd5d6de6",
+      "pkgFile": "loom-0.18.2.fwsc",
+      "sha256": "fdc085fb7628555991ebcad59cab40fe28217255df91c62fadca8b7800ceadee",
       "repo": "https://github.com/charlesvestal/fm1-loom",
       "repoSlug": "charlesvestal/fm1-loom",
-      "release": "https://github.com/charlesvestal/fm1-loom/releases/tag/v0.17.1",
-      "tag": "v0.17.1",
-      "assetId": "772578207",
+      "release": "https://github.com/charlesvestal/fm1-loom/releases/tag/v0.18.2",
+      "tag": "v0.18.2",
+      "assetId": "779612733",
       "play": "https://charlesvestal.github.io/fm1-loom/emu/",
-      "editor": "",
-      "installs": 1259,
-      "stars": 86
+      "editor": ""
     },
     {
       "id": "loopheads",
@@ -3208,6 +3334,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": true,
+      "installs": 11,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "loopheads-0.1.2.fwsc",
       "sha256": "10749ba604b4b616909859b2a4260dab8c7ccbfcfad03dd4d9cc867faf3262ee",
@@ -3217,9 +3345,7 @@
       "tag": "v0.1.2",
       "assetId": "766040989",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=loopheads&mhz=100#play",
-      "editor": "",
-      "installs": 11,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "lsdjburrito",
@@ -3229,6 +3355,8 @@
       "category": "tracker",
       "date": "2026-11-08",
       "beta": true,
+      "installs": null,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "lsdjburrito-0.9.97.fwsc",
       "sha256": "5cf2d3caac4addc30840d57dd508f25982cbd10075462dc87bcd46b270ac629b",
@@ -3238,9 +3366,7 @@
       "tag": "v0.9.97",
       "assetId": "724707112",
       "play": "https://dreamsofbacon.github.io/lsdj-burrito/#emulator-sec",
-      "editor": "https://dreamsofbacon.github.io/lsdj-burrito/#connect",
-      "installs": null,
-      "stars": 2
+      "editor": "https://dreamsofbacon.github.io/lsdj-burrito/#connect"
     },
     {
       "id": "luxr",
@@ -3250,6 +3376,8 @@
       "category": "drums",
       "date": "2026-11-02",
       "beta": false,
+      "installs": 19,
+      "stars": 6,
       "chip": "old",
       "pkgFile": "luxr-2026.10.25.fwsc",
       "sha256": "46e6c949c483db5f2ea5f5040975004e954d7f8e22e29996f63e1b50c7f2a365",
@@ -3259,9 +3387,7 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": "",
-      "installs": 19,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "mpyre",
@@ -3271,6 +3397,8 @@
       "category": "groove",
       "date": "2026-11-10",
       "beta": false,
+      "installs": 160,
+      "stars": 24,
       "chip": "new",
       "pkgFile": "mpyre-1.0.3.fwsc",
       "sha256": "aa6ed19b0cc13b703cfefb5fb972cb8e4f881a93894eba2d72944447e7430728",
@@ -3280,30 +3408,28 @@
       "tag": "v1.0.3",
       "assetId": "732696982",
       "play": "https://historyofsky.github.io/m-pyre/emu/",
-      "editor": "https://historyofsky.github.io/m-pyre/webapp/editor/",
-      "installs": 151,
-      "stars": 23
+      "editor": "https://historyofsky.github.io/m-pyre/webapp/editor/"
     },
     {
       "id": "mvance",
       "name": "M-Vance",
-      "version": "2.6.3",
+      "version": "2.7.1",
       "author": "Kris (bk40-home)",
       "category": "synth",
-      "date": "2026-11-17",
+      "date": "2026-11-21",
       "beta": false,
+      "installs": 24,
+      "stars": 2,
       "chip": "new",
-      "pkgFile": "mvance-2.6.3.fwsc",
-      "sha256": "407fb0cf3cbd1ae60a4153758ac06a19aa1c71ffc7d774a12e1db31ad39c5e8d",
+      "pkgFile": "mvance-2.7.1.fwsc",
+      "sha256": "18dd3b8ff007578b0cbf9ac9267cc35bc9a3b07de2e66594cb0f1ecb214c05bd",
       "repo": "https://github.com/bk40-home/M-vance",
       "repoSlug": "bk40-home/M-vance",
-      "release": "https://github.com/bk40-home/M-vance/releases/tag/v2.6.3",
-      "tag": "v2.6.3",
-      "assetId": "760801973",
+      "release": "https://github.com/bk40-home/M-vance/releases/tag/v2.7.1",
+      "tag": "v2.7.1",
+      "assetId": "776310951",
       "play": "https://bk40-home.github.io/M-vance/sim/",
-      "editor": "https://bk40-home.github.io/M-vance/sim/bank/editor.html",
-      "installs": 18,
-      "stars": 2
+      "editor": "https://bk40-home.github.io/M-vance/sim/bank/editor.html"
     },
     {
       "id": "mvsynth2",
@@ -3313,6 +3439,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": false,
+      "installs": 47,
+      "stars": 7,
       "chip": "new",
       "pkgFile": "mvsynth2-1.5.2.fwsc",
       "sha256": "e7c35e0c08c6e33e9d3ba2dffc08901f82c9a873bdd12cfb103eea1d53dacf7a",
@@ -3322,9 +3450,7 @@
       "tag": "v1.5.2",
       "assetId": "769702391",
       "play": "https://bk40-home.github.io/M-Vsynth2/sim/",
-      "editor": "https://bk40-home.github.io/M-Vsynth2/library.html",
-      "installs": 38,
-      "stars": 7
+      "editor": "https://bk40-home.github.io/M-Vsynth2/library.html"
     },
     {
       "id": "makohai",
@@ -3334,6 +3460,8 @@
       "category": "groove",
       "date": "2026-11-04",
       "beta": false,
+      "installs": 31,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "makohai-1.4.fwsc",
       "sha256": "ab5005203d68798175cf0ef6e798ac93656d4d90164bf13106a0794b0b81f4c9",
@@ -3343,9 +3471,7 @@
       "tag": "v1.4",
       "assetId": "711152595",
       "play": "https://delirioux.github.io/makohai/try/",
-      "editor": "",
-      "installs": 31,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "maku",
@@ -3355,6 +3481,8 @@
       "category": "groove",
       "date": "2026-10-16",
       "beta": false,
+      "installs": 288,
+      "stars": 25,
       "chip": "old",
       "pkgFile": "maku-1.0.fwsc",
       "sha256": "b55d471fd179008511dfea032530750f0692d5be8eab263970f5c3c2162b53ea",
@@ -3364,9 +3492,7 @@
       "tag": "maku-v1.0",
       "assetId": "646329532",
       "play": "https://okumurari2.github.io/maku/",
-      "editor": "",
-      "installs": 288,
-      "stars": 25
+      "editor": ""
     },
     {
       "id": "manifold",
@@ -3376,6 +3502,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": false,
+      "installs": 46,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "manifold-1.0.6.fwsc",
       "sha256": "21ba73bd82d748b1268e03cf317d7b824f3db726c4bb670e284b28f3f90abd6a",
@@ -3385,9 +3513,7 @@
       "tag": "v1.0.6",
       "assetId": "768476206",
       "play": "https://stets43.github.io/Manifold/emu/",
-      "editor": "",
-      "installs": 41,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "manta",
@@ -3397,6 +3523,8 @@
       "category": "groove",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 29,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "manta-1.1.fwsc",
       "sha256": "4221c4bf8fa9b583ca15cde255a6c790ea3c23067f39f1448eaae5ebe376e581",
@@ -3406,30 +3534,28 @@
       "tag": "v1.1",
       "assetId": "752559718",
       "play": "https://delirioux.github.io/manta/try/",
-      "editor": "",
-      "installs": 28,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "matryoshka",
       "name": "Matryoshka",
-      "version": "1.23.0",
+      "version": "1.25.0",
       "author": "michael glaviano",
       "category": "synth",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 5,
+      "stars": 11,
       "chip": "new",
-      "pkgFile": "matryoshka-1.23.0.fwsc",
-      "sha256": "67a3c5ba4c70d620773bf458bfe0e3c77b4f973408f4235a87aac7c328cc7456",
+      "pkgFile": "matryoshka-1.25.0.fwsc",
+      "sha256": "e6b2d69a3b7a323d7bbe8ad216c07021e7db9a2b0145cc31aa7fb4e66c98d101",
       "repo": "https://github.com/glvno/matryoshka",
       "repoSlug": "glvno/matryoshka",
-      "release": "https://github.com/glvno/matryoshka/releases/tag/v1.23.0",
-      "tag": "v1.23.0",
-      "assetId": "773165866",
+      "release": "https://github.com/glvno/matryoshka/releases/tag/v1.25.0",
+      "tag": "v1.25.0",
+      "assetId": "779946248",
       "play": "https://matryoshka.lol/#emu",
-      "editor": "https://matryoshka.lol/",
-      "installs": 5,
-      "stars": 10
+      "editor": "https://matryoshka.lol/"
     },
     {
       "id": "mc1",
@@ -3439,6 +3565,8 @@
       "category": "groove",
       "date": "2026-10-20",
       "beta": false,
+      "installs": 69,
+      "stars": 7,
       "chip": "old",
       "pkgFile": "mc1-1.2.0.fwsc",
       "sha256": "cb0b5454d3e459da11489f73818d4537093907aa13adee0230f3404227a701e4",
@@ -3448,9 +3576,7 @@
       "tag": "v1.2.0",
       "assetId": "659760508",
       "play": "https://dspaudio.github.io/mc-1/",
-      "editor": "",
-      "installs": 69,
-      "stars": 7
+      "editor": ""
     },
     {
       "id": "melodee",
@@ -3460,6 +3586,8 @@
       "category": "groove",
       "date": "2026-11-02",
       "beta": false,
+      "installs": 3410,
+      "stars": 219,
       "chip": "new",
       "pkgFile": "melodee-1.6.1.fwsc",
       "sha256": "8555dc54670a9e39b352e228cf5fb5ecc877fc2b702f19631f155dd85e58ba66",
@@ -3469,9 +3597,7 @@
       "tag": "v1.6.1",
       "assetId": "703362911",
       "play": "",
-      "editor": "https://keremimo.github.io/melodee/webapp/editor/",
-      "installs": 3410,
-      "stars": 216
+      "editor": "https://keremimo.github.io/melodee/webapp/editor/"
     },
     {
       "id": "metronome",
@@ -3481,6 +3607,8 @@
       "category": "other",
       "date": "2026-11-20",
       "beta": true,
+      "installs": null,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "metronome-0.4.fwsc",
       "sha256": "81a09bef0852ea0322edb6f4a71fb94e2bb19dee112da7753e08d4bdc1c3a19e",
@@ -3490,9 +3618,7 @@
       "tag": "v0.4",
       "assetId": "771723523",
       "play": "https://daviddwlee84.github.io/fm1-metronome/web/try/",
-      "editor": "https://daviddwlee84.github.io/fm1-metronome/web/",
-      "installs": null,
-      "stars": 1
+      "editor": "https://daviddwlee84.github.io/fm1-metronome/web/"
     },
     {
       "id": "midimon",
@@ -3502,6 +3628,8 @@
       "category": "other",
       "date": "2026-11-08",
       "beta": true,
+      "installs": 10,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "midimon-0.5.fwsc",
       "sha256": "8d13651e14a84a68107832de5d5fa569fa1b645a051745d8f6aed9356c254159",
@@ -3511,9 +3639,7 @@
       "tag": "v0.5",
       "assetId": "722794500",
       "play": "",
-      "editor": "",
-      "installs": 10,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "mightyarp",
@@ -3523,6 +3649,8 @@
       "category": "synth",
       "date": "2026-11-16",
       "beta": false,
+      "installs": 9,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "mightyarp-1.5.fwsc",
       "sha256": "7f15b86d7412f1b76e27405a6bd7b368055322e94efea914f8dc52c22e85b54f",
@@ -3532,9 +3660,7 @@
       "tag": "v1.5",
       "assetId": "755689931",
       "play": "https://nickculbertson.github.io/FM1-Mighty-Arp/emu/",
-      "editor": "",
-      "installs": 12,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "mikufm",
@@ -3544,6 +3670,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": true,
+      "installs": null,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "miku-fm-0.9.fwsc",
       "sha256": "2b26a30b46fda4ed7aa7e1b13f33e93d9c822d6d33b39cbeb2d5375e638321b1",
@@ -3553,9 +3681,7 @@
       "tag": "v0.9",
       "assetId": "768115209",
       "play": "https://michaelaperry.github.io/MIKU-FM1/fm1-emu/",
-      "editor": "",
-      "installs": null,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "min1",
@@ -3565,6 +3691,8 @@
       "category": "other",
       "date": "2026-10-16",
       "beta": true,
+      "installs": 127,
+      "stars": 7,
       "chip": "old",
       "pkgFile": "min1-0.2.1.fwsc",
       "sha256": "82715d6ee18c8b12c287d614c131a4fb37f8606d811ae23301f1cd42bd4548c3",
@@ -3574,9 +3702,7 @@
       "tag": "v0.2.1",
       "assetId": "645975454",
       "play": "https://reytian.github.io/fm1-min1/emu/",
-      "editor": "",
-      "installs": 127,
-      "stars": 7
+      "editor": ""
     },
     {
       "id": "minigrain",
@@ -3586,6 +3712,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 8,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "minigrain-1.0.0.fwsc",
       "sha256": "ed2af43a5c6c75abed392c18adc949059c17bc5b6195169da443ebbff7e0e15d",
@@ -3595,9 +3723,7 @@
       "tag": "mini-grain-1.0.0",
       "assetId": "750325242",
       "play": "",
-      "editor": "",
-      "installs": 8,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "miniju08",
@@ -3607,6 +3733,8 @@
       "category": "synth",
       "date": "2026-11-11",
       "beta": false,
+      "installs": 7,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "miniju08-08-1.00.fwsc",
       "sha256": "8a82c8e3c922bbee80b4bda6d9c8cd62c714a8ea97c68a3f0ac45b8b0a5bb33a",
@@ -3616,9 +3744,7 @@
       "tag": "mini-ju08-1.00",
       "assetId": "750397407",
       "play": "",
-      "editor": "",
-      "installs": 7,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "minitone",
@@ -3628,6 +3754,8 @@
       "category": "groove",
       "date": "2026-10-26",
       "beta": false,
+      "installs": 303,
+      "stars": 6,
       "chip": "old",
       "pkgFile": "minitone-1.0.5.fwsc",
       "sha256": "6e188e18052c67d3b2684781a35af3b0cf8a54ed7645e8c55e313fa143f0b9ca",
@@ -3637,9 +3765,7 @@
       "tag": "minitone-1.0.5",
       "assetId": "677771317",
       "play": "",
-      "editor": "",
-      "installs": 303,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "mnm1",
@@ -3649,6 +3775,8 @@
       "category": "groove",
       "date": "2026-10-27",
       "beta": false,
+      "installs": 246,
+      "stars": 9,
       "chip": "old",
       "pkgFile": "mnm1-1.0.1.fwsc",
       "sha256": "d44011bf035314c037e16ab36a8e7895d9274732329e1d60e0bd94bd512eabf9",
@@ -3658,9 +3786,7 @@
       "tag": "v1.0.1",
       "assetId": "681595605",
       "play": "https://galfaroth.github.io/mnm1/",
-      "editor": "",
-      "installs": 239,
-      "stars": 9
+      "editor": ""
     },
     {
       "id": "modelar",
@@ -3670,6 +3796,8 @@
       "category": "synth",
       "date": "2026-10-22",
       "beta": true,
+      "installs": 88,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "modelar-0.3.fwsc",
       "sha256": "14de4b6efdc5550149fe745158b22929d13fcfa6268bc751ace7eb27f21ffeac",
@@ -3679,9 +3807,7 @@
       "tag": "v0.3",
       "assetId": "665811235",
       "play": "",
-      "editor": "",
-      "installs": 88,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "monk",
@@ -3691,6 +3817,8 @@
       "category": "synth",
       "date": "2026-11-05",
       "beta": true,
+      "installs": 388,
+      "stars": 12,
       "chip": "new",
       "pkgFile": "monk-0.10.fwsc",
       "sha256": "60b4f16be48fc3c088b626b8a5403620de2377941cc96c570c5d886eaa1165c5",
@@ -3700,9 +3828,7 @@
       "tag": "v0.10",
       "assetId": "714645699",
       "play": "https://charlesvestal.github.io/fm1-monk/emu/",
-      "editor": "",
-      "installs": 371,
-      "stars": 12
+      "editor": ""
     },
     {
       "id": "mono2k",
@@ -3712,6 +3838,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 759,
+      "stars": 29,
       "chip": "new",
       "pkgFile": "mono2k-1.13.fwsc",
       "sha256": "d04b5b1d9e00a5173ee92e30c41c10d309a8409feb895713a888e326139bdf4d",
@@ -3721,9 +3849,7 @@
       "tag": "v1.13",
       "assetId": "772186380",
       "play": "https://inigohernandez.github.io/mono2k/",
-      "editor": "https://inigohernandez.github.io/mono2k/editor.html",
-      "installs": 736,
-      "stars": 28
+      "editor": "https://inigohernandez.github.io/mono2k/editor.html"
     },
     {
       "id": "monohull",
@@ -3733,6 +3859,8 @@
       "category": "synth",
       "date": "2026-10-25",
       "beta": true,
+      "installs": 11,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "monohull-0.2.0.fwsc",
       "sha256": "6ed6e01d76066f1e7cefae7b528822de89d62b77ca2e7470d7ce81ee0570a83c",
@@ -3742,9 +3870,7 @@
       "tag": "v0.2.0",
       "assetId": "674730646",
       "play": "",
-      "editor": "",
-      "installs": 11,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "mope1",
@@ -3754,6 +3880,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": true,
+      "installs": 87,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "mope1-0.5.0.fwsc",
       "sha256": "fe51bcf00364b86b4fea8f23f602b7213f16df1a079d6e5de3b09ae25670520e",
@@ -3763,9 +3891,7 @@
       "tag": "v0.5.0",
       "assetId": "775295813",
       "play": "https://slothpallas.github.io/mope-1/play/",
-      "editor": "",
-      "installs": 87,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "morpheus",
@@ -3775,6 +3901,8 @@
       "category": "other",
       "date": "2026-10-19",
       "beta": false,
+      "installs": 15,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "morpheus-1.0.0.fwsc",
       "sha256": "42c3c084c4effa457cb2839bd9196d39e943e4379e0b4bc69c4c2c76ef64a712",
@@ -3784,9 +3912,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://benbadio.github.io/morpheus-fm1/",
-      "editor": "",
-      "installs": 15,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "morse",
@@ -3796,6 +3922,8 @@
       "category": "other",
       "date": "2026-11-18",
       "beta": true,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "morse-0.8.fwsc",
       "sha256": "76b0c2a02927fb88cec2f51a557a4e392b23210e4bbd93e5ba29c48a26bd92d5",
@@ -3805,9 +3933,7 @@
       "tag": "v0.8",
       "assetId": "763199794",
       "play": "https://daviddwlee84.github.io/fm1-morse/web/try/",
-      "editor": "https://daviddwlee84.github.io/fm1-morse/web/",
-      "installs": null,
-      "stars": 0
+      "editor": "https://daviddwlee84.github.io/fm1-morse/web/"
     },
     {
       "id": "moss1",
@@ -3817,6 +3943,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 18,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "moss1-1.0.fwsc",
       "sha256": "326209ce609fb4ed0a98768a30fdfa61a2bdaeefaff729a08c88cd1335aeff2d",
@@ -3826,9 +3954,7 @@
       "tag": "v1.0",
       "assetId": "746011925",
       "play": "https://theowecker.github.io/fm1-moss/emu/",
-      "editor": "",
-      "installs": 13,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "mutable",
@@ -3838,6 +3964,8 @@
       "category": "synth",
       "date": "2026-11-16",
       "beta": false,
+      "installs": 3068,
+      "stars": 36,
       "chip": "new",
       "pkgFile": "mutable-2.3.fwsc",
       "sha256": "c70c4371a4287ecbf68b1bb6f53d8d519f968276417ec94a058a0051c6b1ca96",
@@ -3847,9 +3975,7 @@
       "tag": "v2.3",
       "assetId": "756362559",
       "play": "https://kidbee85-beep.github.io/mutable-dreams/Mutable-Dreams-2.3.html",
-      "editor": "https://kidbee85-beep.github.io/mutable-dreams/Mutable-Dreams-2.3.html#device-editor",
-      "installs": 2957,
-      "stars": 34
+      "editor": "https://kidbee85-beep.github.io/mutable-dreams/Mutable-Dreams-2.3.html#device-editor"
     },
     {
       "id": "mycelium",
@@ -3859,6 +3985,8 @@
       "category": "groove",
       "date": "2026-10-14",
       "beta": true,
+      "installs": 108,
+      "stars": 5,
       "chip": "old",
       "pkgFile": "mycelium-1.0-test.fwsc",
       "sha256": "9aa2802a0ac07f412e36c079c8034820b7405e3477468d0b3cfc7fd3f93e0da8",
@@ -3868,9 +3996,7 @@
       "tag": "v1.0-test",
       "assetId": "639418372",
       "play": "",
-      "editor": "",
-      "installs": 108,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "nachtfahrt",
@@ -3880,6 +4006,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 1011,
+      "stars": 26,
       "chip": "new",
       "pkgFile": "nachtfahrt-1.0.2.fwsc",
       "sha256": "0815ac61d3bcc639caefda7a25b7162201c4e3d10baa72ce929ca4930d5b460d",
@@ -3889,9 +4017,7 @@
       "tag": "v1.0.2",
       "assetId": "749397400",
       "play": "https://fartypants.github.io/fm1-nachtfahrt/emu/",
-      "editor": "",
-      "installs": 947,
-      "stars": 25
+      "editor": ""
     },
     {
       "id": "nauclerus",
@@ -3901,6 +4027,8 @@
       "category": "groove",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 80,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "nauclerus-1.1.0.fwsc",
       "sha256": "68e15f3bfed73bb3202f18ed877be6716b7aa99a6686036780e2a48e533413dd",
@@ -3910,9 +4038,7 @@
       "tag": "v1.1.0",
       "assetId": "775528438",
       "play": "https://mr-roboto.github.io/nauclerus/#play",
-      "editor": "",
-      "installs": 84,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "nccnovationcircuitcompan",
@@ -3922,6 +4048,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": true,
+      "installs": null,
+      "stars": 14,
       "chip": "new",
       "pkgFile": "nccnovationcircuitcompan-0.7.fwsc",
       "sha256": "d71b14e9dc066033b0646a2e8fff3722d98e1185cc40cf4a262183ffab04c3ca",
@@ -3931,9 +4059,7 @@
       "tag": "v0.7",
       "assetId": "750605204",
       "play": "https://fenderberg.github.io/fm1-nc-companion/webapp/try/",
-      "editor": "https://fenderberg.github.io/fm1-nc-companion/webapp/manager/",
-      "installs": null,
-      "stars": 14
+      "editor": "https://fenderberg.github.io/fm1-nc-companion/webapp/manager/"
     },
     {
       "id": "neon",
@@ -3943,6 +4069,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 56,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "neon-0.2.fwsc",
       "sha256": "a30381a604742f4404e492cdd657dc0e84b5ab70911e1fbe209e2869280b40f1",
@@ -3952,9 +4080,7 @@
       "tag": "v0.2",
       "assetId": "773566604",
       "play": "https://joakimeriksson.github.io/fm1-emu",
-      "editor": "",
-      "installs": 37,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "niagara",
@@ -3964,6 +4090,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": true,
+      "installs": 1187,
+      "stars": 21,
       "chip": "new",
       "pkgFile": "niagara-0.3.1.fwsc",
       "sha256": "fbaf107ae64d5b74c185985ce4d8a05fa620c67ab1d913cedd21b7c223670a80",
@@ -3973,9 +4101,7 @@
       "tag": "v0.3.1",
       "assetId": "759597623",
       "play": "https://evanyerburgh.github.io/niagara-drift/",
-      "editor": "",
-      "installs": 1120,
-      "stars": 21
+      "editor": ""
     },
     {
       "id": "nmsfm",
@@ -3985,6 +4111,8 @@
       "category": "other",
       "date": "2026-11-02",
       "beta": true,
+      "installs": 129,
+      "stars": 8,
       "chip": "old",
       "pkgFile": "nmsfm-0.9.fwsc",
       "sha256": "3633c4ff4955ab107df2bec30919017ab40c02469d8e922f64f8b9963db623f0",
@@ -3994,9 +4122,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://hericdk.github.io/nomanskyFM/sim/",
-      "editor": "",
-      "installs": 129,
-      "stars": 8
+      "editor": ""
     },
     {
       "id": "noizdemons",
@@ -4006,6 +4132,8 @@
       "category": "synth",
       "date": "2026-10-15",
       "beta": false,
+      "installs": 266,
+      "stars": 9,
       "chip": "old",
       "pkgFile": "noizdemons-666+c5607f06.fwsc",
       "sha256": "c5607f06ff33288c92be1ba24a226d9c7b4ab1643aa82ecc994462ff036cc35a",
@@ -4015,9 +4143,7 @@
       "tag": "v666",
       "assetId": "775308264",
       "play": "",
-      "editor": "",
-      "installs": 266,
-      "stars": 9
+      "editor": ""
     },
     {
       "id": "obervave",
@@ -4027,6 +4153,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 3582,
+      "stars": 65,
       "chip": "new",
       "pkgFile": "obervave-3.5.2.fwsc",
       "sha256": "3e13b127c8cb1094e6c0266e4bbd31eea4e762db561dc21ae0a81b685c58251d",
@@ -4036,9 +4164,7 @@
       "tag": "v3.5.2",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=obervave",
-      "editor": "",
-      "installs": 3468,
-      "stars": 65
+      "editor": ""
     },
     {
       "id": "obssynthfm1",
@@ -4048,6 +4174,8 @@
       "category": "synth",
       "date": "2026-11-15",
       "beta": true,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "obssynthfm1-0.2.0.fwsc",
       "sha256": "8af5e97d10e766172601bae9e12f0fcc014db200ccd36ef1cc696fb75cf0b4da",
@@ -4057,9 +4185,28 @@
       "tag": "v0.2.0",
       "assetId": "752323910",
       "play": "https://orianbsilva.github.io/obssynth-fm1/",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
+    },
+    {
+      "id": "offworld",
+      "name": "OFFWORLD",
+      "version": "0.4.2",
+      "author": "swtdr34mz",
+      "category": "synth",
+      "date": "2026-11-22",
+      "beta": true,
+      "installs": 14,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "offworld-0.4.2.fwsc",
+      "sha256": "e03fa7d6c44fc954c7b203aeeac503b6e16951097b0e991b000735e4aa3095f1",
+      "repo": "https://github.com/swtdr34mz-afk/OFFWORLD",
+      "repoSlug": "swtdr34mz-afk/OFFWORLD",
+      "release": "https://github.com/swtdr34mz-afk/OFFWORLD/releases/tag/v0.4.2",
+      "tag": "v0.4.2",
+      "assetId": "779061686",
+      "play": "https://swtdr34mz-afk.github.io/OFFWORLD/emu/",
+      "editor": ""
     },
     {
       "id": "ombak",
@@ -4069,6 +4216,8 @@
       "category": "other",
       "date": "2026-11-05",
       "beta": false,
+      "installs": 62,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "ombak-1.2.fwsc",
       "sha256": "98be2b69266ae097e4aeefe5b9e29813b9c9c02b16eaf0fc4e585a5eb0ec5182",
@@ -4078,9 +4227,28 @@
       "tag": "v1.2",
       "assetId": "714993260",
       "play": "https://madmooneyham.github.io/Ombak/emu/",
-      "editor": "",
-      "installs": 61,
-      "stars": 0
+      "editor": ""
+    },
+    {
+      "id": "opdream",
+      "name": "OP dream",
+      "version": "1.2.3",
+      "author": "James",
+      "category": "groove",
+      "date": "2026-11-18",
+      "beta": false,
+      "installs": null,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "opdream-1.2.3.fwsc",
+      "sha256": "f151cc93d99b318a55265a878ea389f5e05e78b5fb88581cbf63cbd1cf33b128",
+      "repo": "https://github.com/bertrandhustle2/skiff",
+      "repoSlug": "bertrandhustle2/skiff",
+      "release": "https://github.com/bertrandhustle2/skiff/releases/tag/v1.2.3",
+      "tag": "v1.2.3",
+      "assetId": "765303418",
+      "play": "",
+      "editor": ""
     },
     {
       "id": "opn1",
@@ -4090,6 +4258,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 85,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "opn1-2.0.1.fwsc",
       "sha256": "629394e97c3878eb9a7ffec2338a7191c452e6c2337d04669902e6f863f75739",
@@ -4099,9 +4269,7 @@
       "tag": "v2.0.1",
       "assetId": "743860179",
       "play": "",
-      "editor": "",
-      "installs": 85,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "orbit",
@@ -4111,6 +4279,8 @@
       "category": "groove",
       "date": "2026-11-04",
       "beta": false,
+      "installs": 369,
+      "stars": 42,
       "chip": "old",
       "pkgFile": "orbit-1.0.1B.fwsc",
       "sha256": "7309faae591d43cc21490c5a465dc4143ac4e3939c4482c8a1214bc16d61e164",
@@ -4120,9 +4290,7 @@
       "tag": "v1.0.1B",
       "assetId": "709278443",
       "play": "",
-      "editor": "",
-      "installs": 360,
-      "stars": 42
+      "editor": ""
     },
     {
       "id": "orbita",
@@ -4132,6 +4300,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": false,
+      "installs": 22,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "orbita-1-v1.8.2-or1-r7.fwsc",
       "sha256": "fe1d6df131f876708087e731922854316a62fb4aa172ab787b3acd73a49a6364",
@@ -4141,9 +4311,7 @@
       "tag": "v2.0.12",
       "assetId": "769300422",
       "play": "https://drophlex.github.io/ORBITA/",
-      "editor": "",
-      "installs": 18,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "orgigs",
@@ -4153,6 +4321,8 @@
       "category": "other",
       "date": "2026-11-20",
       "beta": false,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "orgigs-1.1.fwsc",
       "sha256": "d006565e1744ababa5369faf51c813eac2fae79e4e09cef7b3fca85e072888db",
@@ -4162,9 +4332,7 @@
       "tag": "v1.1",
       "assetId": "772421324",
       "play": "https://orgelbobo.github.io/orgigs/try/",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "paperlagoon",
@@ -4174,6 +4342,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 31,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "paperlagoon-1.1.fwsc",
       "sha256": "4fbfe16779357872d8d83be06e564331dd1b651d50d70ba80c43dcf0864e222f",
@@ -4183,9 +4353,7 @@
       "tag": "v1.1",
       "assetId": "746687033",
       "play": "https://hacha.github.io/paperlagoon/emu/",
-      "editor": "",
-      "installs": 31,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "patchwerk",
@@ -4195,6 +4363,8 @@
       "category": "synth",
       "date": "2026-11-08",
       "beta": false,
+      "installs": 75,
+      "stars": 12,
       "chip": "new",
       "pkgFile": "patchwerk-1.0.3.fwsc",
       "sha256": "c8d0f861dc7104f59106a3bd80c32b7b7e3e859790d5cbe1a360cb9845d575d1",
@@ -4204,9 +4374,7 @@
       "tag": "v1.0.3",
       "assetId": "725151093",
       "play": "https://mattkuebrich.com/patchwerk/",
-      "editor": "https://mattkuebrich.com/patchwerk/",
-      "installs": 75,
-      "stars": 12
+      "editor": "https://mattkuebrich.com/patchwerk/"
     },
     {
       "id": "penumbra",
@@ -4216,6 +4384,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 330,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "penumbra-1.9.fwsc",
       "sha256": "e418acb94e34f07affba378e916d7dd8470af00a96ba0c8145473b714ea7a1b1",
@@ -4225,9 +4395,7 @@
       "tag": "v1.9",
       "assetId": "773086834",
       "play": "https://madmooneyham.github.io/Penumbra/emu/",
-      "editor": "",
-      "installs": 305,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "perf1",
@@ -4237,6 +4405,8 @@
       "category": "groove",
       "date": "2026-11-07",
       "beta": true,
+      "installs": 672,
+      "stars": 16,
       "chip": "new",
       "pkgFile": "perf1-0.17.0.fwsc",
       "sha256": "f006cc6dd54eb867dd6b31963af2f9c8cf328e620be0f8b7c0fa81960c75cf92",
@@ -4246,9 +4416,7 @@
       "tag": "v0.17.0",
       "assetId": "721948022",
       "play": "https://deamonslinky.github.io/PERF-1/emu/",
-      "editor": "https://deamonslinky.github.io/PERF-1/editor/",
-      "installs": 653,
-      "stars": 16
+      "editor": "https://deamonslinky.github.io/PERF-1/studio/"
     },
     {
       "id": "pigeon",
@@ -4258,6 +4426,8 @@
       "category": "drums",
       "date": "2026-10-21",
       "beta": true,
+      "installs": 55,
+      "stars": 10,
       "chip": "old",
       "pkgFile": "pigeon-0.5.0-beta.1.fwsc",
       "sha256": "a6cbb4fbd80baa38eb99400bb4bef5ddd5d4167024a8342189a07bc6b8861bed",
@@ -4267,9 +4437,7 @@
       "tag": "v0.5.0-beta.1",
       "assetId": "",
       "play": "https://theshrimpblimp.com/pigeon/webapp/emu/",
-      "editor": "",
-      "installs": 55,
-      "stars": 10
+      "editor": ""
     },
     {
       "id": "pingos1",
@@ -4279,6 +4447,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 49,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "pingos1-1.0.1.fwsc",
       "sha256": "0bb517ed4a1b32ae233ed6416057f8fda286cf203272a64d3553d6a91bd162ae",
@@ -4288,9 +4458,7 @@
       "tag": "v1.0.1",
       "assetId": "771831434",
       "play": "https://pingaudio.github.io/PING-OS-1/#play",
-      "editor": "https://pingaudio.github.io/PING-OS-1/#transfer",
-      "installs": 27,
-      "stars": 0
+      "editor": "https://pingaudio.github.io/PING-OS-1/#transfer"
     },
     {
       "id": "piterfly",
@@ -4300,6 +4468,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 8,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "piterfly-1.2.5.fwsc",
       "sha256": "70906d9658b2d89779db94bcca35d19436825ac02b43f9911f3c06afc5d85535",
@@ -4309,9 +4479,7 @@
       "tag": "1.2.5",
       "assetId": "761057933",
       "play": "https://piotrwozniak.github.io/piterfly/webapp/editor/?mock=1",
-      "editor": "https://piotrwozniak.github.io/piterfly/webapp/editor/",
-      "installs": 8,
-      "stars": 1
+      "editor": "https://piotrwozniak.github.io/piterfly/webapp/editor/"
     },
     {
       "id": "playa",
@@ -4321,6 +4489,8 @@
       "category": "synth",
       "date": "2026-11-10",
       "beta": true,
+      "installs": 1,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "playa-0.1.fwsc",
       "sha256": "20bdbee984dde0e97dea8d6ff764b6144a0eaf7c111a339e02a67a8a302a5cce",
@@ -4330,30 +4500,28 @@
       "tag": "playa-v0.1",
       "assetId": "733671213",
       "play": "",
-      "editor": "",
-      "installs": 1,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "plissken",
       "name": "Plissken",
-      "version": "0.15",
+      "version": "0.31",
       "author": "OscarDad",
       "category": "synth",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": true,
+      "installs": null,
+      "stars": 1,
       "chip": "new",
-      "pkgFile": "plissken-0.15.fwsc",
-      "sha256": "25b338d7c1b82173d7a48ab825c996b03c38190175c78365ab21c9a5016b882f",
+      "pkgFile": "plissken-0.31.fwsc",
+      "sha256": "b5cc4bd43a1f26e97c3f9cc2125dd8d0a505d1d906871038e583c0025528241e",
       "repo": "https://github.com/dustekin/plissken",
       "repoSlug": "dustekin/plissken",
-      "release": "https://github.com/dustekin/plissken/releases/tag/v0.15",
-      "tag": "v0.15",
-      "assetId": "772556016",
+      "release": "https://github.com/dustekin/plissken/releases/tag/v0.31",
+      "tag": "v0.31",
+      "assetId": "780247642",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "pocketband",
@@ -4363,6 +4531,8 @@
       "category": "groove",
       "date": "2026-11-11",
       "beta": true,
+      "installs": 16,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "pocketband-0.4.fwsc",
       "sha256": "9d81e724daac58cf5885c9d43305b49593461798137092bf69ad90771a41176d",
@@ -4372,9 +4542,7 @@
       "tag": "v0.4",
       "assetId": "735144695",
       "play": "",
-      "editor": "",
-      "installs": 16,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "gammawave",
@@ -4384,6 +4552,8 @@
       "category": "groove",
       "date": "2026-10-26",
       "beta": false,
+      "installs": 143,
+      "stars": 11,
       "chip": "old",
       "pkgFile": "gammawave-1.2.1-GW.fwsc",
       "sha256": "f8fae2b0191662713225608cd0191e60a18f0347748f60fad0f6327d6f81dc4b",
@@ -4393,9 +4563,7 @@
       "tag": "v1.2.1-GW",
       "assetId": "679495490",
       "play": "https://fvalente.github.io/GammaWave-FM1/",
-      "editor": "https://fvalente.github.io/GammaWave-FM1/webapp/editor/?mock=1",
-      "installs": 143,
-      "stars": 11
+      "editor": "https://fvalente.github.io/GammaWave-FM1/webapp/editor/?mock=1"
     },
     {
       "id": "polly",
@@ -4405,6 +4573,8 @@
       "category": "groove",
       "date": "2026-11-13",
       "beta": true,
+      "installs": 135,
+      "stars": 29,
       "chip": "new",
       "pkgFile": "polly-0.6.4.fwsc",
       "sha256": "e3f6a5ab9d049161d631937694dd43ba38a7e8a9ab15c0ebed72c2b913368f36",
@@ -4414,9 +4584,7 @@
       "tag": "v0.6.4",
       "assetId": "742757164",
       "play": "https://charlesvestal.github.io/fm1-polly/emu/",
-      "editor": "",
-      "installs": 135,
-      "stars": 28
+      "editor": ""
     },
     {
       "id": "ptfm",
@@ -4426,6 +4594,8 @@
       "category": "tracker",
       "date": "2026-10-28",
       "beta": true,
+      "installs": 62,
+      "stars": 12,
       "chip": "old",
       "pkgFile": "ptfm-0.26+91deae9e.fwsc",
       "sha256": "91deae9e804c737e2e78ae88726dbd9e52ca40fc552ea87e3924d98a83681b2a",
@@ -4435,9 +4605,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://hitosu.github.io/ptfm/emulator/",
-      "editor": "https://hitosu.github.io/ptfm/editor/",
-      "installs": 62,
-      "stars": 12
+      "editor": "https://hitosu.github.io/ptfm/editor/"
     },
     {
       "id": "pulhra",
@@ -4447,6 +4615,8 @@
       "category": "groove",
       "date": "2026-10-22",
       "beta": false,
+      "installs": 48,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "pulhra-1.5.1.fwsc",
       "sha256": "f2c1d0c5aa531f135cc8f27e33918e7efe0b464ec06dbe6d4122945104562497",
@@ -4456,9 +4626,7 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": "",
-      "installs": 48,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "purplemonkey",
@@ -4468,6 +4636,8 @@
       "category": "other",
       "date": "2026-11-08",
       "beta": true,
+      "installs": 196,
+      "stars": 9,
       "chip": "new",
       "pkgFile": "purplemonkey-0.12.fwsc",
       "sha256": "322701e7dd9d9a5226aa0dd3793411807a395b3b46f3f951e24ffaf76f6aecbc",
@@ -4477,51 +4647,49 @@
       "tag": "v0.12",
       "assetId": "723616634",
       "play": "https://quixotic7.github.io/PurpleMonkeyFM1/",
-      "editor": "",
-      "installs": 188,
-      "stars": 9
+      "editor": ""
     },
     {
       "id": "quantumgammawave",
       "name": "Quantum GammaWave",
-      "version": "1.6.0",
+      "version": "1.12.18",
       "author": "Guille Lauría",
       "category": "groove",
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 30,
+      "stars": 3,
       "chip": "new",
-      "pkgFile": "quantumgammawave-1.6.0.fwsc",
-      "sha256": "f6aa3b15e4805d94447360694aacd7c6f62fdde5ac2c71a8a9ccae7bf66506f2",
+      "pkgFile": "quantumgammawave-1.12.18.fwsc",
+      "sha256": "ad1cd24034e5da90ebb51b8e43a82ae69d89b22afc052624e6e77226f03d99be",
       "repo": "https://github.com/Guillel51/Quantum-GammaWave",
       "repoSlug": "Guillel51/Quantum-GammaWave",
-      "release": "https://github.com/Guillel51/Quantum-GammaWave/releases/tag/v1.6.0",
-      "tag": "v1.6.0",
-      "assetId": "775078515",
+      "release": "https://github.com/Guillel51/Quantum-GammaWave/releases/tag/v1.12.18",
+      "tag": "v1.12.18",
+      "assetId": "780141311",
       "play": "https://guillel51.github.io/Quantum-GammaWave/emulator/",
-      "editor": "https://guillel51.github.io/Quantum-GammaWave/webapp/editor/",
-      "installs": 30,
-      "stars": 3
+      "editor": "https://guillel51.github.io/Quantum-GammaWave/webapp/editor/"
     },
     {
       "id": "quartet",
       "name": "Quartet",
-      "version": "2.4",
+      "version": "2.5",
       "author": "MammothCheese",
       "category": "groove",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 27,
+      "stars": 1,
       "chip": "new",
-      "pkgFile": "quartet-2.4.fwsc",
-      "sha256": "4e52ad4ee8a3a90e45a23efc867c75d6edf60c880a296b7f6ae9800b949609cf",
+      "pkgFile": "quartet-2.5.fwsc",
+      "sha256": "4d7accbf240345c88aaa6031c3a59823023d3ac90e41673b0108abb4f525c910",
       "repo": "https://github.com/MammothCheese/quartet",
       "repoSlug": "MammothCheese/quartet",
-      "release": "https://github.com/MammothCheese/quartet/releases/tag/v2.4",
-      "tag": "v2.4",
-      "assetId": "771806001",
+      "release": "https://github.com/MammothCheese/quartet/releases/tag/v2.5",
+      "tag": "v2.5",
+      "assetId": "777697610",
       "play": "https://mammothcheese.github.io/quartet/emu/",
-      "editor": "",
-      "installs": 22,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "quartz",
@@ -4531,6 +4699,8 @@
       "category": "groove",
       "date": "2026-11-21",
       "beta": true,
+      "installs": 20,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "quartz-0.10.fwsc",
       "sha256": "e129e48dadf43caf09f6d97728bb9a7f8f2b0a10a7834619970ac307a610c5fe",
@@ -4540,9 +4710,7 @@
       "tag": "v0.10",
       "assetId": "775105938",
       "play": "https://f0nski.github.io/quartz/emu/",
-      "editor": "",
-      "installs": 10,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "rainbow",
@@ -4552,6 +4720,8 @@
       "category": "other",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 909,
+      "stars": 24,
       "chip": "new",
       "pkgFile": "rainbow-1.1.5-rb+afb04479.fwsc",
       "sha256": "afb044796c7103640c3b74f59cf12fd92aec515fb6623df043c0794f48d7539e",
@@ -4561,9 +4731,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://joshbartlettband-web.github.io/felucca-rainbow/webapp/try/",
-      "editor": "",
-      "installs": 860,
-      "stars": 24
+      "editor": ""
     },
     {
       "id": "rakt",
@@ -4573,6 +4741,8 @@
       "category": "groove",
       "date": "2026-11-13",
       "beta": true,
+      "installs": 9,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "rakt-0.1.8.fwsc",
       "sha256": "8a7bbb7133b6d3e2a2cc48aaa2bf250bcca9e40e899c39724a1183aa61ef4b57",
@@ -4582,9 +4752,7 @@
       "tag": "v0.1.8",
       "assetId": "744681102",
       "play": "https://chasedeanda.github.io/rakt-fm1/play/",
-      "editor": "",
-      "installs": 9,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "rambeaver",
@@ -4594,6 +4762,8 @@
       "category": "other",
       "date": "2026-11-11",
       "beta": false,
+      "installs": 21,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "rambeaver-745-hub.fwsc",
       "sha256": "045f7386e5a33efbb1b544d5a3e34aafa4d3a4b33a133312080cbaec4126c79f",
@@ -4603,30 +4773,28 @@
       "tag": "v745-hub",
       "assetId": "733870065",
       "play": "",
-      "editor": "",
-      "installs": 21,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "ravel",
       "name": "Ravel",
-      "version": "1.43.1",
+      "version": "1.45.0",
       "author": "De-Pattern",
       "category": "groove",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 805,
+      "stars": 36,
       "chip": "new",
-      "pkgFile": "ravel-1.43.1.fwsc",
-      "sha256": "56b0da6ac16edc12405d470da016d0a6ebfd6ca966a29f479cdf5d4168bbaf46",
+      "pkgFile": "ravel-1.45.0.fwsc",
+      "sha256": "964132856924d015e46f09b4a8578075a4a7fb165823be2782487a509091837a",
       "repo": "https://github.com/De-Pattern/Ravel_FM1",
       "repoSlug": "De-Pattern/Ravel_FM1",
-      "release": "https://github.com/De-Pattern/Ravel_FM1/releases/tag/v1.43.1",
-      "tag": "v1.43.1",
-      "assetId": "774910936",
+      "release": "https://github.com/De-Pattern/Ravel_FM1/releases/tag/v1.45.0",
+      "tag": "v1.45.0",
+      "assetId": "776426582",
       "play": "https://de-pattern.github.io/Ravel_FM1/",
-      "editor": "",
-      "installs": 755,
-      "stars": 36
+      "editor": ""
     },
     {
       "id": "remotefm1",
@@ -4636,6 +4804,8 @@
       "category": "synth",
       "date": "2026-11-20",
       "beta": true,
+      "installs": 28,
+      "stars": 52,
       "chip": "new",
       "pkgFile": "remotefm1-0.4.0.fwsc",
       "sha256": "27e4e4e523098c2480391636572e047f9076b96a91c77f4998a83b94bee67cbe",
@@ -4645,9 +4815,28 @@
       "tag": "v0.4.0",
       "assetId": "770358533",
       "play": "",
-      "editor": "https://remotefm1.com/",
-      "installs": 24,
-      "stars": 51
+      "editor": "https://remotefm1.com/"
+    },
+    {
+      "id": "rhinotiger",
+      "name": "RhinoTiger",
+      "version": "1.0",
+      "author": "hacha",
+      "category": "synth",
+      "date": "2026-11-22",
+      "beta": false,
+      "installs": null,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "rhinotiger-1.0.fwsc",
+      "sha256": "b3c01857a6d2231ada82fc83192be849f0fbb9d5796a041547f95b2e83168fa1",
+      "repo": "https://github.com/hacha/rhinotiger",
+      "repoSlug": "hacha/rhinotiger",
+      "release": "https://github.com/hacha/rhinotiger/releases/tag/v1.0",
+      "tag": "v1.0",
+      "assetId": "779642390",
+      "play": "https://hacha.github.io/rhinotiger/emu/",
+      "editor": ""
     },
     {
       "id": "rhythmer",
@@ -4657,6 +4846,8 @@
       "category": "groove",
       "date": "2026-11-07",
       "beta": true,
+      "installs": null,
+      "stars": 16,
       "chip": "new",
       "pkgFile": "rhythmer-0.1.1-beta3.fwsc",
       "sha256": "8b9d4af568135e76465ca73d20c9e544753babc1dcac60f7a0f76ebd6fa2feb1",
@@ -4666,9 +4857,7 @@
       "tag": "v0.1.1-beta3",
       "assetId": "723111726",
       "play": "https://jazzyrhythmer.github.io/rhythmer/#play",
-      "editor": "https://jazzyrhythmer.github.io/rhythmer/editor/",
-      "installs": null,
-      "stars": 15
+      "editor": "https://jazzyrhythmer.github.io/rhythmer/editor/"
     },
     {
       "id": "rhytmsec1",
@@ -4678,6 +4867,8 @@
       "category": "groove",
       "date": "2026-11-12",
       "beta": false,
+      "installs": 25,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "rhytmsec1-1.4.2.fwsc",
       "sha256": "0c190cc38035ef36c5e54e0b1e25b4f338e6d2666be86ca6a591deaf86739d3b",
@@ -4687,9 +4878,7 @@
       "tag": "v1.4.2",
       "assetId": "739753431",
       "play": "https://joakimeriksson.github.io/fm1-emu/?package=https://hamperj.github.io/rhytm-sec-1/rhytm-sec-1.fwsc&name=RHYTM-SEC-1&mhz=60",
-      "editor": "",
-      "installs": 25,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "ruido",
@@ -4699,6 +4888,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": true,
+      "installs": 42,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "ruido-0.7.2.fwsc",
       "sha256": "bbc154044dd1ccfca1555d993f12ac9c359e07cb2ababc31bd24937795b0aa70",
@@ -4708,9 +4899,7 @@
       "tag": "v0.7.2",
       "assetId": "774668057",
       "play": "",
-      "editor": "",
-      "installs": 33,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "rupture",
@@ -4720,6 +4909,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 26,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "rupture-2.0.14.fwsc",
       "sha256": "7e6128aa0241060109d1f0f5b0f4a99cf5319e4bb987b716c2ebffd741763f86",
@@ -4729,9 +4920,7 @@
       "tag": "V2.0.14",
       "assetId": "760930172",
       "play": "https://sikkenworks.github.io/RUPTURE/emu/web",
-      "editor": "",
-      "installs": 26,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "s1vave",
@@ -4741,6 +4930,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 552,
+      "stars": 17,
       "chip": "new",
       "pkgFile": "s1vave-2.0.1.fwsc",
       "sha256": "2139328149f91b877e87d8ba701899fa74e6548034f6156d94fc9098ef56c5e8",
@@ -4750,9 +4941,7 @@
       "tag": "v2.0.1",
       "assetId": "744768707",
       "play": "https://andrewgg.one/s1vave/sim/",
-      "editor": "https://andrewgg.one/s1vave/editor/",
-      "installs": 537,
-      "stars": 17
+      "editor": "https://andrewgg.one/s1vave/editor/"
     },
     {
       "id": "samsara",
@@ -4762,6 +4951,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 29,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "samsara-1.0.0.fwsc",
       "sha256": "c9e35c552c3c89d07c1a7f7f2255be914afab55a41cdc1f7fd9887837f67b60a",
@@ -4771,9 +4962,7 @@
       "tag": "v1.0.0",
       "assetId": "760072729",
       "play": "https://tomorrowsman.github.io/fm1-samsara/emu/",
-      "editor": "",
-      "installs": 21,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "sardine",
@@ -4783,6 +4972,8 @@
       "category": "groove",
       "date": "2026-11-08",
       "beta": false,
+      "installs": 15,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "sardine-1.0.6.fwsc",
       "sha256": "16c29ab754b1850e9c941262e103c5a1030da74a571507fbac59fefc8a27565b",
@@ -4792,9 +4983,7 @@
       "tag": "v1.0.6",
       "assetId": "725131687",
       "play": "https://delirioux.github.io/sardine/try/",
-      "editor": "",
-      "installs": 15,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "satie1",
@@ -4804,6 +4993,8 @@
       "category": "groove",
       "date": "2026-11-10",
       "beta": true,
+      "installs": 149,
+      "stars": 7,
       "chip": "new",
       "pkgFile": "satie1-0.1.3-beta.fwsc",
       "sha256": "1714f65080b5f3adef44afa84b3287b2a06f2e3299d8f709b0d5fff0f6cc1d46",
@@ -4813,9 +5004,7 @@
       "tag": "v0.1.3-beta",
       "assetId": "730452722",
       "play": "https://ockm-studio.github.io/SATIE-1/",
-      "editor": "",
-      "installs": 132,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "scintilla",
@@ -4825,6 +5014,8 @@
       "category": "synth",
       "date": "2026-11-12",
       "beta": true,
+      "installs": 128,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "scintilla-0.3.2.fwsc",
       "sha256": "cdc9a736308ff58c71a0de11da874091469a4a6c1758f66c55998456e5d7ebf5",
@@ -4834,9 +5025,28 @@
       "tag": "v0.3.2",
       "assetId": "741256715",
       "play": "",
-      "editor": "",
-      "installs": 126,
-      "stars": 2
+      "editor": ""
+    },
+    {
+      "id": "shifl",
+      "name": "shifl",
+      "version": "1.0.0",
+      "author": "Char Baba",
+      "category": "groove",
+      "date": "2026-11-18",
+      "beta": false,
+      "installs": null,
+      "stars": 2,
+      "chip": "new",
+      "pkgFile": "shifl-1.0.0.fwsc",
+      "sha256": "44b02850e54ec2b0279a257f6a1af432b7fe6071a4af33418cdb60be1190ac07",
+      "repo": "https://github.com/schwartzworld/shifl",
+      "repoSlug": "schwartzworld/shifl",
+      "release": "https://github.com/schwartzworld/shifl/releases/tag/v1.0.0",
+      "tag": "v1.0.0",
+      "assetId": "764140079",
+      "play": "https://shifl.netlify.app/webapp/emulator/",
+      "editor": "https://shifl.netlify.app/webapp/editor/"
     },
     {
       "id": "shineon",
@@ -4846,6 +5056,8 @@
       "category": "synth",
       "date": "2026-11-12",
       "beta": false,
+      "installs": 234,
+      "stars": 8,
       "chip": "new",
       "pkgFile": "shineon-3.5.fwsc",
       "sha256": "bdde36f1191e76ddb17c9da4b820f177c0d7e1350061c86406d861e5896379b0",
@@ -4855,9 +5067,7 @@
       "tag": "v3.5",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=shineon",
-      "editor": "",
-      "installs": 224,
-      "stars": 8
+      "editor": ""
     },
     {
       "id": "sid1",
@@ -4867,6 +5077,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 82,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "sid1-1.0.1.fwsc",
       "sha256": "22b9e3d7f517da612926534f322504c82dda61c8f7af571dfa91f099283d1629",
@@ -4876,9 +5088,7 @@
       "tag": "v1.0.1",
       "assetId": "743868680",
       "play": "",
-      "editor": "",
-      "installs": 82,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "sidj",
@@ -4888,6 +5098,8 @@
       "category": "other",
       "date": "2026-11-07",
       "beta": false,
+      "installs": 22,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "sidj-1.5.1.fwsc",
       "sha256": "4df5d3f1a7360b76974e13775ad15af376a1216e0c9318e8d5922dddf7b551a8",
@@ -4897,9 +5109,7 @@
       "tag": "v1.5.1",
       "assetId": "720128212",
       "play": "https://thomasj.github.io/fm1-sidj/emu/",
-      "editor": "https://thomasj.github.io/fm1-sidj/#songs",
-      "installs": 22,
-      "stars": 3
+      "editor": "https://thomasj.github.io/fm1-sidj/#songs"
     },
     {
       "id": "sidou",
@@ -4909,6 +5119,8 @@
       "category": "tracker",
       "date": "2026-11-18",
       "beta": false,
+      "installs": 115,
+      "stars": 10,
       "chip": "new",
       "pkgFile": "sidou-2.0.0.fwsc",
       "sha256": "e285a67e7ae461544a06826abc780ce6f55a8280df50dbc4bed4d65ace712087",
@@ -4918,9 +5130,7 @@
       "tag": "v2.0.0",
       "assetId": "764717880",
       "play": "https://dsablic.github.io/sidou/",
-      "editor": "https://dsablic.github.io/sidou/editor.html",
-      "installs": 111,
-      "stars": 10
+      "editor": "https://dsablic.github.io/sidou/editor.html"
     },
     {
       "id": "sill",
@@ -4930,6 +5140,8 @@
       "category": "groove",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 115,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "sill-1.0.4-beeebd6.fwsc",
       "sha256": "e4ded606db54e7e0cdb0a45063e4f693444ad96d0e7923d02fec4aaef0d68cc3",
@@ -4939,9 +5151,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/sill/try/",
-      "editor": "",
-      "installs": 106,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "sillage",
@@ -4951,6 +5161,8 @@
       "category": "groove",
       "date": "2026-11-18",
       "beta": false,
+      "installs": 11,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "sillage-2.2.0.fwsc",
       "sha256": "2197acd355fdbd143635f26a7fb72010d8872b7bfaeb30b32855ccc2fd23f15b",
@@ -4960,9 +5172,28 @@
       "tag": "v2.2.0",
       "assetId": "764699189",
       "play": "",
-      "editor": "",
+      "editor": ""
+    },
+    {
+      "id": "sixmachines",
+      "name": "SIX MACHINES",
+      "version": "0.1.5",
+      "author": "swtdr34mz",
+      "category": "drums",
+      "date": "2026-11-22",
+      "beta": true,
       "installs": null,
-      "stars": 5
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "sixmachines-0.1.5.fwsc",
+      "sha256": "d3d923d6b3baf0f5d14c333081bb0eb4a504a35adc5988a198a9ff06ebfd0a48",
+      "repo": "https://github.com/swtdr34mz-afk/SIX_MACHINES",
+      "repoSlug": "swtdr34mz-afk/SIX_MACHINES",
+      "release": "https://github.com/swtdr34mz-afk/SIX_MACHINES/releases/tag/v0.1.5",
+      "tag": "v0.1.5",
+      "assetId": "779858475",
+      "play": "https://swtdr34mz-afk.github.io/SIX_MACHINES/emu/",
+      "editor": ""
     },
     {
       "id": "skiff",
@@ -4972,6 +5203,8 @@
       "category": "groove",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 7095,
+      "stars": 198,
       "chip": "new",
       "pkgFile": "skiff-2.7.fwsc",
       "sha256": "82e9068a22c9949dd2d452a317feb365b918cff9fb9337c820eed91324d75d75",
@@ -4981,30 +5214,28 @@
       "tag": "v2.7",
       "assetId": "756971959",
       "play": "https://illuminus5.github.io/skiff/try/",
-      "editor": "https://illuminus5.github.io/skiff/webapp/editor/",
-      "installs": 6870,
-      "stars": 196
+      "editor": "https://illuminus5.github.io/skiff/webapp/editor/"
     },
     {
       "id": "atlatl",
       "name": "Skiff Atlatl",
-      "version": "1.2",
+      "version": "1.2.5",
       "author": "LIkst4",
       "category": "groove",
-      "date": "2026-11-14",
+      "date": "2026-11-21",
       "beta": false,
+      "installs": 101,
+      "stars": 6,
       "chip": "new",
-      "pkgFile": "atlatl-1.2.fwsc",
-      "sha256": "8401e25ad0d9818483142c00cde496c97dbb19f0530f5d634c4b3125706da7fc",
+      "pkgFile": "atlatl-1.2.5.fwsc",
+      "sha256": "8dad80fa607534900fa197105ba67a5da8ade7eeeb463f74ac33f87708343695",
       "repo": "https://github.com/LIkst4/skiff-atlatl",
       "repoSlug": "LIkst4/skiff-atlatl",
-      "release": "https://github.com/LIkst4/skiff-atlatl/releases/tag/V1.2",
-      "tag": "V1.2",
-      "assetId": "745751282",
+      "release": "https://github.com/LIkst4/skiff-atlatl/releases/tag/V1.2.5",
+      "tag": "V1.2.5",
+      "assetId": "776266598",
       "play": "https://likst4.github.io/skiff-atlatl/emu/",
-      "editor": "https://likst4.github.io/skiff-atlatl/editor/",
-      "installs": 87,
-      "stars": 6
+      "editor": "https://likst4.github.io/skiff-atlatl/editor/"
     },
     {
       "id": "sloop",
@@ -5014,6 +5245,8 @@
       "category": "groove",
       "date": "2026-11-04",
       "beta": false,
+      "installs": 13790,
+      "stars": 851,
       "chip": "new",
       "pkgFile": "sloop-2.8.5.fwsc",
       "sha256": "b0446effb840740a3aa5c386ce004e79334e4f833d48d82a9eb5edbfde92ae67",
@@ -5023,9 +5256,7 @@
       "tag": "v2.8.5",
       "assetId": "707958195",
       "play": "",
-      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
-      "installs": 13350,
-      "stars": 845
+      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/"
     },
     {
       "id": "sloopbanks",
@@ -5035,6 +5266,8 @@
       "category": "groove",
       "date": "2026-10-09",
       "beta": true,
+      "installs": 216,
+      "stars": 5,
       "chip": "old",
       "pkgFile": "sloopbanks-2.5-b28-test.fwsc",
       "sha256": "a54e9d815db8502565023b11977f83da2fa9bcbdf824ee64ec67d81d601e4cd3",
@@ -5044,9 +5277,7 @@
       "tag": "v2.5-b28-test",
       "assetId": "624879197",
       "play": "",
-      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
-      "installs": 219,
-      "stars": 5
+      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/"
     },
     {
       "id": "floyd",
@@ -5056,6 +5287,8 @@
       "category": "synth",
       "date": "2026-10-06",
       "beta": false,
+      "installs": 130,
+      "stars": 3,
       "chip": "old",
       "pkgFile": "floyd-2.4.fwsc",
       "sha256": "d70301ad3e1f67a71792a2644829658a8570eceb0681ba2ac6eb41d771cc7560",
@@ -5065,9 +5298,7 @@
       "tag": "v2.4",
       "assetId": "614611131",
       "play": "",
-      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
-      "installs": 130,
-      "stars": 3
+      "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/"
     },
     {
       "id": "sloopdub",
@@ -5077,6 +5308,8 @@
       "category": "groove",
       "date": "2026-11-20",
       "beta": false,
+      "installs": 186,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "sloopdub-1.8.fwsc",
       "sha256": "16ce4bcd96ee47685f59748926dfeba21812de5943937e0dbf19c2fdf9944d4c",
@@ -5086,9 +5319,7 @@
       "tag": "v1.8",
       "assetId": "773292934",
       "play": "https://altessproduction.github.io/sloop-dub-fm1/dub/",
-      "editor": "https://altessproduction.github.io/sloop-dub-fm1/webapp/editor/",
-      "installs": 169,
-      "stars": 5
+      "editor": "https://altessproduction.github.io/sloop-dub-fm1/webapp/editor/"
     },
     {
       "id": "sloopdx",
@@ -5098,6 +5329,8 @@
       "category": "groove",
       "date": "2026-11-03",
       "beta": false,
+      "installs": 592,
+      "stars": 28,
       "chip": "new",
       "pkgFile": "sloopdx-4.0.1.fwsc",
       "sha256": "cebc88c0f996f338d4741502ec7f99d05ecb9c6de3715ab674401a14d6a255d7",
@@ -5107,9 +5340,7 @@
       "tag": "v4.0.1",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=dxsloop",
-      "editor": "https://dx7.designburgapps.com/webapp/editor/",
-      "installs": 582,
-      "stars": 28
+      "editor": "https://dx7.designburgapps.com/webapp/editor/"
     },
     {
       "id": "smileyface",
@@ -5119,6 +5350,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 198,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "smileyface-1.3.0-tutorialtime.fwsc",
       "sha256": "2e3bb9c289ac2a717e08f8ea17dd0f50e7d970adb5bbff1f9fcb7ec25c45f4e6",
@@ -5128,9 +5361,7 @@
       "tag": "v1.3.0-tutorialtime",
       "assetId": "746021396",
       "play": "https://ihavenocluewhatimdoing.com/smileyface/play/",
-      "editor": "",
-      "installs": 187,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "spampy",
@@ -5140,6 +5371,8 @@
       "category": "groove",
       "date": "2026-11-15",
       "beta": false,
+      "installs": 1066,
+      "stars": 6,
       "chip": "new",
       "pkgFile": "spampy-1.1-r058.fwsc",
       "sha256": "386cf702cd897023aa88c137d805d9aec761c82744011f73949424619a39b9cb",
@@ -5149,9 +5382,7 @@
       "tag": "v1.1-r058",
       "assetId": "751360748",
       "play": "",
-      "editor": "",
-      "installs": 1018,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "spellbox",
@@ -5161,6 +5392,8 @@
       "category": "synth",
       "date": "2026-10-28",
       "beta": true,
+      "installs": 49,
+      "stars": 2,
       "chip": "old",
       "pkgFile": "spellbox-0.3.fwsc",
       "sha256": "b4b3f5ca96c4f7f5971586e9ada95cc343d789a8d4b3761b832c39f0920a4c05",
@@ -5170,9 +5403,7 @@
       "tag": "v0.3",
       "assetId": "685280753",
       "play": "https://pjac1810.github.io/spellbox/",
-      "editor": "",
-      "installs": 49,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "splitmilk",
@@ -5182,6 +5413,8 @@
       "category": "synth",
       "date": "2026-11-11",
       "beta": false,
+      "installs": 18,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "splitmilk-1.0.fwsc",
       "sha256": "e8a02e0c174f466e8ad8f987a764d0caa2836f8a97c9ccb465e6c5054a68a22c",
@@ -5191,9 +5424,7 @@
       "tag": "v1.0",
       "assetId": "737355053",
       "play": "https://joakimeriksson.github.io/fm1-emu/?fw=splitmilk&mhz=60",
-      "editor": "",
-      "installs": 18,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "sq80",
@@ -5203,6 +5434,8 @@
       "category": "synth",
       "date": "2026-11-19",
       "beta": true,
+      "installs": 23,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "sq80-0.14.0.fwsc",
       "sha256": "3ecaaf82c9f7fc477ee09eec38c58ee0988df7ccec0aebe6b66a04c48f124768",
@@ -5212,9 +5445,7 @@
       "tag": "v0.14.0",
       "assetId": "766326709",
       "play": "https://leonardolopezchavira.github.io/sq80-fm1/emu/",
-      "editor": "https://leonardolopezchavira.github.io/sq80-fm1/edit/",
-      "installs": 18,
-      "stars": 2
+      "editor": "https://leonardolopezchavira.github.io/sq80-fm1/edit/"
     },
     {
       "id": "stallion",
@@ -5224,6 +5455,8 @@
       "category": "synth",
       "date": "2026-11-17",
       "beta": false,
+      "installs": 15,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "stallion-1.1.fwsc",
       "sha256": "47cd2625587a2fdadd66b59572593d91858fbcc91000e62ff73439a768408258",
@@ -5233,9 +5466,28 @@
       "tag": "v1.1",
       "assetId": "759141895",
       "play": "",
-      "editor": "https://eberonltd.github.io/stallion-fm1/webapp/editor/",
-      "installs": 15,
-      "stars": 3
+      "editor": "https://eberonltd.github.io/stallion-fm1/webapp/editor/"
+    },
+    {
+      "id": "strangersynth",
+      "name": "STRANGER SYNTH",
+      "version": "0.7.0",
+      "author": "swtdr34mz",
+      "category": "synth",
+      "date": "2026-11-22",
+      "beta": true,
+      "installs": 10,
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "strangersynth-0.7.0.fwsc",
+      "sha256": "831c99210ae6a60f6fd04d0eb83368aff1a2a5f2181ccb9c2c4c4341ce45d70f",
+      "repo": "https://github.com/swtdr34mz-afk/STRANGER_SYNTH",
+      "repoSlug": "swtdr34mz-afk/STRANGER_SYNTH",
+      "release": "https://github.com/swtdr34mz-afk/STRANGER_SYNTH/releases/tag/v0.7.0",
+      "tag": "v0.7.0",
+      "assetId": "779832868",
+      "play": "https://swtdr34mz-afk.github.io/STRANGER_SYNTH/emu/",
+      "editor": ""
     },
     {
       "id": "sy1",
@@ -5245,6 +5497,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 13,
+      "stars": 19,
       "chip": "new",
       "pkgFile": "sy1-1.0.0.fwsc",
       "sha256": "8a067ea3fb728775ec1e18c12132962fe4629c8f195e2243992852ff3c791a1f",
@@ -5254,9 +5508,7 @@
       "tag": "v1.0.0",
       "assetId": "774977415",
       "play": "https://fenderberg.github.io/fm1-sy1/emu/",
-      "editor": "https://fenderberg.github.io/fm1-sy1/manager/",
-      "installs": 13,
-      "stars": 19
+      "editor": "https://fenderberg.github.io/fm1-sy1/manager/"
     },
     {
       "id": "tack",
@@ -5266,6 +5518,8 @@
       "category": "drums",
       "date": "2026-11-14",
       "beta": true,
+      "installs": 5,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "tack-0.15.0.fwsc",
       "sha256": "59a2ec8f4f6bdd68c4128db430fdef632e4818ff1d6196a2da284b8dba8042a0",
@@ -5275,9 +5529,28 @@
       "tag": "v0.15.0",
       "assetId": "746978942",
       "play": "https://oikoaudio.com/tack/fm1/try/",
-      "editor": "",
+      "editor": ""
+    },
+    {
+      "id": "tangram",
+      "name": "Tangram",
+      "version": "1.0",
+      "author": "Mr. Roboto",
+      "category": "other",
+      "date": "2026-11-21",
+      "beta": false,
       "installs": 5,
-      "stars": 2
+      "stars": 0,
+      "chip": "new",
+      "pkgFile": "tangram-1.0.fwsc",
+      "sha256": "b18da5af0a29ee86c3f5f95a1560041c7dd01b87333c75acaa7d03dc8b6f37de",
+      "repo": "https://github.com/Mr-Roboto/fm1-tangram",
+      "repoSlug": "Mr-Roboto/fm1-tangram",
+      "release": "https://github.com/Mr-Roboto/fm1-tangram/releases/tag/v1.0",
+      "tag": "v1.0",
+      "assetId": "776887808",
+      "play": "https://mr-roboto.github.io/fm1-tangram/tangram/emu/",
+      "editor": ""
     },
     {
       "id": "tastywaves",
@@ -5287,6 +5560,8 @@
       "category": "synth",
       "date": "2026-10-26",
       "beta": false,
+      "installs": 54,
+      "stars": 7,
       "chip": "old",
       "pkgFile": "tastywaves-1.0.1.fwsc",
       "sha256": "b94d8e4b118ced2aa78c31a19119f5e538f58165aa8d9146a473c57e58d9dcad",
@@ -5296,9 +5571,7 @@
       "tag": "v1.0.1",
       "assetId": "676578265",
       "play": "https://marksweiss.github.io/tastywaves/",
-      "editor": "https://marksweiss.github.io/tastywaves/",
-      "installs": 54,
-      "stars": 7
+      "editor": "https://marksweiss.github.io/tastywaves/"
     },
     {
       "id": "tekstuur",
@@ -5308,6 +5581,8 @@
       "category": "synth",
       "date": "2026-11-14",
       "beta": false,
+      "installs": 1,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "tekstuur-2.0.fwsc",
       "sha256": "36f5cf9076efd41598cae41a1a67f740e7f7635b9d937a74193161462e131d32",
@@ -5317,30 +5592,28 @@
       "tag": "v2.0",
       "assetId": "748771850",
       "play": "",
-      "editor": "",
-      "installs": 1,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "tessera",
       "name": "Tessera",
-      "version": "3.7.4",
+      "version": "3.7.5",
       "author": "Theo Dainis (Rastapopolix)",
       "category": "groove",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 397,
+      "stars": 37,
       "chip": "new",
-      "pkgFile": "tessera-3.7.4.fwsc",
-      "sha256": "a043d520624d280feb960a5eb1a4264228cb5b3c4999e68e0f0117da70c91d5f",
+      "pkgFile": "tessera-3.7.5.fwsc",
+      "sha256": "da1875463783d43115e89c1ec0885ab41e3542e095b205a1fca4d7135f1e7e08",
       "repo": "https://github.com/Rastapopolix/tessera",
       "repoSlug": "Rastapopolix/tessera",
-      "release": "https://github.com/Rastapopolix/tessera/releases/tag/v3.7.4",
-      "tag": "v3.7.4",
-      "assetId": "770765585",
+      "release": "https://github.com/Rastapopolix/tessera/releases/tag/v3.7.5",
+      "tag": "v3.7.5",
+      "assetId": "777984718",
       "play": "https://rastapopolix.github.io/tessera/webapp/sim/",
-      "editor": "https://rastapopolix.github.io/tessera/webapp/editor/",
-      "installs": 376,
-      "stars": 37
+      "editor": "https://rastapopolix.github.io/tessera/webapp/editor/"
     },
     {
       "id": "tether",
@@ -5350,6 +5623,8 @@
       "category": "other",
       "date": "2026-11-20",
       "beta": false,
+      "installs": null,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "tether-1.0.fwsc",
       "sha256": "98e6deff2277889d4880cf655c407d72addcd589b4164bf59fef3dbbdd1a6d35",
@@ -5359,9 +5634,7 @@
       "tag": "tether-v1.0",
       "assetId": "769824200",
       "play": "",
-      "editor": "",
-      "installs": null,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "textura",
@@ -5371,6 +5644,8 @@
       "category": "synth",
       "date": "2026-11-18",
       "beta": true,
+      "installs": 38,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "textura-0.2.9.fwsc",
       "sha256": "e0d8f3d97642fa5f3180975d8f2ee33f9c1d526b56a7c9d3984e378c811c0029",
@@ -5380,9 +5655,7 @@
       "tag": "textura-v0.2.9",
       "assetId": "763770696",
       "play": "https://leonardomirabal.github.io/textura/",
-      "editor": "",
-      "installs": 27,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "tonitor",
@@ -5392,6 +5665,8 @@
       "category": "synth",
       "date": "2026-11-10",
       "beta": false,
+      "installs": 1433,
+      "stars": 34,
       "chip": "new",
       "pkgFile": "tonitor-2026.11.10.fwsc",
       "sha256": "c5d8838dc39505be4948f5ce4583c734bbec5130912e59f3a83d91ad73d26f79",
@@ -5401,9 +5676,7 @@
       "tag": "",
       "assetId": "",
       "play": "",
-      "editor": "",
-      "installs": 1386,
-      "stars": 34
+      "editor": ""
     },
     {
       "id": "trapstationos",
@@ -5413,6 +5686,8 @@
       "category": "groove",
       "date": "2026-11-16",
       "beta": false,
+      "installs": 18,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "trapstationos-1.1.0.2.fwsc",
       "sha256": "03806aa55c06f2fa973bbb181dd2837f4345dbe7e00aa2d99a213a8e0a4850d8",
@@ -5422,9 +5697,7 @@
       "tag": "v1.1.0.2",
       "assetId": "756561524",
       "play": "",
-      "editor": "",
-      "installs": 18,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "tribe",
@@ -5434,6 +5707,8 @@
       "category": "groove",
       "date": "2026-10-22",
       "beta": true,
+      "installs": 121,
+      "stars": 14,
       "chip": "old",
       "pkgFile": "tribe-0.3-beta.fwsc",
       "sha256": "daa953ea5c37a5612d6db6f508a86879a79214768acc79d6ae04f2e0b93b6f6b",
@@ -5443,9 +5718,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://apiel.github.io/fm1-tribe/#emulator",
-      "editor": "",
-      "installs": 121,
-      "stars": 14
+      "editor": ""
     },
     {
       "id": "trumpagotchi",
@@ -5455,6 +5728,8 @@
       "category": "other",
       "date": "2026-11-11",
       "beta": false,
+      "installs": 58,
+      "stars": 6,
       "chip": "old",
       "pkgFile": "trumpagotchi-1.0.1.fwsc",
       "sha256": "bc4b2be1ec2646ca0f0de081642d0e6ad583c6ec5967cf3ad198dbdadab29cdc",
@@ -5464,9 +5739,7 @@
       "tag": "v1.0.1",
       "assetId": "733870039",
       "play": "",
-      "editor": "",
-      "installs": 51,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "tuna",
@@ -5476,6 +5749,8 @@
       "category": "groove",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 177,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "tuna-1.2-6f9a6dd.fwsc",
       "sha256": "1e3fdda10a00d50bb1df6dc181be7f0a9872f6caf3fa8aa75c4b85d0f3ac066d",
@@ -5485,9 +5760,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://delirioux.github.io/tuna/try/",
-      "editor": "",
-      "installs": 173,
-      "stars": 5
+      "editor": ""
     },
     {
       "id": "u0u",
@@ -5497,6 +5770,8 @@
       "category": "drums",
       "date": "2026-11-20",
       "beta": true,
+      "installs": null,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "u0u-0.4.fwsc",
       "sha256": "be27b471ac6bfdce005e012886b546fca1c6554d8a72fbbe181fc66e8e848d30",
@@ -5506,9 +5781,7 @@
       "tag": "v0.4",
       "assetId": "772470537",
       "play": "https://youlisse.github.io/U0U/",
-      "editor": "",
-      "installs": null,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "unholy",
@@ -5518,6 +5791,8 @@
       "category": "synth",
       "date": "2026-10-13",
       "beta": true,
+      "installs": 14,
+      "stars": 6,
       "chip": "old",
       "pkgFile": "unholy-0.2.3.fwsc",
       "sha256": "025bec05d71da1b106ecb05d52e165ea6592812e92209cfe2626278047f7abba",
@@ -5527,9 +5802,7 @@
       "tag": "v0.2.3",
       "assetId": "638605896",
       "play": "",
-      "editor": "",
-      "installs": 14,
-      "stars": 6
+      "editor": ""
     },
     {
       "id": "valle",
@@ -5539,6 +5812,8 @@
       "category": "groove",
       "date": "2026-11-19",
       "beta": true,
+      "installs": 29,
+      "stars": 1,
       "chip": "new",
       "pkgFile": "valle-0.9-alpha.fwsc",
       "sha256": "ac6a0f8230cac957ad5752e06377077af560a1a6666ed960f5e9bf4631963409",
@@ -5548,9 +5823,7 @@
       "tag": "v0.9-alpha",
       "assetId": "765826674",
       "play": "https://tammygucci.github.io/valee/try/",
-      "editor": "https://tammygucci.github.io/valee/webapp/editor/",
-      "installs": 20,
-      "stars": 1
+      "editor": "https://tammygucci.github.io/valee/webapp/editor/"
     },
     {
       "id": "vector37",
@@ -5560,6 +5833,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": true,
+      "installs": 92,
+      "stars": 18,
       "chip": "old",
       "pkgFile": "vector37-0.3.2.fwsc",
       "sha256": "4c9ff3c9ca0b874d98760497a4d80d7d4380aa3f187503f67e6fde6462a81a9a",
@@ -5569,9 +5844,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://genkigenki.github.io/smk37/vector37-sim/",
-      "editor": "",
-      "installs": 92,
-      "stars": 18
+      "editor": ""
     },
     {
       "id": "veffbox",
@@ -5581,6 +5854,8 @@
       "category": "synth",
       "date": "2026-11-13",
       "beta": true,
+      "installs": 27,
+      "stars": 4,
       "chip": "old",
       "pkgFile": "veffbox-0.11.0.fwsc",
       "sha256": "ef6fab94b8988ee3ef7b14d78c2b3af289758d76b0ff1850bb56f3ca50d40cf9",
@@ -5590,9 +5865,7 @@
       "tag": "v0.11.0",
       "assetId": "744444423",
       "play": "https://galfaroth.github.io/veffbox/emu/",
-      "editor": "",
-      "installs": 27,
-      "stars": 4
+      "editor": ""
     },
     {
       "id": "vesper",
@@ -5602,6 +5875,8 @@
       "category": "synth",
       "date": "2026-11-09",
       "beta": false,
+      "installs": 252,
+      "stars": 2,
       "chip": "new",
       "pkgFile": "vesper-2.0.2.fwsc",
       "sha256": "c6f40b9a832f069f43c7aa9cb6ef0211d8316c5f4ea870f7e18daa99946a45f3",
@@ -5611,9 +5886,7 @@
       "tag": "vesper-2.0.2",
       "assetId": "728562199",
       "play": "https://fatcatstudios-hub.github.io/vesper-fm1/play/",
-      "editor": "",
-      "installs": 237,
-      "stars": 2
+      "editor": ""
     },
     {
       "id": "vibe-link",
@@ -5623,6 +5896,8 @@
       "category": "other",
       "date": "2026-11-07",
       "beta": true,
+      "installs": 55,
+      "stars": 3,
       "chip": "new",
       "pkgFile": "vibe-link-0.4.fwsc",
       "sha256": "c5eb6fc07ec601650cc08f4c57c50374bf70844a38495f59b508864283f26733",
@@ -5632,30 +5907,28 @@
       "tag": "v0.4",
       "assetId": "721827310",
       "play": "",
-      "editor": "",
-      "installs": 55,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "viber",
       "name": "Viber",
-      "version": "1.1",
+      "version": "1.2",
       "author": "Anto",
       "category": "groove",
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "beta": false,
+      "installs": 13,
+      "stars": 0,
       "chip": "new",
-      "pkgFile": "viber-1.1.fwsc",
-      "sha256": "fd180f8dffb1623da78e1d70ad8d3ad6defe316003cfee4fa1d12a115f20ae5b",
+      "pkgFile": "viber-1.2+0060a196.fwsc",
+      "sha256": "0060a196002bb7533429b8d5616adbb54ba8ad5d173317e5b7e5b525af443838",
       "repo": "https://github.com/ant25fr/viber",
       "repoSlug": "ant25fr/viber",
-      "release": "https://github.com/ant25fr/viber/releases/tag/v1.1",
-      "tag": "v1.1",
-      "assetId": "775007377",
+      "release": "https://github.com/ant25fr/viber/releases/tag/v1.2",
+      "tag": "v1.2",
+      "assetId": "779987557",
       "play": "https://ant25fr.github.io/viber/try/",
-      "editor": "https://ant25fr.github.io/viber/webapp/editor/",
-      "installs": null,
-      "stars": 0
+      "editor": "https://ant25fr.github.io/viber/webapp/editor/"
     },
     {
       "id": "vnl1",
@@ -5665,6 +5938,8 @@
       "category": "groove",
       "date": "2026-11-15",
       "beta": true,
+      "installs": 18,
+      "stars": 4,
       "chip": "new",
       "pkgFile": "vnl1-0.9.2.fwsc",
       "sha256": "1f065557fe696da781606e3428d535b7dcd37fdf02ce5577713534c3360f0232",
@@ -5674,9 +5949,7 @@
       "tag": "v0.9.2",
       "assetId": "749607760",
       "play": "https://samoltz.com/fm1-vnl/emu/",
-      "editor": "",
-      "installs": 12,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "volna",
@@ -5686,6 +5959,8 @@
       "category": "synth",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 6,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "volna-1.1.fwsc",
       "sha256": "39c342dae27d3fcefcf1f2bff3035d1ae1b22a04d6ae980b9bf9506fe5ebfc04",
@@ -5695,9 +5970,7 @@
       "tag": "v1.1",
       "assetId": "775252179",
       "play": "",
-      "editor": "https://soundplayground.twc1.net/fm1-firmwares/volna/#editor",
-      "installs": null,
-      "stars": 0
+      "editor": "https://soundplayground.twc1.net/fm1-firmwares/volna/#editor"
     },
     {
       "id": "wanderer",
@@ -5707,6 +5980,8 @@
       "category": "synth",
       "date": "2026-11-02",
       "beta": false,
+      "installs": 25,
+      "stars": 1,
       "chip": "old",
       "pkgFile": "wanderer-1.4.0.fwsc",
       "sha256": "9135b62169409efb73a6492561673bb5465979563824605956ab3316c50d5b32",
@@ -5716,9 +5991,7 @@
       "tag": "v1.4.0",
       "assetId": "702265047",
       "play": "",
-      "editor": "",
-      "installs": 25,
-      "stars": 1
+      "editor": ""
     },
     {
       "id": "waveloop",
@@ -5728,6 +6001,8 @@
       "category": "groove",
       "date": "2026-10-09",
       "beta": false,
+      "installs": 224,
+      "stars": 9,
       "chip": "old",
       "pkgFile": "waveloop-1.0.5.2-midi23.fwsc",
       "sha256": "e9529deb7ff626ee64b08fe06a550e39cd2a99c3cc1697bfcb65828f030cf22d",
@@ -5737,9 +6012,7 @@
       "tag": "1.0.5.2-midi23",
       "assetId": "625442376",
       "play": "",
-      "editor": "https://eli7vh.github.io/Felucca/webapp/editor/",
-      "installs": 217,
-      "stars": 9
+      "editor": "https://eli7vh.github.io/Felucca/webapp/editor/"
     },
     {
       "id": "winampfm",
@@ -5749,6 +6022,8 @@
       "category": "groove",
       "date": "2026-10-14",
       "beta": true,
+      "installs": 206,
+      "stars": 12,
       "chip": "old",
       "pkgFile": "winampfm-0.12.fwsc",
       "sha256": "32a78b18132be64b83557886f9fc1c8c4419adb8932a2b8bc83bb5fb7e681b0b",
@@ -5758,9 +6033,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://hericdk.github.io/winampFM/sim/",
-      "editor": "",
-      "installs": 206,
-      "stars": 12
+      "editor": ""
     },
     {
       "id": "x0x",
@@ -5770,6 +6043,8 @@
       "category": "groove",
       "date": "2026-11-21",
       "beta": false,
+      "installs": 3052,
+      "stars": 246,
       "chip": "new",
       "pkgFile": "x0x-1.3.fwsc",
       "sha256": "6275d8989432eb12f966a9fe80282746c631455c4ee95407d1816e198e9b3fc1",
@@ -5779,9 +6054,7 @@
       "tag": "v1.3",
       "assetId": "775473006",
       "play": "https://charlesvestal.github.io/fm1-x0x/emu/",
-      "editor": "",
-      "installs": 2951,
-      "stars": 244
+      "editor": ""
     },
     {
       "id": "x0xrmx",
@@ -5791,6 +6064,8 @@
       "category": "groove",
       "date": "2026-10-18",
       "beta": false,
+      "installs": 131,
+      "stars": 4,
       "chip": "old",
       "pkgFile": "x0xrmx-1.1.0.fwsc",
       "sha256": "b343c135779c1de933d655236b14628103816036e170d65faed706aba620dcaa",
@@ -5800,9 +6075,7 @@
       "tag": "v1.1.0",
       "assetId": "653363897",
       "play": "https://mr-roboto.github.io/fm1-x0x-rmx/emu/",
-      "editor": "",
-      "installs": 134,
-      "stars": 3
+      "editor": ""
     },
     {
       "id": "xenolith",
@@ -5812,6 +6085,8 @@
       "category": "synth",
       "date": "2026-11-10",
       "beta": false,
+      "installs": 8,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "xenolith-1.0+3cf3093b.fwsc",
       "sha256": "3cf3093b31f88696461dfd3bb4e366328ba0780212366715690785c9d58f2611",
@@ -5821,9 +6096,7 @@
       "tag": "v1.0",
       "assetId": "757730859",
       "play": "",
-      "editor": "",
-      "installs": 8,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "xmod",
@@ -5833,6 +6106,8 @@
       "category": "tracker",
       "date": "2026-11-13",
       "beta": false,
+      "installs": 40,
+      "stars": 5,
       "chip": "new",
       "pkgFile": "xmod-1.2.1.fwsc",
       "sha256": "2593ee154634ce948cf86136895956f5d8bef01f2ea879b9ca29db8bc2c28434",
@@ -5842,9 +6117,7 @@
       "tag": "v1.2.1",
       "assetId": "745049532",
       "play": "https://kotmorderca.github.io/XMOD/sim/",
-      "editor": "https://kotmorderca.github.io/XMOD/",
-      "installs": 40,
-      "stars": 5
+      "editor": "https://kotmorderca.github.io/XMOD/"
     },
     {
       "id": "yehnah",
@@ -5854,6 +6127,8 @@
       "category": "groove",
       "date": "2026-11-16",
       "beta": true,
+      "installs": 11,
+      "stars": 7,
       "chip": "new",
       "pkgFile": "yehnah-0.1.0.fwsc",
       "sha256": "75cc1017137ca62dcccdac25011f11df049cbc8dca27a3b676639875ae38425a",
@@ -5863,9 +6138,7 @@
       "tag": "v0.1.0",
       "assetId": "756577937",
       "play": "https://mello-d.github.io/yehnah/",
-      "editor": "",
-      "installs": 7,
-      "stars": 7
+      "editor": ""
     },
     {
       "id": "zen",
@@ -5875,6 +6148,8 @@
       "category": "synth",
       "date": "2026-10-21",
       "beta": false,
+      "installs": 1364,
+      "stars": 15,
       "chip": "old",
       "pkgFile": "zen-1.2.fwsc",
       "sha256": "e3c51c045b1a763b6d16d2a7e783289ee874b25790e9010c0a5a084ddb65a125",
@@ -5884,9 +6159,7 @@
       "tag": "v1.2",
       "assetId": "663723235",
       "play": "https://aceyprime.github.io/zen-1/emu/",
-      "editor": "",
-      "installs": 1316,
-      "stars": 15
+      "editor": ""
     },
     {
       "id": "zenith1",
@@ -5896,6 +6169,8 @@
       "category": "other",
       "date": "2026-11-18",
       "beta": false,
+      "installs": 64,
+      "stars": 0,
       "chip": "new",
       "pkgFile": "zenith1-1.0.fwsc",
       "sha256": "1b2c43d6f5d9959ec7e7092261fb60c01bbb5fb3e837ed7629dc7e903212fce9",
@@ -5905,9 +6180,7 @@
       "tag": "v1.0",
       "assetId": "763753269",
       "play": "https://sparky480v.github.io/zenith-1/emu/",
-      "editor": "",
-      "installs": 51,
-      "stars": 0
+      "editor": ""
     },
     {
       "id": "zp12",
@@ -5917,6 +6190,8 @@
       "category": "drums",
       "date": "2026-10-24",
       "beta": false,
+      "installs": 489,
+      "stars": 38,
       "chip": "old",
       "pkgFile": "zp12-2.5.fwsc",
       "sha256": "fb1e6bfc01a74f145f93793fbeace8483888391be48f75aec7d423f05b6fac9d",
@@ -5926,9 +6201,7 @@
       "tag": "",
       "assetId": "",
       "play": "https://play.thefirmwarehub.com/?fw=zp12n",
-      "editor": "https://zp12.designburgapps.com/editor/",
-      "installs": 485,
-      "stars": 38
+      "editor": "https://zp12.designburgapps.com/editor/"
     }
   ]
 }
